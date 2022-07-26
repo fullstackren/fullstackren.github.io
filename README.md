@@ -4,7 +4,7 @@
 
 ## Profile
 
-你好，我是芮正云（江湖），一名开发工程师，工作在恒生电子。
+你好，我是芮正云（江湖），一名开发工程师，工作在杭州。
 
 <img src="https://fullstackren.github.io/images/jianghu.png" width="500px"/>
 

@@ -14,7 +14,7 @@ footer: Open-source MIT Licensed | Copyright © 2021-present 江湖
 
 ## Profile
 
-你好，我是芮正云（江湖），一名开发工程师，工作在恒生电子。
+你好，我是芮正云（江湖），一名开发工程师，工作在杭州。
 
 <img src="/images/jianghu.png" width="500px"/>
 
