@@ -6,7 +6,7 @@
 
 你好，我是芮正云（江湖），一名开发工程师，工作在恒生电子。
 
-<img src="https://fullstackren.github.io/images/jianghu.jpg" width="500px"/>
+<img src="https://fullstackren.github.io/images/jianghu.png" width="500px"/>
 
 ## A few links that might interest you
 
