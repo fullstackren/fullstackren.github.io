@@ -16,6 +16,6 @@
 
 ## Connect
 
-- 微信：run-kit。请备注全栈人，我在全栈人微信群等你，一起「侃」这个圈子里的事。
+- 微信：run-kit。请备注全栈人，我在全栈人的微信群等你，一起「侃」这个圈子里的事。
 
   <img src="https://fullstackren.github.io/images/wechat-run-kit.jpeg" width="120px" />
