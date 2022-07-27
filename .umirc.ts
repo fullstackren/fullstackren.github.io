@@ -1,7 +1,7 @@
 import { defineConfig } from 'dumi';
 
 export default defineConfig({
-  description: '全栈工程师的攻坚之路',
+  description: '全栈人的孤勇之路',
   logo: '/images/logo.png',
   title: '全栈人',
   base: '/',
@@ -17,15 +17,19 @@ export default defineConfig({
       title: '前端',
       path: '/frontend',
     },
+    {
+      title: '思维',
+      path: '/thinking',
+    },
   ],
   metas: [
     {
       name: 'keywords',
-      content: '全栈工程师',
+      content: '全栈人',
     },
     {
       name: 'description',
-      content: '全栈工程师的攻坚之路',
+      content: '全栈人的孤勇之路',
     },
   ],
   theme: {

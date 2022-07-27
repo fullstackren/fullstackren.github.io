@@ -1,6 +1,6 @@
 ---
 hero:
-  title: 全栈工程师的攻坚之路
+  title: 全栈人的孤勇之路
   # desc: 
   # actions:
   #   - text: 前端工程师
@@ -16,7 +16,7 @@ footer: Open-source MIT Licensed | Copyright © 2021-present 江湖
 
 你好，我是芮正云（江湖），一名开发工程师，工作在杭州。
 
-<img src="/images/jianghu.png" width="500px"/>
+<img src="/images/jianghu.png" width="500px" style="border-radius: 10px;" />
 
 ## A few links that might interest you
 
