@@ -24,6 +24,8 @@ footer: Open-source MIT Licensed | Copyright © 2021-present 江湖
 
 ## Talks
 
+- [前端工程化在金融 B 端的设计与落地](https://www.zaozao.run/video/c48/c48-3) @ 前端早早聊 20122.8
+
 ## Connect
 
 - 微信：run-kit。请备注全栈人，我在全栈人的微信群等你，一起「侃」这个圈子里的事。
