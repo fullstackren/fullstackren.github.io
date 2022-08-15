@@ -1,16 +1,16 @@
 ---
 hero:
   title: 全栈人的孤勇之路
-  # desc: 
+  # desc:
   # actions:
   #   - text: 前端工程师
   #     link: /frontend
 footer: Open-source MIT Licensed | Copyright © 2021-present 江湖
 ---
 
-<div style="background: url(/images/cat-black.svg); right: 50px; bottom: -50px; transform: scale(.3);" class="cat-animation"></div>
+<div style="background: url(/images/cat-black.svg); right: -120px; bottom: -90px; transform: scale(.3);" class="cat-animation"></div>
 <!-- <div style="background: url(/images/cat-orange.svg); right: 8px; bottom: -90px;" class="cat-animation"></div> -->
-<div style="background: url(/images/cat-black.svg); right: 120px; bottom: -120px; transform: scale(.2);" class="cat-animation"></div>
+<div style="background: url(/images/cat-black.svg); right: -180px; bottom: -120px; transform: scale(.2);" class="cat-animation"></div>
 
 ## Profile
 

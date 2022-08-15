@@ -18,9 +18,13 @@ export default defineConfig({
       path: '/frontend',
     },
     {
+      title: '架构',
+      path: '/architecture',
+    },
+    {
       title: '思维',
       path: '/thinking',
-    },
+    }
   ],
   metas: [
     {
