@@ -1,4 +1,4 @@
-name: FullStackRen CI
+name: blog CI
 on:
   push:
     branches:
@@ -30,4 +30,4 @@ jobs:
           ACCESS_TOKEN: ${{ secrets.DEVELOP_DOC }}
           BRANCH: gh-pages
           FOLDER: dist
-          COMMIT_MESSAGE: update from FullStackRen
+          COMMIT_MESSAGE: update from blog
