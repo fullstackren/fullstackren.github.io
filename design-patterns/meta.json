@@ -1,0 +1,137 @@
+[
+  {
+    "title": "工厂方法",
+    "sideTitle": "工厂方法",
+    "path": "factory-method",
+    "description": "工厂方法",
+    "category": "创建型模式"
+  },
+  {
+    "title": "抽象工厂",
+    "sideTitle": "抽象工厂",
+    "path": "abstract-factory",
+    "description": "抽象工厂"
+  },
+  {
+    "title": "生成器",
+    "sideTitle": "生成器",
+    "path": "builder",
+    "description": "生成器"
+  },
+  {
+    "title": "原型模式",
+    "sideTitle": "原型模式",
+    "path": "prototype",
+    "description": "原型模式"
+  },
+  {
+    "title": "单例模式",
+    "sideTitle": "单例模式",
+    "path": "singleton",
+    "description": "单例模式"
+  },
+  {
+    "title": "适配器模式",
+    "sideTitle": "适配器模式",
+    "path": "adapter",
+    "description": "适配器模式",
+    "category": "结构型模式"
+  },
+  {
+    "title": "桥接模式",
+    "sideTitle": "桥接模式",
+    "path": "bridge",
+    "description": "桥接模式"
+  },
+  {
+    "title": "组合模式",
+    "sideTitle": "组合模式",
+    "path": "composite",
+    "description": "组合模式"
+  },
+  {
+    "title": "装饰模式",
+    "sideTitle": "装饰模式",
+    "path": "decorator",
+    "description": "装饰模式"
+  },
+  {
+    "title": "外观模式",
+    "sideTitle": "外观模式",
+    "path": "facade",
+    "description": "外观模式"
+  },
+  {
+    "title": "享元模式",
+    "sideTitle": "享元模式",
+    "path": "flyweight",
+    "description": "享元模式"
+  },
+  {
+    "title": "代理模式",
+    "sideTitle": "代理模式",
+    "path": "proxy",
+    "description": "代理模式"
+  },
+  {
+    "title": "责任链模式",
+    "sideTitle": "责任链模式",
+    "path": "chain-of-responsibility",
+    "description": "责任链模式",
+    "category": "行为模式"
+  },
+  {
+    "title": "命令模式",
+    "sideTitle": "命令模式",
+    "path": "command",
+    "description": "命令模式"
+  },
+  {
+    "title": "迭代器模式",
+    "sideTitle": "迭代器模式",
+    "path": "iterator",
+    "description": "迭代器模式"
+  },
+  {
+    "title": "中介者模式",
+    "sideTitle": "中介者模式",
+    "path": "mediator",
+    "description": "中介者模式"
+  },
+  {
+    "title": "备忘录模式",
+    "sideTitle": "备忘录模式",
+    "path": "memento",
+    "description": "备忘录模式"
+  },
+  {
+    "title": "观察者模式",
+    "sideTitle": "观察者模式",
+    "path": "observer",
+    "description": "观察者模式"
+  },
+  {
+    "title": "状态模式",
+    "sideTitle": "状态模式",
+    "path": "state",
+    "description": "状态模式"
+  },
+  {
+    "title": "策略模式",
+    "sideTitle": "策略模式",
+    "path": "strategy",
+    "description": "策略模式"
+  },
+  {
+    "title": "模板方法模式",
+    "sideTitle": "模板方法模式",
+    "path": "template-method",
+    "description": "模板方法模式"
+  },
+  {
+    "title": "访问者模式",
+    "sideTitle": "访问者模式",
+    "path": "visitor",
+    "description": "访问者模式"
+  }
+]

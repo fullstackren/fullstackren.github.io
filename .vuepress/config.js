@@ -1,6 +1,7 @@
 const path = require('path');
 const {
-  microFrontends: microFrontendsSidebar
+  microFrontends: microFrontendsSidebar,
+  designPatterns: designPatternsSidebar
 } = require('./sidebar');
 
 module.exports = {
@@ -28,8 +29,13 @@ module.exports = {
     nav: [
       { text: '主页', link: '/' },
       {
-        text: '我的技术栈', items: [
+        text: '技术栈', items: [
           { text: '微前端', link: '/micro-frontends/'}
+        ]
+      },
+      {
+        text: '方法论', items: [
+          { text: '设计模式', link: '/design-patterns/'}
         ]
       },
       {
@@ -48,7 +54,8 @@ module.exports = {
     ],
     // 侧边栏
     sidebar: {
-      '/micro-frontends/': microFrontendsSidebar
+      '/micro-frontends/': microFrontendsSidebar,
+      '/design-patterns/': designPatternsSidebar
     }
   },
 }

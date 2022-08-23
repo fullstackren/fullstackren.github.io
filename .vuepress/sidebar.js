@@ -1,5 +1,7 @@
 // 适合写小册
-const microFrontendsPosts = require('../micro-frontends/meta');
+const microFrontendsPosts = require('../micro-frontends/meta.json');
+const designPatternsPosts = require('../design-patterns/meta.json');
+
 const getPostInfo = p => [p.path, p.sideTitle || p.title];
 
 const resolveSidebar = (posts) => {
@@ -26,5 +28,6 @@ const resolveSidebar = (posts) => {
 }
 
 module.exports = {
-  microFrontends: resolveSidebar(microFrontendsPosts)
+  microFrontends: resolveSidebar(microFrontendsPosts),
+  designPatterns: resolveSidebar(designPatternsPosts),
 }
