@@ -2,9 +2,7 @@
   "name": "fullstackren",
   "scripts": {
     "start": "vuepress dev",
-    "build": "vuepress build",
-    "serve": "npx http-server ./dist -p 8002",
-    "deploy": "bash ./scripts/deploy.sh"
+    "build": "vuepress build"
   },
   "repository": {
     "type": "git",
