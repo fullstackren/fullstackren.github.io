@@ -1,0 +1,22 @@
+[
+  {
+    "title": "阮一峰的个人网站",
+    "sideTitle": "阮一峰的个人网站",
+    "path": "raunyifeng",
+    "description": "阮一峰的个人网站",
+    "category": "博客类"
+  },
+  {
+    "title": "SethGoldin",
+    "sideTitle": "SethGoldin",
+    "path": "seth-goldin",
+    "description": "SethGoldin"
+  },
+  {
+    "title": "极客时间",
+    "sideTitle": "极客时间",
+    "path": "time-geekbang",
+    "description": "极客时间",
+    "category": "视频类"
+  }
+]

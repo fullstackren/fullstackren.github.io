@@ -1,0 +1,27 @@
+[
+  {
+    "title": "设计",
+    "sideTitle": "设计",
+    "path": "design",
+    "description": "设计",
+    "category": "前端工程化"
+  },
+  {
+    "title": "规范",
+    "sideTitle": "规范",
+    "path": "content-lint",
+    "description": "规范"
+  },
+  {
+    "title": "选型",
+    "sideTitle": "选型",
+    "path": "choice",
+    "description": "选型"
+  },
+  {
+    "title": "部署",
+    "sideTitle": "部署",
+    "path": "deploy",
+    "description": "部署"
+  }
+]

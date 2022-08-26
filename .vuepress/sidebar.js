@@ -1,6 +1,11 @@
 // 适合写小册
+const frontendEngineeringPosts = require('../frontend-engineering/meta.json');
 const microFrontendsPosts = require('../micro-frontends/meta.json');
 const designPatternsPosts = require('../design-patterns/meta.json');
+const gitPosts = require('../git/meta.json');
+const nodejsPosts = require('../nodejs/meta.json');
+const studyAssetsPosts = require('../study-assets/meta.json');
+const uiPosts = require('../ui/meta.json');
 
 const getPostInfo = p => [p.path, p.sideTitle || p.title];
 
@@ -28,6 +33,11 @@ const resolveSidebar = (posts) => {
 }
 
 module.exports = {
-  microFrontends: resolveSidebar(microFrontendsPosts),
-  designPatterns: resolveSidebar(designPatternsPosts),
+  frontendEngineeringSidebar: resolveSidebar(frontendEngineeringPosts),
+  microFrontendsSidebar: resolveSidebar(microFrontendsPosts),
+  designPatternsSidebar: resolveSidebar(designPatternsPosts),
+  gitSidebar: resolveSidebar(gitPosts),
+  nodejsSidebar: resolveSidebar(nodejsPosts),
+  studyAssetsSidebar: resolveSidebar(studyAssetsPosts),
+  uiSidebar: resolveSidebar(uiPosts),
 }
