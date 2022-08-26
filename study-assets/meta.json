@@ -13,6 +13,19 @@
     "description": "SethGoldin"
   },
   {
+    "title": "掘金",
+    "sideTitle": "掘金",
+    "path": "juejin",
+    "description": "掘金",
+    "category": "小册类"
+  },
+  {
+    "title": "拉钩教育",
+    "sideTitle": "拉钩教育",
+    "path": "lagou",
+    "description": "拉钩教育"
+  },
+  {
     "title": "极客时间",
     "sideTitle": "极客时间",
     "path": "time-geekbang",

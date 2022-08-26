@@ -6,7 +6,9 @@ const {
   gitSidebar,
   nodejsSidebar,
   studyAssetsSidebar,
-  uiSidebar
+  uiSidebar,
+  conceptSidebar,
+  worldSidebar
 } = require('./sidebar');
 
 module.exports = {
@@ -43,16 +45,14 @@ module.exports = {
       },
       {
         text: '方法论', items: [
+          { text: '互联网概念', link: '/concept/'},
           { text: '设计模式', link: '/design-patterns/'},
-          { text: 'Git使用', link: '/git/'},
-          { text: '学习资源', link: '/study-assets/'},
-          
+          { text: 'Git 使用', link: '/git/'},
+          { text: '学习资源', link: '/study-assets/'}
         ]
       },
       {
-        text: '看世界', items: [
-          { text: '大好河山', link: '/world/river-mountain'}
-        ]
+        text: '看世界', link: '/world/'
       },
       {
         text: '友情链接', items: [
@@ -72,6 +72,8 @@ module.exports = {
       '/nodejs/': nodejsSidebar,
       '/study-assets/': studyAssetsSidebar,
       '/ui/': uiSidebar,
+      '/concept/': conceptSidebar,
+      '/world/': worldSidebar,
     }
   },
 }

@@ -6,6 +6,8 @@ const gitPosts = require('../git/meta.json');
 const nodejsPosts = require('../nodejs/meta.json');
 const studyAssetsPosts = require('../study-assets/meta.json');
 const uiPosts = require('../ui/meta.json');
+const conceptPosts = require('../concept/meta.json');
+const worldPosts = require('../world/meta.json');
 
 const getPostInfo = p => [p.path, p.sideTitle || p.title];
 
@@ -40,4 +42,6 @@ module.exports = {
   nodejsSidebar: resolveSidebar(nodejsPosts),
   studyAssetsSidebar: resolveSidebar(studyAssetsPosts),
   uiSidebar: resolveSidebar(uiPosts),
+  conceptSidebar: resolveSidebar(conceptPosts),
+  worldSidebar: resolveSidebar(worldPosts),
 }
