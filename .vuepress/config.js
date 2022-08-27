@@ -36,7 +36,7 @@ module.exports = {
   description: '全栈孤勇者之路',
   head: [
     ['link', { rel: 'shortcut icon', href: '/favicon.ico', type: 'image/x-icon' }],
-    ['meta', { name: 'baidu-site-verification', content: ''}],
+    ['meta', { name: 'baidu-site-verification', content: 'F162aQBZSM'}],
     ['meta', { name: 'google-site-verification', content: ''}] 
   ],
   shouldPrefetch: () => false,
