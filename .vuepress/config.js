@@ -46,8 +46,9 @@ module.exports = {
       `
     ],
     ['link', { rel: 'shortcut icon', href: '/favicon.ico', type: 'image/x-icon' }],
+    ['meta', { name: "viewport", content: 'width=device-width,initial-scale=1,maximum-scale=1'}],
     ['meta', { name: 'baidu-site-verification', content: 'F162aQBZSM'}],
-    ['meta', { name: 'google-site-verification', content: ''}] 
+    ['meta', { name: 'google-site-verification', content: ''}]
   ],
   shouldPrefetch: () => false,
   themeConfig: {
