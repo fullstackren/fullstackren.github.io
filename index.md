@@ -17,4 +17,4 @@
 
 ## 技术分享
 
-- [前端工程化在金融 B 端的设计与落地](https://www.zaozao.run/video/c48/c48-3) @ 前端早早聊 20122.8
+- [前端工程化在金融 B 端的设计与落地](https://www.zaozao.run/video/c48/c48-3) @ 前端早早聊 2022.8
