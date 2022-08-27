@@ -1,7 +1,6 @@
 <template>
   <main class="page">
     <slot name="top" />
-
     <div :class="{ 'theme-default-content': true }">
       <Content />
 
@@ -15,8 +14,8 @@
         />
         <div>
           <p class="connect-intro">
-            我的微信：run-kit，请备注<span class="highlight">全栈孤勇者</span
-            >，一起「侃」这个圈子里的事。
+            加我微信请备注<span class="highlight">全栈孤勇者</span
+            >，一起「侃」大事。
           </p>
           <p class="connect-intro">
             <a
@@ -74,19 +73,22 @@ export default {
 
 .connect {
   border: 1px solid #ddd;
-  border-radius: 5px;
   background-color: #f8f8f8;
-  padding: 1rem;
-  borderRadius: 6px;
+  margin-top: 4rem;
+  padding: 0.5rem;
+  border-radius: 6px;
   display: flex;
 }
 
 .connect .connect-intro {
   margin-left: 12px;
   color: #999;
+  line-height: 24px;
+  margin: 0;
+  padding: 0.5rem;
 }
 
 .connect .connect-intro .item {
-  margin-right: 12px;
+  margin-right: 2rem;
 }
 </style>

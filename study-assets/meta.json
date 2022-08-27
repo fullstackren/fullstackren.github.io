@@ -2,33 +2,51 @@
   {
     "title": "阮一峰的个人网站",
     "sideTitle": "阮一峰的个人网站",
-    "path": "raunyifeng",
+    "path": "blog-raunyifeng",
     "description": "阮一峰的个人网站",
     "category": "博客类"
   },
   {
+    "title": "廖雪峰的官方网站",
+    "sideTitle": "廖雪峰的官方网站",
+    "path": "blog-liaoxuefeng",
+    "description": "廖雪峰的官方网站"
+  },
+  {
+    "title": "山月行",
+    "sideTitle": "山月行",
+    "path": "blog-shanyue",
+    "description": "山月行"
+  },
+  {
     "title": "SethGoldin",
     "sideTitle": "SethGoldin",
-    "path": "seth-goldin",
+    "path": "blog-seth-goldin",
     "description": "SethGoldin"
+  },
+  {
+    "title": "其他",
+    "sideTitle": "其他",
+    "path": "blog-other",
+    "description": "其他"
   },
   {
     "title": "掘金",
     "sideTitle": "掘金",
-    "path": "juejin",
+    "path": "site-juejin",
     "description": "掘金",
-    "category": "小册类"
+    "category": "文章小册类"
   },
   {
     "title": "拉钩教育",
     "sideTitle": "拉钩教育",
-    "path": "lagou",
+    "path": "site-lagou",
     "description": "拉钩教育"
   },
   {
     "title": "极客时间",
     "sideTitle": "极客时间",
-    "path": "time-geekbang",
+    "path": "video-time-geekbang",
     "description": "极客时间",
     "category": "视频类"
   }

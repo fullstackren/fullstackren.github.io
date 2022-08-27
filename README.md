@@ -1,21 +1,22 @@
-# 全栈孤勇者
+# [全栈孤勇者](https://www.ruizhengyun.cn/)
 
-> 全栈工程师的攻坚之路
+这里主要记录我的生活和工作中的一些**总结**和**体会**。**目的**一是为了帮助自己复盘能时时查看，二是希望也能够帮到同行小伙伴。
 
-## Profile
+- **[技术分享](https://www.ruizhengyun.cn/share/)**，记录如何做分享过程和策略。
+- **[技术栈](https://www.ruizhengyun.cn/html/)**，记录技术学习过程，包含前后端入门和进阶知识，使用 Github 管理。
+- **[实战体系](https://www.ruizhengyun.cn/frontend-engineering/)**，记录针对所学技术进行实战项目和解决方案，使用 Github 管理。
+- **[工具方法](https://www.ruizhengyun.cn/design-patterns/)**，记录工作中用到的工具和方法的集合。
+- **[看世界](https://www.ruizhengyun.cn/world)**，记录自己的一些兴趣爱好。
 
-你好，我是芮正云（江湖），一名开发工程师，工作在杭州。
+## 关于我
 
-<img src="https://fullstackren.github.io/images/jianghu.png" width="500px"/>
+你好，我是**芮正云（江湖）**，一名前端工程师，目前在杭州某家互联网金融公司工作。个人未来 2 年规划：
 
-## A few links that might interest you
+- **内容上**，我想做一名全栈开发者，以更体系化的思维看待工作。
+- **职业上**，我想做一名自由职业者，有更多的时间陪伴家人。
 
-## Projects on Github
+不管是内容还是职业选择上，这注定是一条**孤独**和**勇敢**的赛道，相比在企业上班，需要**投入更多的时间**和**顶住更大的压力**。面对每一天，需要有足够的自律和耐心、合理管理时间和情绪、提升内容质量和运营水平等。
 
-## Talks
+## 技术分享
 
-## Connect
-
-- 微信：run-kit。请备注全栈孤勇者，我在全栈孤勇者的微信群等你，一起「侃」这个圈子里的事。
-
-  <img src="https://fullstackren.github.io/images/wechat-run-kit.jpeg" width="120px" />
+- [前端工程化在金融 B 端的设计与落地](https://www.zaozao.run/video/c48/c48-3) @ 前端早早聊 20122.8

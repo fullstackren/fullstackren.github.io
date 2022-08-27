@@ -17,9 +17,9 @@
 
 .bar-container .bar-intro {
   padding: 1rem;
-  margin-top: 1rem;
-  background: #3eaf7c33;
-  color: #777;
+  margin-top: 0.5rem;
+  background: #ebbbf9;
+  color: #666;
   border-radius: 5px;
 }
 
