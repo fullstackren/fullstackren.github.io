@@ -35,6 +35,16 @@ module.exports = {
   patterns: ['**/*.md', '**/*.vue', '**/*.svg'],
   description: '全栈孤勇者之路',
   head: [
+    [ 'script', {}, `
+      var _hmt = _hmt || [];
+      (function() {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?b1eb62ac2866544e8333dcea633685fa";
+        var s = document.getElementsByTagName("script")[0]; 
+        s.parentNode.insertBefore(hm, s);
+      })();
+      `
+    ],
     ['link', { rel: 'shortcut icon', href: '/favicon.ico', type: 'image/x-icon' }],
     ['meta', { name: 'baidu-site-verification', content: 'F162aQBZSM'}],
     ['meta', { name: 'google-site-verification', content: ''}] 
