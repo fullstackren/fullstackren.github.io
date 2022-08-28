@@ -1,9 +1,16 @@
 [
   {
-    "title": "第一天",
-    "sideTitle": "第一天",
-    "path": "day1",
-    "description": "第一天",
+    "title": "介绍",
+    "sideTitle": "介绍",
+    "path": "what",
+    "description": "介绍",
     "category": "基础"
+  },
+  {
+    "title": "shadow DOM",
+    "sideTitle": "shadow DOM",
+    "path": "shadow-dom",
+    "description": "shadow DOM",
+    "category": "进阶"
   }
 ]
