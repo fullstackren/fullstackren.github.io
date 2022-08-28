@@ -33,8 +33,12 @@ module.exports = {
   base: '/',
   title: '全栈孤勇者',
   patterns: ['**/*.md', '**/*.vue', '**/*.svg'],
-  description: '全栈孤勇者之路',
+  description: '全栈孤勇者',
   head: [
+    ['meta', { name: "viewport", content: 'width=device-width,initial-scale=1,maximum-scale=1'}],
+    ['meta', { name: 'baidu-site-verification', content: 'F162aQBZSM'}],
+    ['meta', { name: 'google-site-verification', content: ''}],
+    ['link', { rel: 'shortcut icon', href: '/favicon.ico', type: 'image/x-icon' }],
     [ 'script', {}, `
       var _hmt = _hmt || [];
       (function() {
@@ -44,11 +48,7 @@ module.exports = {
         s.parentNode.insertBefore(hm, s);
       })();
       `
-    ],
-    ['link', { rel: 'shortcut icon', href: '/favicon.ico', type: 'image/x-icon' }],
-    ['meta', { name: "viewport", content: 'width=device-width,initial-scale=1,maximum-scale=1'}],
-    ['meta', { name: 'baidu-site-verification', content: 'F162aQBZSM'}],
-    ['meta', { name: 'google-site-verification', content: ''}]
+    ]
   ],
   shouldPrefetch: () => false,
   themeConfig: {
