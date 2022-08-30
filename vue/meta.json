@@ -1,9 +1,9 @@
 [
   {
-    "title": "第一天",
-    "sideTitle": "第一天",
-    "path": "day1",
-    "description": "第一天",
-    "category": "基础"
+    "title": "模板预编译",
+    "sideTitle": "模板预编译",
+    "path": "vue-template-compiler",
+    "description": "模板预编译",
+    "category": "资源列表"
   }
 ]

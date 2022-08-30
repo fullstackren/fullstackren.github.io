@@ -10,6 +10,8 @@ const {
   // 实战体系
   frontendEngineeringSidebar,
   microFrontendsSidebar,
+  // 架构
+  architectureSidebar,
   // 工具方法
   designPatternsSidebar,
   gitSidebar,
@@ -77,6 +79,9 @@ module.exports = {
         ]
       },
       {
+        text: '架构', link: '/architecture/'
+      },
+      {
         text: '工具方法', items: [
           { text: 'UI', link: '/ui/'},
           { text: 'Git 使用', link: '/git/'},
@@ -101,6 +106,8 @@ module.exports = {
       // 实战体系
       '/frontend-engineering/': frontendEngineeringSidebar,
       '/micro-frontends/': microFrontendsSidebar,
+      // 架构
+      '/architecture/': architectureSidebar,
       // 工具方法
       '/design-patterns/': designPatternsSidebar,
       '/git/': gitSidebar,

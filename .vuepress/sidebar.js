@@ -8,6 +8,8 @@ const reactPosts = require('../react/meta.json');
 // 实战体系
 const frontendEngineeringPosts = require('../frontend-engineering/meta.json');
 const microFrontendsPosts = require('../micro-frontends/meta.json');
+// 架构
+const architecturePosts = require('../architecture/meta.json');
 // 工具方法
 const designPatternsPosts = require('../design-patterns/meta.json');
 const gitPosts = require('../git/meta.json');
@@ -55,6 +57,8 @@ module.exports = {
   // 实战体系
   frontendEngineeringSidebar: resolveSidebar(frontendEngineeringPosts),
   microFrontendsSidebar: resolveSidebar(microFrontendsPosts),
+  // 架构
+  architectureSidebar: resolveSidebar(architecturePosts),
   // 工具方法
   designPatternsSidebar: resolveSidebar(designPatternsPosts),
   gitSidebar: resolveSidebar(gitPosts),
