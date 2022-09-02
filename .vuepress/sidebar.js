@@ -1,3 +1,5 @@
+// 初心
+const chuxinPosts = require('../chuxin/meta.json');
 // 技术栈
 const htmlPosts = require('../html/meta.json');
 const cssPosts = require('../css/meta.json');
@@ -5,19 +7,21 @@ const javascriptPosts = require('../javascript/meta.json');
 const nodejsPosts = require('../nodejs/meta.json');
 const vuePosts = require('../vue/meta.json');
 const reactPosts = require('../react/meta.json');
+const linuxPosts = require('../linux/meta.json');
+const tauriPosts = require('../tauri/meta.json');
 // 实战体系
 const frontendEngineeringPosts = require('../frontend-engineering/meta.json');
 const microFrontendsPosts = require('../micro-frontends/meta.json');
 // 架构
 const architecturePosts = require('../architecture/meta.json');
 // 工具方法
+const niceToolsPosts = require('../nice-tools/meta.json');
 const designPatternsPosts = require('../design-patterns/meta.json');
 const gitPosts = require('../git/meta.json');
 const studyAssetsPosts = require('../study-assets/meta.json');
 const uiPosts = require('../ui/meta.json');
 const conceptPosts = require('../concept/meta.json');
-// 分享这件事
-const sharePosts = require('../share/meta.json');
+const abstractPosts = require('../abstract/meta.json');
 // 看世界
 const worldPosts = require('../world/meta.json');
 
@@ -47,6 +51,8 @@ const resolveSidebar = (posts) => {
 }
 
 module.exports = {
+  // 初心
+  chuxinSidebar: resolveSidebar(chuxinPosts),
   // 技术栈
   htmlSidebar: resolveSidebar(htmlPosts),
   cssSidebar: resolveSidebar(cssPosts),
@@ -54,19 +60,21 @@ module.exports = {
   nodejsSidebar: resolveSidebar(nodejsPosts),
   vueSidebar: resolveSidebar(vuePosts),
   reactSidebar: resolveSidebar(reactPosts),
-  // 实战体系
+  linuxSidebar: resolveSidebar(linuxPosts),
+  tauriSidebar: resolveSidebar(tauriPosts),
+  // 知识体系
   frontendEngineeringSidebar: resolveSidebar(frontendEngineeringPosts),
   microFrontendsSidebar: resolveSidebar(microFrontendsPosts),
   // 架构
   architectureSidebar: resolveSidebar(architecturePosts),
   // 工具方法
+  niceToolsSidebar: resolveSidebar(niceToolsPosts),
   designPatternsSidebar: resolveSidebar(designPatternsPosts),
   gitSidebar: resolveSidebar(gitPosts),
   studyAssetsSidebar: resolveSidebar(studyAssetsPosts),
   uiSidebar: resolveSidebar(uiPosts),
   conceptSidebar: resolveSidebar(conceptPosts),
-  // 分享这件事
-  shareSidebar: resolveSidebar(sharePosts),
+  abstractSidebar: resolveSidebar(abstractPosts),
   // 看世界
   worldSidebar: resolveSidebar(worldPosts),
 }

@@ -1,9 +1,16 @@
 [
   {
-    "title": "安装",
+    "title": "工具",
     "sideTitle": "安装",
     "path": "install",
     "description": "安装",
     "category": "基础"
+  },
+  {
+    "title": "工具",
+    "sideTitle": "工具",
+    "path": "tools",
+    "description": "工具",
+    "category": "工具"
   }
 ]

@@ -1,5 +1,16 @@
 # 微前端
 
+## 介绍
+
+微前端是一种技术、一种手段或一个架构，目的是将 web 应用由于单一的单体应用拆分为多个小型应用，然后再组合起来，提供统一的访问入口。
+
+
+## 价值
+
+- 终端用户：感观就是一个完整的应用。
+- 产品应用：
+- 开发团队：团队自治。
+
 ## 参考
 
 - [thoughtworks/micro-frontends](https://www.thoughtworks.com/radar/techniques/micro-frontends)

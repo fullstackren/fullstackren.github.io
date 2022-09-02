@@ -2,9 +2,12 @@
 
 这里主要记录我的生活和工作中的一些**总结**和**体会**。**目的**一是为了帮助自己复盘能时时查看，二是希望也能够帮到同行小伙伴。
 
-- **[技术分享](https://www.ruizhengyun.cn/share/)**，记录如何做分享过程和策略。
+- **[初心](https://www.ruizhengyun.cn/share/)**，记录如何做分享过程和策略。
 - **[技术栈](https://www.ruizhengyun.cn/html/)**，记录技术学习过程，包含前后端入门和进阶知识，使用 Github 管理。
-- **[实战体系](https://www.ruizhengyun.cn/frontend-engineering/)**，记录针对所学技术进行实战项目和解决方案，使用 Github 管理。
+- **[知识体系](https://www.ruizhengyun.cn/frontend-engineering/)**，记录针对所学技术形成体系化。
+<!-- - **[实战](https://www.ruizhengyun.cn//)**，记录针对所学技术进行实战，使用 Github 管理。 -->
+- **[实战](https://www.ruizhengyun.cn//)**，记录针对所学技术进行实战，使用 Github 管理。
+- **[架构](https://www.ruizhengyun.cn/architecture/)**，记录做前后端方案的典型架构设计。
 - **[工具方法](https://www.ruizhengyun.cn/design-patterns/)**，记录工作中用到的工具和方法的集合。
 - **[看世界](https://www.ruizhengyun.cn/world)**，记录自己的一些兴趣爱好。
 

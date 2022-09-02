@@ -1,0 +1,30 @@
+[
+  {
+    "title": "如何维护一个开源项目",
+    "sideTitle": "如何维护一个开源项目",
+    "path": "how-to-maintain-opensource",
+    "description": "如何维护一个开源项目",
+    "category": "项目"
+  },
+  {
+    "title": "不要建立自己的框架",
+    "sideTitle": "不要建立自己的框架",
+    "path": "dont-build-your-own-framework",
+    "description": "不要建立自己的框架"
+  },
+  {
+    "title": "成为专业程序员10周年的感悟",
+    "sideTitle": "成为专业程序员10周年的感悟",
+    "path": "professional-programming-the-first-10-years",
+    "description": "成为专业程序员10周年的感悟"
+  },
+
+  {
+    "title": "如何成功",
+    "sideTitle": "如何成功",
+    "path": "how-to-be-successful",
+    "description": "如何成功",
+    "category": "成事"
+  }
+]
+

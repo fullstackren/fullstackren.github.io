@@ -12,5 +12,12 @@
     "path": "shadow-dom",
     "description": "shadow DOM",
     "category": "进阶"
+  },
+  {
+    "title": "CSS 手电筒",
+    "sideTitle": "CSS 手电筒",
+    "path": "browser_in_the_dark",
+    "description": "CSS 手电筒",
+    "category": "有意思的东西"
   }
 ]

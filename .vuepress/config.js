@@ -1,5 +1,7 @@
 const path = require('path');
 const {
+  // 初心
+  chuxinSidebar,
   // 技术栈
   htmlSidebar,
   cssSidebar,
@@ -7,7 +9,9 @@ const {
   nodejsSidebar,
   vueSidebar,
   reactSidebar,
-  // 实战体系
+  linuxSidebar,
+  tauriSidebar,
+  // 知识体系
   frontendEngineeringSidebar,
   microFrontendsSidebar,
   // 架构
@@ -18,10 +22,10 @@ const {
   studyAssetsSidebar,
   uiSidebar,
   conceptSidebar,
-  // 分享这件事
-  shareSidebar,
+  niceToolsSidebar,
+  abstractSidebar,
   // 看世界
-  worldSidebar,
+  worldSidebar
 } = require('./sidebar');
 
 module.exports = {
@@ -59,9 +63,7 @@ module.exports = {
     sidebarDepth: 2,
     nav: [
       { text: '主页', link: '/' },
-      {
-        text: '技术分享', link: '/share/'
-      },
+      { text: '初心', link: '/chuxin/' },
       {
         text: '技术栈', items: [
           { text: 'HTML', link: '/html/'},
@@ -69,20 +71,26 @@ module.exports = {
           { text: 'Javascript', link: '/javascript/'},
           { text: 'Nodejs', link: '/nodejs/'},
           { text: 'Vue', link: '/vue/'},
-          { text: 'React', link: '/react/'}
+          { text: 'React', link: '/react/'},
+          { text: 'linux', link: '/linux/' },
+          { text: 'Tauri', link: '/tauri/'},
         ]
       },
       {
-        text: '实战体系', items: [
+        text: '知识体系', items: [
           { text: '前端工程化', link: '/frontend-engineering/' },
           { text: '微前端', link: '/micro-frontends/'},
         ]
       },
+      // 开源
+      // 最佳实践
       {
         text: '架构', link: '/architecture/'
       },
       {
         text: '工具方法', items: [
+          { text: '好用工具', link: '/nice-tools/'},
+          { text: '文摘', link: '/abstract/'},
           { text: 'UI', link: '/ui/'},
           { text: 'Git 使用', link: '/git/'},
           { text: '学习资源', link: '/study-assets/'},
@@ -96,6 +104,8 @@ module.exports = {
     ],
     // 侧边栏
     sidebar: {
+      // 初心
+      '/chuxin/': chuxinSidebar,
       // 技术栈
       '/html/': htmlSidebar,
       '/css/': cssSidebar,
@@ -103,19 +113,21 @@ module.exports = {
       '/nodejs/': nodejsSidebar,
       '/vue/': vueSidebar,
       '/react/': reactSidebar,
-      // 实战体系
+      '/linux/': linuxSidebar,
+      '/tauri/': tauriSidebar,
+      // 知识体系
       '/frontend-engineering/': frontendEngineeringSidebar,
       '/micro-frontends/': microFrontendsSidebar,
       // 架构
       '/architecture/': architectureSidebar,
       // 工具方法
+      '/nice-tools/': niceToolsSidebar,
       '/design-patterns/': designPatternsSidebar,
       '/git/': gitSidebar,
       '/study-assets/': studyAssetsSidebar,
       '/ui/': uiSidebar,
       '/concept/': conceptSidebar,
-      // 分享这件事
-      '/share/': shareSidebar,
+      '/abstract/': abstractSidebar,
       // 看世界
       '/world/': worldSidebar
     }

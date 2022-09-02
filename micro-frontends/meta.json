@@ -7,10 +7,10 @@
     "category": "qiankun"
   },
   {
-    "title": "如何运行的？",
-    "sideTitle": "如何运行的？",
-    "path": "single-spa-run-time",
-    "description": "如何运行的？",
+    "title": "single spa",
+    "sideTitle": "single spa",
+    "path": "single-spa",
+    "description": "single spa",
     "category": "single-spa"
   }
 ]
