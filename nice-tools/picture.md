@@ -33,3 +33,8 @@
 ## Emoji 厨房
 
 > 原文：https://blog.google/products/android/feeling-all-the-feels-theres-an-emoji-sticker-for-that/
+
+- [Emoji Kitchen](https://emojikitchen.dev/)
+- [Emojimix](https://tikolu.net/emojimix/)
+- [Emoji Supply](https://emoji.supply/kitchen/)
+- [Emoji 壁纸工具](https://emoji.supply/wallpaper/?pattern=foam&order=random&emoji=%25F0%259F%258D%258C%25F0%259F%258D%2593%25F0%259F%258D%258A%25F0%259F%258D%2587&texture=gradient&color=%23ffe7bd&scale=1.0)，可以选择 Emoji 符号，生成壁纸。

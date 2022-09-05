@@ -17,13 +17,15 @@ const {
   // 架构
   architectureSidebar,
   // 工具方法
-  designPatternsSidebar,
-  gitSidebar,
-  studyAssetsSidebar,
-  uiSidebar,
-  conceptSidebar,
   niceToolsSidebar,
+  uiSidebar,
+  umlSidebar,
+  gitSidebar,
+  designPatternsSidebar,
+  studyAssetsSidebar,
+  manageSidebar,
   abstractSidebar,
+  conceptSidebar,
   // 看世界
   worldSidebar
 } = require('./sidebar');
@@ -90,12 +92,14 @@ module.exports = {
       {
         text: '工具方法', items: [
           { text: '好用工具', link: '/nice-tools/'},
-          { text: '文摘', link: '/abstract/'},
           { text: 'UI', link: '/ui/'},
+          { text: 'UML', link: '/uml/'},
           { text: 'Git 使用', link: '/git/'},
-          { text: '学习资源', link: '/study-assets/'},
-          { text: '互联网概念', link: '/concept/'},
           { text: '设计模式', link: '/design-patterns/'},
+          { text: '学习资源', link: '/study-assets/'},
+          { text: '管理', link: '/manage/'},
+          { text: '文摘', link: '/abstract/'},
+          { text: '互联网概念', link: '/concept/'},
         ]
       },
       {
@@ -122,12 +126,14 @@ module.exports = {
       '/architecture/': architectureSidebar,
       // 工具方法
       '/nice-tools/': niceToolsSidebar,
-      '/design-patterns/': designPatternsSidebar,
-      '/git/': gitSidebar,
-      '/study-assets/': studyAssetsSidebar,
       '/ui/': uiSidebar,
-      '/concept/': conceptSidebar,
+      '/uml/': umlSidebar,
+      '/git/': gitSidebar,
+      '/design-patterns/': designPatternsSidebar,
+      '/study-assets/': studyAssetsSidebar,
+      '/manage/': manageSidebar,
       '/abstract/': abstractSidebar,
+      '/concept/': conceptSidebar,
       // 看世界
       '/world/': worldSidebar
     }

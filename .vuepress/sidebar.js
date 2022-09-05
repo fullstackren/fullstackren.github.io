@@ -16,12 +16,14 @@ const microFrontendsPosts = require('../micro-frontends/meta.json');
 const architecturePosts = require('../architecture/meta.json');
 // 工具方法
 const niceToolsPosts = require('../nice-tools/meta.json');
-const designPatternsPosts = require('../design-patterns/meta.json');
-const gitPosts = require('../git/meta.json');
-const studyAssetsPosts = require('../study-assets/meta.json');
 const uiPosts = require('../ui/meta.json');
-const conceptPosts = require('../concept/meta.json');
+const umlPosts = require('../uml/meta.json');
+const gitPosts = require('../git/meta.json');
+const designPatternsPosts = require('../design-patterns/meta.json');
+const studyAssetsPosts = require('../study-assets/meta.json');
+const managePosts = require('../manage/meta.json');
 const abstractPosts = require('../abstract/meta.json');
+const conceptPosts = require('../concept/meta.json');
 // 看世界
 const worldPosts = require('../world/meta.json');
 
@@ -69,12 +71,14 @@ module.exports = {
   architectureSidebar: resolveSidebar(architecturePosts),
   // 工具方法
   niceToolsSidebar: resolveSidebar(niceToolsPosts),
-  designPatternsSidebar: resolveSidebar(designPatternsPosts),
-  gitSidebar: resolveSidebar(gitPosts),
-  studyAssetsSidebar: resolveSidebar(studyAssetsPosts),
   uiSidebar: resolveSidebar(uiPosts),
-  conceptSidebar: resolveSidebar(conceptPosts),
+  umlSidebar: resolveSidebar(umlPosts),
+  gitSidebar: resolveSidebar(gitPosts),
+  designPatternsSidebar: resolveSidebar(designPatternsPosts),
+  studyAssetsSidebar: resolveSidebar(studyAssetsPosts),
+  manageSidebar: resolveSidebar(managePosts),
   abstractSidebar: resolveSidebar(abstractPosts),
+  conceptSidebar: resolveSidebar(conceptPosts),
   // 看世界
   worldSidebar: resolveSidebar(worldPosts),
 }
