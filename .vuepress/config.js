@@ -44,14 +44,14 @@ module.exports = {
   description: '全栈孤勇者',
   head: [
     ['meta', { name: "viewport", content: 'width=device-width,initial-scale=1,maximum-scale=1'}],
-    ['meta', { name: 'baidu-site-verification', content: 'F162aQBZSM'}],
+    ['meta', { name: 'baidu-site-verification', content: 'code-XDF2R0xFu0'}],
     ['meta', { name: 'google-site-verification', content: ''}],
     ['link', { rel: 'shortcut icon', href: '/favicon.ico', type: 'image/x-icon' }],
     [ 'script', {}, `
       var _hmt = _hmt || [];
       (function() {
         var hm = document.createElement("script");
-        hm.src = "https://hm.baidu.com/hm.js?b1eb62ac2866544e8333dcea633685fa";
+        hm.src = "https://hm.baidu.com/hm.js?f17885b1de21e5764929b001ee4d850b";
         var s = document.getElementsByTagName("script")[0]; 
         s.parentNode.insertBefore(hm, s);
       })();
