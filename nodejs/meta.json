@@ -1,5 +1,12 @@
 [
   {
+    "title": "调试 Nodejs",
+    "sideTitle": "调试 Nodejs",
+    "path": "debug",
+    "description": "调试 Nodejs",
+    "category": "调试部分"
+  },
+  {
     "title": "nodejs",
     "sideTitle": "bun",
     "path": "bun",
