@@ -1,9 +1,35 @@
 [
   {
-    "title": "技术管理",
-    "sideTitle": "技术管理",
-    "path": "technology-manage",
-    "description": "技术管理",
-    "category": "技术管理"
+    "title": "如何保持技术判断力",
+    "sideTitle": "如何保持技术判断力",
+    "path": "maintain-technical-judgment",
+    "description": "如何保持技术判断力",
+    "category": "向己管理"
+  },
+  {
+    "title": "怎么做团队建设",
+    "sideTitle": "怎么做团队建设",
+    "path": "team-building",
+    "description": "怎么做团队建设",
+    "category": "向下管理"
+  },
+  {
+    "title": "怎么提升团队凝聚力",
+    "sideTitle": "怎么提升团队凝聚力",
+    "path": "team-cohesiveness",
+    "description": "怎么提升团队凝聚力"
+  },
+  {
+    "title": "怎么做员工激励",
+    "sideTitle": "怎么做员工激励",
+    "path": "employee-motivation",
+    "description": "怎么做员工激励"
+  },
+  {
+    "title": "怎么做向上管理",
+    "sideTitle": "怎么做向上管理",
+    "path": "upward-management",
+    "description": "怎么做向上管理",
+    "category": "向上管理"
   }
 ]

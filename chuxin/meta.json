@@ -1,15 +1,9 @@
 [
   {
-    "title": "为什么做分享",
-    "sideTitle": "为什么做分享",
-    "path": "why",
-    "description": "为什么做分享",
-    "category": "关于分享"
-  },
-  {
-    "title": "怎么做分享",
-    "sideTitle": "怎么做分享",
-    "path": "how-todo",
-    "description": "怎么做分享"
+    "title": "怎么做",
+    "sideTitle": "怎么做",
+    "path": "how",
+    "description": "怎么做",
+    "category": "自我说明"
   }
 ]

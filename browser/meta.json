@@ -5,5 +5,18 @@
     "path": "architecture",
     "description": "浏览器架构",
     "category": "初始"
+  },
+  {
+    "title": "内存概述",
+    "sideTitle": "内存概述",
+    "path": "memory",
+    "description": "内存概述",
+    "category": "内存"
+  },
+  {
+    "title": "内存泄漏",
+    "sideTitle": "内存泄漏",
+    "path": "memory-leak",
+    "description": "内存泄漏"
   }
 ]
