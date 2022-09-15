@@ -4,7 +4,14 @@
     "sideTitle": "浏览器架构",
     "path": "architecture",
     "description": "浏览器架构",
-    "category": "初始"
+    "category": "架构"
+  },
+  {
+    "title": "缓存",
+    "sideTitle": "缓存",
+    "path": "cache",
+    "description": "缓存",
+    "category": "性能"
   },
   {
     "title": "内存概述",

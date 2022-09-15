@@ -12,6 +12,7 @@ const tauriPosts = require('../tauri/meta.json');
 // 实战体系
 const frontendEngineeringPosts = require('../frontend-engineering/meta.json');
 const microFrontendsPosts = require('../micro-frontends/meta.json');
+const browserPosts = require('../browser/meta.json');
 // 架构
 const architecturePosts = require('../architecture/meta.json');
 // 工具方法
@@ -67,6 +68,7 @@ module.exports = {
   // 知识体系
   frontendEngineeringSidebar: resolveSidebar(frontendEngineeringPosts),
   microFrontendsSidebar: resolveSidebar(microFrontendsPosts),
+  browserSidebar: resolveSidebar(browserPosts),
   // 架构
   architectureSidebar: resolveSidebar(architecturePosts),
   // 工具方法

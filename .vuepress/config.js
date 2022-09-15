@@ -14,6 +14,7 @@ const {
   // 知识体系
   frontendEngineeringSidebar,
   microFrontendsSidebar,
+  browserSidebar,
   // 架构
   architectureSidebar,
   // 工具方法
@@ -82,6 +83,14 @@ module.exports = {
         text: '知识体系', items: [
           { text: '前端工程化', link: '/frontend-engineering/' },
           { text: '微前端', link: '/micro-frontends/'},
+          { text: '浏览器', link: '/browser/'},
+          { text: 'UI', link: '/ui/'},
+          { text: 'UML', link: '/uml/'},
+          { text: 'Git 使用', link: '/git/'},
+          { text: '设计模式', link: '/design-patterns/'},
+          { text: '管理', link: '/manage/'},
+          { text: '文摘', link: '/abstract/'},
+          { text: '互联网概念', link: '/concept/'},
         ]
       },
       // 开源
@@ -92,14 +101,7 @@ module.exports = {
       {
         text: '工具方法', items: [
           { text: '好用工具', link: '/nice-tools/'},
-          { text: 'UI', link: '/ui/'},
-          { text: 'UML', link: '/uml/'},
-          { text: 'Git 使用', link: '/git/'},
-          { text: '设计模式', link: '/design-patterns/'},
-          { text: '学习资源', link: '/study-assets/'},
-          { text: '管理', link: '/manage/'},
-          { text: '文摘', link: '/abstract/'},
-          { text: '互联网概念', link: '/concept/'},
+          { text: '学习资源', link: '/study-assets/'}
         ]
       },
       {
@@ -122,6 +124,7 @@ module.exports = {
       // 知识体系
       '/frontend-engineering/': frontendEngineeringSidebar,
       '/micro-frontends/': microFrontendsSidebar,
+      '/browser/': browserSidebar,
       // 架构
       '/architecture/': architectureSidebar,
       // 工具方法
