@@ -49,5 +49,18 @@
     "path": "video-time-geekbang",
     "description": "极客时间",
     "category": "视频类"
+  },
+  {
+    "title": "如何学习一门新语言",
+    "sideTitle": "如何学习一门新语言",
+    "path": "how-to-study-new-language",
+    "description": "如何学习一门新语言",
+    "category": "总结类"
+  },
+  {
+    "title": "code review",
+    "sideTitle": "code review",
+    "path": "code-review",
+    "description": "code review"
   }
 ]
