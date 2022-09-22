@@ -4,6 +4,8 @@
     <div :class="{ 'theme-default-content': true }">
       <Content />
 
+      <!-- <Skills /> -->
+
       <div class="connect">
         <img
           src="../assets/wechat-run-kit.jpeg"
@@ -28,8 +30,36 @@
             <a
               href="https://juejin.cn/user/1046390799881463"
               target="_blank"
+              class="item"
               rel="noopener noreferrer"
               >掘金</a
+            >
+            <a
+              href="https://dev.to/fullstackren"
+              target="_blank"
+              class="item"
+              rel="noopener noreferrer"
+              >Dev.to</a
+            >
+            <a
+              href="https://www.v2ex.com/?r=fullstackren"
+              target="_blank"
+              class="item"
+              rel="noopener noreferrer"
+              >V2ex</a
+            >
+            <a
+              href="https://medium.com/@fullstackren"
+              target="_blank"
+              class="item"
+              rel="noopener noreferrer"
+              >Medium</a
+            >
+            <a
+              href="https://www.zhihu.com/people/fedlib"
+              target="_blank"
+              rel="noopener noreferrer"
+              >知乎</a
             >
           </p>
         </div>
@@ -47,9 +77,10 @@
 <script>
 import PageEdit from "@theme/components/PageEdit.vue";
 import PageNav from "@theme/components/PageNav.vue";
+import Skills from "@theme/components/Skills.vue";
 
 export default {
-  components: { PageEdit, PageNav },
+  components: { PageEdit, PageNav, Skills },
   data() {
     return {};
   },
@@ -89,6 +120,6 @@ export default {
 }
 
 .connect .connect-intro .item {
-  margin-right: 2rem;
+  margin-right: 0.8rem;
 }
 </style>

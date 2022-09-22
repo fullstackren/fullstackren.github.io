@@ -1,5 +1,12 @@
 [
   {
+    "title": "文档资料",
+    "sideTitle": "文档资料",
+    "path": "docs",
+    "description": "文档资料",
+    "category": "学习资源"
+  },
+  {
     "title": "调试 Nodejs",
     "sideTitle": "调试 Nodejs",
     "path": "debug",
