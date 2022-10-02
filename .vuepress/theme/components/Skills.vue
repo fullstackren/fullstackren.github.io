@@ -16,7 +16,6 @@
 
 <script>
 import { data } from "./skills.js";
-console.log(data);
 export default {
   name: "Skills",
   data() {

@@ -16,6 +16,18 @@
 
 周刊介绍过一个抓取必应每日壁纸的 [GitHub Actions 模板](https://github.com/niumoo/bing-wallpaper)，作者现在将其做成静态网站，可以在线浏览和下载壁纸，每日更新。
 
+## 共享白板
+
+> 地址：https://www.ourboard.io/
+
+一个在线白板，你创建一个房间，把网址分享给其他人，大家就可以在一块网页白板上共同涂写。
+
+## 图片处理
+
+> 地址：https://cleanupphotos.com/
+
+这个网页工具可以清除照片上不要的物体。用户上传照片以后，框选不需要的物体，系统会自动清除这些物体，用背景填充照片。
+
 ## 在线生成 favicon
 
 > 地址：[https://favicon.io/](https://favicon.io/)

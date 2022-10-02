@@ -77,10 +77,10 @@
 <script>
 import PageEdit from "@theme/components/PageEdit.vue";
 import PageNav from "@theme/components/PageNav.vue";
-import Skills from "@theme/components/Skills.vue";
+// import Skills from "@theme/components/Skills.vue";
 
 export default {
-  components: { PageEdit, PageNav, Skills },
+  components: { PageEdit, PageNav },
   data() {
     return {};
   },

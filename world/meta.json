@@ -25,5 +25,12 @@
     "path": "sport-basketball",
     "description": "篮球",
     "category": "运动"
+  },
+  {
+    "title": "2022 随记",
+    "sideTitle": "2022 随记",
+    "path": "note-2022",
+    "description": "2022 随记",
+    "category": "随记"
   }
 ]

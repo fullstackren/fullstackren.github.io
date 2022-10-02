@@ -5,6 +5,7 @@ const htmlPosts = require('../html/meta.json');
 const cssPosts = require('../css/meta.json');
 const javascriptPosts = require('../javascript/meta.json');
 const nodejsPosts = require('../nodejs/meta.json');
+const npmPosts = require('../npm/meta.json');
 const vuePosts = require('../vue/meta.json');
 const reactPosts = require('../react/meta.json');
 const linuxPosts = require('../linux/meta.json');
@@ -61,6 +62,7 @@ module.exports = {
   cssSidebar: resolveSidebar(cssPosts),
   javascriptSidebar: resolveSidebar(javascriptPosts),
   nodejsSidebar: resolveSidebar(nodejsPosts),
+  npmSidebar: resolveSidebar(npmPosts),
   vueSidebar: resolveSidebar(vuePosts),
   reactSidebar: resolveSidebar(reactPosts),
   linuxSidebar: resolveSidebar(linuxPosts),
