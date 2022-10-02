@@ -64,7 +64,7 @@ module.exports = {
   themeConfig: {
     logo: '/logo.png',
     // repo: 'fullstackren/fullstackren.github.io.git',
-    sidebarDepth: 2,
+    sidebarDepth: 1,
     nav: [
       { text: '主页', link: '/' },
       { text: '初心', link: '/chuxin/' },
