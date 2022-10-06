@@ -2,7 +2,7 @@
   "name": "fullstackren",
   "scripts": {
     "start": "vuepress dev",
-    "deploy": "git add . && git commit -m 'feat:新增笔记' && git push"
+    "deploy": "vuepress build"
   },
   "repository": {
     "type": "git",
