@@ -2,7 +2,7 @@
   "name": "fullstackren",
   "scripts": {
     "start": "vuepress dev",
-    "deploy": "vuepress build"
+    "build": "vuepress build"
   },
   "repository": {
     "type": "git",
