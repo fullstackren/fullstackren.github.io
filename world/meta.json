@@ -27,6 +27,67 @@
     "category": "运动"
   },
   {
+    "title": "俞敏洪",
+    "sideTitle": "俞敏洪",
+    "path": "person-yuminhong",
+    "description": "俞敏洪",
+    "category": "人物"
+  },
+  {
+    "title": "马云",
+    "sideTitle": "马云",
+    "path": "person-mayun",
+    "description": "马云"
+  },
+  {
+    "title": "冯仑",
+    "sideTitle": "冯仑",
+    "path": "person-fenglun",
+    "description": "冯仑"
+  },
+  {
+    "title": "徐小平",
+    "sideTitle": "徐小平",
+    "path": "person-xuxiaoping",
+    "description": "徐小平"
+  },
+  {
+    "title": "李阳",
+    "sideTitle": "李阳",
+    "path": "person-liyang",
+    "description": "李阳"
+  },
+  {
+    "title": "王强",
+    "sideTitle": "王强",
+    "path": "person-wangqiang",
+    "description": "王强"
+  },
+  {
+    "title": "杜子华",
+    "sideTitle": "杜子华",
+    "path": "person-duzihua",
+    "description": "杜子华"
+  },
+  {
+    "title": "罗永浩",
+    "sideTitle": "罗永浩",
+    "path": "person-luoyonghao",
+    "description": "罗永浩"
+  },
+  {
+    "title": "李笑来",
+    "sideTitle": "李笑来",
+    "path": "person-lixiaolai",
+    "description": "李笑来"
+  },
+  {
+    "title": "宋昊",
+    "sideTitle": "宋昊",
+    "path": "person-songhao",
+    "description": "宋昊"
+  },
+  {
     "title": "2022 随记",
     "sideTitle": "2022 随记",
     "path": "note-2022",
