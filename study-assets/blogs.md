@@ -8,6 +8,10 @@
 - [若川](https://lxchuan12.gitee.io)
 - [sorrycc](https://sorrycc.com)
 
+## 教程类
+
+- [DevOpen.Club 坚持创作并分享原创高质量的软件开发视频教程](https://devopen.club/)
+
 ## 国外
 
 - [pragmaticengineer](https://blog.pragmaticengineer.com/)

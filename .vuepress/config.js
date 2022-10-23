@@ -19,6 +19,7 @@ const {
   // 架构
   architectureSidebar,
   // 工具方法
+  readSidebar,
   niceToolsSidebar,
   uiSidebar,
   umlSidebar,
@@ -101,7 +102,8 @@ module.exports = {
         text: '架构', link: '/architecture/'
       },
       {
-        text: '工具方法', items: [
+        text: '资源', items: [
+          { text: '阅读', link: '/read/'},
           { text: '好用工具', link: '/nice-tools/'},
           { text: '学习资源', link: '/study-assets/'}
         ]
@@ -131,6 +133,7 @@ module.exports = {
       // 架构
       '/architecture/': architectureSidebar,
       // 工具方法
+      '/read/': readSidebar,
       '/nice-tools/': niceToolsSidebar,
       '/ui/': uiSidebar,
       '/uml/': umlSidebar,

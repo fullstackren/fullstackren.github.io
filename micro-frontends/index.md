@@ -23,3 +23,4 @@
 - [蚂蚁金服-方涣：如何设计实现微前端框架-qiankun](https://www.zaozao.run/video/c7/c7-7)
 - [single-spa 视频](https://www.zhihu.com/people/shuidixueyuan/zvideos?page=17)
 - [蚂蚁金服的前端框架和工程化实践](https://github.com/sorrycc/blog/issues/85)
+- [基于微前端qiankun的多页签缓存方案实践](https://www.51cto.com/article/714992.html)

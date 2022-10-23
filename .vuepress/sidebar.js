@@ -17,6 +17,7 @@ const browserPosts = require('../browser/meta.json');
 // 架构
 const architecturePosts = require('../architecture/meta.json');
 // 工具方法
+const readPosts = require('../read/meta.json');
 const niceToolsPosts = require('../nice-tools/meta.json');
 const uiPosts = require('../ui/meta.json');
 const umlPosts = require('../uml/meta.json');
@@ -74,6 +75,7 @@ module.exports = {
   // 架构
   architectureSidebar: resolveSidebar(architecturePosts),
   // 工具方法
+  readSidebar: resolveSidebar(readPosts),
   niceToolsSidebar: resolveSidebar(niceToolsPosts),
   uiSidebar: resolveSidebar(uiPosts),
   umlSidebar: resolveSidebar(umlPosts),

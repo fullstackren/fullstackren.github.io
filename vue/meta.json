@@ -5,5 +5,12 @@
     "path": "vue-template-compiler",
     "description": "模板预编译",
     "category": "资源列表"
+  },
+  {
+    "title": "单应用多页签",
+    "sideTitle": "单应用多页签",
+    "path": "spa-mul-tabs",
+    "description": "单应用多页签",
+    "category": "项目"
   }
 ]

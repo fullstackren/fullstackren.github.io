@@ -7,11 +7,24 @@
     "category": "架构"
   },
   {
+    "title": "开发者工具",
+    "sideTitle": "开发者工具",
+    "path": "devtools",
+    "description": "开发者工具",
+    "category": "Chrome DevTools"
+  },
+  {
     "title": "缓存",
     "sideTitle": "缓存",
     "path": "cache",
     "description": "缓存",
     "category": "性能"
+  },
+  {
+    "title": "FPS",
+    "sideTitle": "FPS",
+    "path": "fps",
+    "description": "FPS"
   },
   {
     "title": "内存概述",
