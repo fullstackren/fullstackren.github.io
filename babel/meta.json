@@ -1,0 +1,33 @@
+[
+  {
+    "title": "配置",
+    "sideTitle": "配置",
+    "path": "option",
+    "description": "配置",
+    "category": "官网解读"
+  },
+  {
+    "title": "预设",
+    "sideTitle": "预设",
+    "path": "preset",
+    "description": "预设"
+  },
+  {
+    "title": "杂项",
+    "sideTitle": "杂项",
+    "path": "miscellaneous",
+    "description": "杂项"
+  },
+  {
+    "title": "集成包",
+    "sideTitle": "集成包",
+    "path": "integration-package",
+    "description": "集成包"
+  },
+  {
+    "title": "工具包",
+    "sideTitle": "工具包",
+    "path": "tool-package",
+    "description": "工具包"
+  }
+]

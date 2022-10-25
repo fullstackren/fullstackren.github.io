@@ -1,6 +1,7 @@
 // 初心
 const chuxinPosts = require('../chuxin/meta.json');
 // 技术栈
+const babelPosts = require('../babel/meta.json');
 const htmlPosts = require('../html/meta.json');
 const cssPosts = require('../css/meta.json');
 const javascriptPosts = require('../javascript/meta.json');
@@ -59,6 +60,7 @@ module.exports = {
   // 初心
   chuxinSidebar: resolveSidebar(chuxinPosts),
   // 技术栈
+  babelSidebar: resolveSidebar(babelPosts),
   htmlSidebar: resolveSidebar(htmlPosts),
   cssSidebar: resolveSidebar(cssPosts),
   javascriptSidebar: resolveSidebar(javascriptPosts),
