@@ -27,6 +27,7 @@ const {
   gitSidebar,
   designPatternsSidebar,
   studyAssetsSidebar,
+  examinationSidebar,
   manageSidebar,
   abstractSidebar,
   conceptSidebar,
@@ -107,7 +108,8 @@ module.exports = {
         text: '资源', items: [
           { text: '阅读', link: '/read/'},
           { text: '好用工具', link: '/nice-tools/'},
-          { text: '学习资源', link: '/study-assets/'}
+          { text: '学习资源', link: '/study-assets/'},
+          { text: '备考', link: '/examination/'},
         ]
       },
       {
@@ -143,6 +145,7 @@ module.exports = {
       '/git/': gitSidebar,
       '/design-patterns/': designPatternsSidebar,
       '/study-assets/': studyAssetsSidebar,
+      '/examination/': examinationSidebar,
       '/manage/': manageSidebar,
       '/abstract/': abstractSidebar,
       '/concept/': conceptSidebar,
