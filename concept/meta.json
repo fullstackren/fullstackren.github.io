@@ -1,5 +1,12 @@
 [
   {
+    "title": "Portal",
+    "sideTitle": "Portal",
+    "path": "portal",
+    "description": "Portal",
+    "category": "应用程序"
+  },
+  {
     "title": "心跳",
     "sideTitle": "心跳",
     "path": "heartbeat",
