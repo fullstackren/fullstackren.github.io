@@ -27,7 +27,8 @@ const {
   gitSidebar,
   designPatternsSidebar,
   studyAssetsSidebar,
-  examinationSidebar,
+  securityLawRegulationSidebar,
+  pmpSidebar,
   manageSidebar,
   abstractSidebar,
   conceptSidebar,
@@ -109,7 +110,8 @@ module.exports = {
           { text: '阅读', link: '/read/'},
           { text: '好用工具', link: '/nice-tools/'},
           { text: '学习资源', link: '/study-assets/'},
-          { text: '备考', link: '/examination/'},
+          { text: '证券法律法规', link: '/security-law-regulation/'},
+          { text: 'PMP', link: '/pmp/'}
         ]
       },
       {
@@ -145,7 +147,8 @@ module.exports = {
       '/git/': gitSidebar,
       '/design-patterns/': designPatternsSidebar,
       '/study-assets/': studyAssetsSidebar,
-      '/examination/': examinationSidebar,
+      '/security-law-regulation/': securityLawRegulationSidebar,
+      '/pmp/': pmpSidebar,
       '/manage/': manageSidebar,
       '/abstract/': abstractSidebar,
       '/concept/': conceptSidebar,

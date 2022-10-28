@@ -25,7 +25,9 @@ const umlPosts = require('../uml/meta.json');
 const gitPosts = require('../git/meta.json');
 const designPatternsPosts = require('../design-patterns/meta.json');
 const studyAssetsPosts = require('../study-assets/meta.json');
-const examinationPosts = require('../examination/meta.json');
+// 证券法律法规
+const securityLawRegulationPosts = require('../security-law-regulation/meta.json');
+const pmpPosts = require('../pmp/meta.json');
 const managePosts = require('../manage/meta.json');
 const abstractPosts = require('../abstract/meta.json');
 const conceptPosts = require('../concept/meta.json');
@@ -85,7 +87,8 @@ module.exports = {
   gitSidebar: resolveSidebar(gitPosts),
   designPatternsSidebar: resolveSidebar(designPatternsPosts),
   studyAssetsSidebar: resolveSidebar(studyAssetsPosts),
-  examinationSidebar: resolveSidebar(examinationPosts),
+  securityLawRegulationSidebar: resolveSidebar(securityLawRegulationPosts),
+  pmpSidebar: resolveSidebar(pmpPosts),
   manageSidebar: resolveSidebar(managePosts),
   abstractSidebar: resolveSidebar(abstractPosts),
   conceptSidebar: resolveSidebar(conceptPosts),
