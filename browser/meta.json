@@ -1,42 +1,51 @@
 [
   {
-    "title": "浏览器架构",
-    "sideTitle": "浏览器架构",
-    "path": "architecture",
-    "description": "浏览器架构",
-    "category": "架构"
-  },
-  {
-    "title": "开发者工具",
-    "sideTitle": "开发者工具",
-    "path": "devtools",
-    "description": "开发者工具",
-    "category": "Chrome DevTools"
-  },
-  {
     "title": "缓存",
     "sideTitle": "缓存",
     "path": "cache",
     "description": "缓存",
-    "category": "性能"
+    "category": "浏览器"
   },
   {
     "title": "FPS",
     "sideTitle": "FPS",
-    "path": "fps",
-    "description": "FPS"
-  },
-  {
-    "title": "内存概述",
-    "sideTitle": "内存概述",
-    "path": "memory",
-    "description": "内存概述",
-    "category": "内存"
+    "path": "fps"
   },
   {
     "title": "内存泄漏",
     "sideTitle": "内存泄漏",
-    "path": "memory-leak",
-    "description": "内存泄漏"
+    "path": "memory-leak"
+  },
+  {
+    "title": "架构设计",
+    "sideTitle": "架构设计",
+    "path": "architecture",
+    "description": "架构设计",
+    "category": "Chrome"
+  },
+  {
+    "title": "概述",
+    "sideTitle": "概述",
+    "path": "chrome-devtools-introduce",
+    "description": "概述",
+    "category": "Chrome DevTools"
+  },
+  {
+    "title": "Performance Panel",
+    "sideTitle": "Performance Panel",
+    "path": "chrome-devtools-performance-panel",
+    "description": "Performance Panel"
+  },
+  {
+    "title": "Memory Panel",
+    "sideTitle": "Memory Panel",
+    "path": "chrome-devtools-memory-panel",
+    "description": "Memory Panel"
+  },
+  {
+    "title": "Network Panel",
+    "sideTitle": "Network Panel",
+    "path": "chrome-devtools-network-panel",
+    "description": "Network Panel"
   }
 ]

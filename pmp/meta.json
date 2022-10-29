@@ -5,5 +5,12 @@
     "path": "shiwu-zhizuntu",
     "description": "十五至尊图",
     "category": "基础"
+  },
+  {
+    "title": "挣值管理",
+    "sideTitle": "挣值管理",
+    "path": "earn-manage",
+    "description": "挣值管理",
+    "category": "第七章 项目成本管理"
   }
 ]
