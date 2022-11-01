@@ -7,6 +7,12 @@
     "category": "浏览器"
   },
   {
+    "title": "垃圾回收",
+    "sideTitle": "垃圾回收",
+    "path": "collect-garbage",
+    "description": "垃圾回收"
+  },
+  {
     "title": "FPS",
     "sideTitle": "FPS",
     "path": "fps"

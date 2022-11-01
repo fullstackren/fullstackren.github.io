@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <script>
+    let arr = [1, 0, 1]   // [1, 0, 1]这块内存被arr引用  引用次数为1
+    arr = [0, 1, 0]  // [1, 0, 1]的内存引用次数为0被释放  
+    // [0, 1, 0]的内存被arr引用   引用次数为1
+    const tmp = arr  // [0, 1, 0]的内存被tmp引用   引用次数为2
+  </script>
+</body>
+
+</html>

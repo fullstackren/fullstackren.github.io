@@ -13,5 +13,6 @@
   - 比如在 Vue 项目中引入第三方库的示例：避免内存泄漏
   - 比如一些音视频的播放器，在不使用时，要及时的 destory 而非简单的移除其 DOM 元素
 
-## 垃圾回收机制
+## 如何检测内存泄漏
 
+- Chrome DevTools Performance Panel 概览 Heap 查看线性走势图。
