@@ -1,5 +1,5 @@
-// 初心
-const chuxinPosts = require('../chuxin/meta.json');
+// 话题
+const topicPosts = require('../topic/meta.json');
 // 技术栈
 const babelPosts = require('../babel/meta.json');
 const htmlPosts = require('../html/meta.json');
@@ -27,6 +27,7 @@ const designPatternsPosts = require('../design-patterns/meta.json');
 const studyAssetsPosts = require('../study-assets/meta.json');
 // 证券法律法规
 const securityLawRegulationPosts = require('../security-law-regulation/meta.json');
+const financialMarketBasicsPosts = require('../financial-market-basics/meta.json');
 const pmpPosts = require('../pmp/meta.json');
 const managePosts = require('../manage/meta.json');
 const abstractPosts = require('../abstract/meta.json');
@@ -60,8 +61,8 @@ const resolveSidebar = (posts) => {
 }
 
 module.exports = {
-  // 初心
-  chuxinSidebar: resolveSidebar(chuxinPosts),
+  // 话题
+  topicSidebar: resolveSidebar(topicPosts),
   // 技术栈
   babelSidebar: resolveSidebar(babelPosts),
   htmlSidebar: resolveSidebar(htmlPosts),
@@ -88,6 +89,7 @@ module.exports = {
   designPatternsSidebar: resolveSidebar(designPatternsPosts),
   studyAssetsSidebar: resolveSidebar(studyAssetsPosts),
   securityLawRegulationSidebar: resolveSidebar(securityLawRegulationPosts),
+  financialMarketBasicsSidebar: resolveSidebar(financialMarketBasicsPosts),
   pmpSidebar: resolveSidebar(pmpPosts),
   manageSidebar: resolveSidebar(managePosts),
   abstractSidebar: resolveSidebar(abstractPosts),

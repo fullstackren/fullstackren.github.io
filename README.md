@@ -2,7 +2,7 @@
 
 这里主要记录我的生活和工作中的一些**总结**和**体会**。**目的**一是为了帮助自己复盘能时查看，二是希望也能够帮到同行小伙伴。
 
-- **[初心](https://www.fullstack.ren/chuxin/)**，记录如何做分享过程和策略。
+- **[话题](https://www.fullstack.ren/topic/)**，记录如何一些关注话题。
 - **[技术栈](https://www.fullstack.ren/html/)**，记录技术学习过程，包含前后端入门和进阶知识，使用 Github 管理。
 - **[知识体系](https://www.fullstack.ren/frontend-engineering/)**，记录针对所学技术形成体系化。
 - **[架构](https://www.fullstack.ren/architecture/)**，记录做前后端方案的典型架构设计。

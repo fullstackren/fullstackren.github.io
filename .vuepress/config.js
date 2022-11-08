@@ -1,7 +1,7 @@
 const path = require('path');
 const {
-  // 初心
-  chuxinSidebar,
+  // 话题
+  topicSidebar,
   // 技术栈
   babelSidebar,
   cssSidebar,
@@ -28,6 +28,7 @@ const {
   designPatternsSidebar,
   studyAssetsSidebar,
   securityLawRegulationSidebar,
+  financialMarketBasicsSidebar,
   pmpSidebar,
   manageSidebar,
   abstractSidebar,
@@ -71,7 +72,7 @@ module.exports = {
     sidebarDepth: 1,
     nav: [
       { text: '主页', link: '/' },
-      { text: '初心', link: '/chuxin/' },
+      { text: '话题', link: '/topic/' },
       {
         text: '技术栈', items: [
           { text: 'HTML', link: '/html/'},
@@ -111,6 +112,8 @@ module.exports = {
           { text: '好用工具', link: '/nice-tools/'},
           { text: '学习资源', link: '/study-assets/'},
           { text: '证券法律法规', link: '/security-law-regulation/'},
+          { text: '金融市场基础', link: '/financial-market-basics/'},
+          
           { text: 'PMP', link: '/pmp/'}
         ]
       },
@@ -120,8 +123,8 @@ module.exports = {
     ],
     // 侧边栏
     sidebar: {
-      // 初心
-      '/chuxin/': chuxinSidebar,
+      // 话题
+      '/topic/': topicSidebar,
       // 技术栈
       '/babel/': babelSidebar,
       '/css/': cssSidebar,
@@ -148,6 +151,7 @@ module.exports = {
       '/design-patterns/': designPatternsSidebar,
       '/study-assets/': studyAssetsSidebar,
       '/security-law-regulation/': securityLawRegulationSidebar,
+      '/financial-market-basics/': financialMarketBasicsSidebar,
       '/pmp/': pmpSidebar,
       '/manage/': manageSidebar,
       '/abstract/': abstractSidebar,
