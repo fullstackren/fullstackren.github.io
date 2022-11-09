@@ -4,13 +4,19 @@
     "sideTitle": "打算怎么做",
     "path": "how",
     "description": "打算怎么做",
-    "category": "初心"
+    "category": "职场篇"
   },
   {
     "title": "裁员",
     "sideTitle": "裁员",
     "path": "lay-off",
-    "description": "裁员",
-    "category": "职场"
+    "description": "裁员"
+  },
+  {
+    "title": "面对焦虑",
+    "sideTitle": "面对焦虑",
+    "path": "anxious",
+    "description": "面对焦虑",
+    "category": "人生篇"
   }
 ]

@@ -113,7 +113,6 @@ module.exports = {
           { text: '学习资源', link: '/study-assets/'},
           { text: '证券法律法规', link: '/security-law-regulation/'},
           { text: '金融市场基础', link: '/financial-market-basics/'},
-          
           { text: 'PMP', link: '/pmp/'}
         ]
       },
