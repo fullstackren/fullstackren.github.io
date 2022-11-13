@@ -27,11 +27,18 @@
     "category": "运动"
   },
   {
+    "title": "周杰伦",
+    "sideTitle": "周杰伦",
+    "path": "person-jay",
+    "description": "周杰伦",
+    "category": "音乐"
+  },
+  {
     "title": "俞敏洪",
     "sideTitle": "俞敏洪",
     "path": "person-yuminhong",
     "description": "俞敏洪",
-    "category": "人物"
+    "category": "企业"
   },
   {
     "title": "马云",
