@@ -43,5 +43,24 @@
     "sideTitle": "code review",
     "path": "code-review",
     "description": "code review"
+  },
+  {
+    "title": "提问的智慧",
+    "sideTitle": "提问的智慧",
+    "path": "how-to-ask-question",
+    "description": "提问的智慧"
+  },
+  {
+    "title": "memlab",
+    "sideTitle": "memlab",
+    "path": "memlab",
+    "description": "memlab",
+    "category": "工具集"
+  },
+  {
+    "title": "OSS Insight",
+    "sideTitle": "OSS Insight",
+    "path": "oss-insight",
+    "description": "OSS Insight"
   }
 ]

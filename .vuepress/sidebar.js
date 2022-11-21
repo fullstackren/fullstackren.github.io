@@ -8,9 +8,11 @@ const javascriptPosts = require('../javascript/meta.json');
 const nodejsPosts = require('../nodejs/meta.json');
 const npmPosts = require('../npm/meta.json');
 const vuePosts = require('../vue/meta.json');
+const pythonPosts = require('../python/meta.json');
 const reactPosts = require('../react/meta.json');
 const linuxPosts = require('../linux/meta.json');
 const tauriPosts = require('../tauri/meta.json');
+const typescriptPosts = require('../typescript/meta.json');
 // 实战体系
 const frontendEngineeringPosts = require('../frontend-engineering/meta.json');
 const microFrontendsPosts = require('../micro-frontends/meta.json');
@@ -73,7 +75,9 @@ module.exports = {
   vueSidebar: resolveSidebar(vuePosts),
   reactSidebar: resolveSidebar(reactPosts),
   linuxSidebar: resolveSidebar(linuxPosts),
+  pythonSidebar: resolveSidebar(pythonPosts),
   tauriSidebar: resolveSidebar(tauriPosts),
+  typescriptSidebar: resolveSidebar(typescriptPosts),
   // 知识体系
   frontendEngineeringSidebar: resolveSidebar(frontendEngineeringPosts),
   microFrontendsSidebar: resolveSidebar(microFrontendsPosts),

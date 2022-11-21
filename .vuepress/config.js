@@ -10,8 +10,10 @@ const {
   linuxSidebar,
   npmSidebar,
   nodejsSidebar,
+  pythonSidebar,
   reactSidebar,
   tauriSidebar,
+  typescriptSidebar,
   vueSidebar,
   // 知识体系
   frontendEngineeringSidebar,
@@ -75,16 +77,18 @@ module.exports = {
       { text: '话题', link: '/topic/' },
       {
         text: '技术栈', items: [
-          { text: 'HTML', link: '/html/'},
+          { text: 'Babel', link: '/babel/'},
           { text: 'CSS', link: '/css/'},
+          { text: 'HTML', link: '/html/'},
           { text: 'Javascript', link: '/javascript/'},
+          { text: 'Linux', link: '/linux/' },
           { text: 'Nodejs', link: '/nodejs/'},
           { text: 'Npm', link: '/npm/'},
-          { text: 'Vue', link: '/vue/'},
+          { text: 'Python', link: '/python/' },
           { text: 'React', link: '/react/'},
-          { text: 'Babel', link: '/babel/'},
-          { text: 'Linux', link: '/linux/' },
           { text: 'Tauri', link: '/tauri/'},
+          { text: 'TypeScript', link: '/typescript/'},
+          { text: 'Vue', link: '/vue/'},
         ]
       },
       {
@@ -132,8 +136,10 @@ module.exports = {
       '/linux/': linuxSidebar,
       '/npm/': npmSidebar,
       '/nodejs/': nodejsSidebar,
+      '/python/': pythonSidebar,
       '/react/': reactSidebar,
       '/tauri/': tauriSidebar,
+      '/typescript/': typescriptSidebar,
       '/vue/': vueSidebar,
       // 知识体系
       '/frontend-engineering/': frontendEngineeringSidebar,
