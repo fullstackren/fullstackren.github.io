@@ -10,6 +10,7 @@ const npmPosts = require('../npm/meta.json');
 const vuePosts = require('../vue/meta.json');
 const pythonPosts = require('../python/meta.json');
 const reactPosts = require('../react/meta.json');
+const rustPosts = require('../rust/meta.json');
 const linuxPosts = require('../linux/meta.json');
 const tauriPosts = require('../tauri/meta.json');
 const typescriptPosts = require('../typescript/meta.json');
@@ -74,6 +75,7 @@ module.exports = {
   npmSidebar: resolveSidebar(npmPosts),
   vueSidebar: resolveSidebar(vuePosts),
   reactSidebar: resolveSidebar(reactPosts),
+  rustSidebar: resolveSidebar(rustPosts),
   linuxSidebar: resolveSidebar(linuxPosts),
   pythonSidebar: resolveSidebar(pythonPosts),
   tauriSidebar: resolveSidebar(tauriPosts),

@@ -1,6 +1,6 @@
 # 优质博客
 
-- [阮一峰的网络日志](https://github.com/ruanyf/weekly)（已阅：217~222）
+- [阮一峰的网络日志](https://github.com/ruanyf/weekly)（已阅：217~223）
 - [廖雪峰的官方网站](https://www.liaoxuefeng.com/)
 - [山月行](https://shanyue.tech/)
 - [SethGoldin](https://goldin.io/)

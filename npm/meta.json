@@ -5,5 +5,12 @@
     "path": "npm-install",
     "description": "npm install 原理分析",
     "category": "原理分析"
+  },
+  {
+    "title": "npm 版本管理规范",
+    "sideTitle": "npm 版本管理规范",
+    "path": "version-management-specification",
+    "description": "npm 版本管理规范",
+    "category": "包管理"
   }
 ]
