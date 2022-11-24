@@ -1,7 +1,7 @@
 {
   "name": "fullstackren",
   "scripts": {
-    "start": "vuepress dev",
+    "start": "vuepress dev -p 2022",
     "build": "vuepress build"
   },
   "repository": {

@@ -35,7 +35,7 @@ const financialMarketBasicsPosts = require('../financial-market-basics/meta.json
 const pmpPosts = require('../pmp/meta.json');
 const managePosts = require('../manage/meta.json');
 const abstractPosts = require('../abstract/meta.json');
-const conceptPosts = require('../concept/meta.json');
+const baseKnowledgePosts = require('../base-knowledge/meta.json');
 // 看世界
 const worldPosts = require('../world/meta.json');
 
@@ -101,7 +101,7 @@ module.exports = {
   pmpSidebar: resolveSidebar(pmpPosts),
   manageSidebar: resolveSidebar(managePosts),
   abstractSidebar: resolveSidebar(abstractPosts),
-  conceptSidebar: resolveSidebar(conceptPosts),
+  baseKnowledgeSidebar: resolveSidebar(baseKnowledgePosts),
   // 看世界
   worldSidebar: resolveSidebar(worldPosts),
 }

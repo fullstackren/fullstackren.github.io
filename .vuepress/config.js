@@ -36,7 +36,7 @@ const {
   pmpSidebar,
   manageSidebar,
   abstractSidebar,
-  conceptSidebar,
+  baseKnowledgeSidebar,
   // 看世界
   worldSidebar
 } = require('./sidebar');
@@ -98,6 +98,7 @@ module.exports = {
       {
         text: '知识体系', items: [
           { text: '架构', link: '/architecture/' },
+          { text: '基础知识', link: '/base-knowledge/'},
           { text: '前端工程化', link: '/frontend-engineering/' },
           { text: '微前端', link: '/micro-frontends/'},
           { text: '浏览器', link: '/browser/'},
@@ -106,8 +107,7 @@ module.exports = {
           { text: 'Git 使用', link: '/git/'},
           { text: '设计模式', link: '/design-patterns/'},
           { text: '管理', link: '/manage/'},
-          { text: '文摘', link: '/abstract/'},
-          { text: '互联网概念', link: '/concept/'},
+          { text: '文摘', link: '/abstract/'}
         ]
       },
       {
@@ -145,6 +145,7 @@ module.exports = {
       '/vue3/': vue3Sidebar,
       // 知识体系
       '/architecture/': architectureSidebar,
+      '/base-knowledge/': baseKnowledgeSidebar,
       '/frontend-engineering/': frontendEngineeringSidebar,
       '/micro-frontends/': microFrontendsSidebar,
       '/browser/': browserSidebar,
@@ -161,7 +162,6 @@ module.exports = {
       '/pmp/': pmpSidebar,
       '/manage/': manageSidebar,
       '/abstract/': abstractSidebar,
-      '/concept/': conceptSidebar,
       // 看世界
       '/world/': worldSidebar
     }
