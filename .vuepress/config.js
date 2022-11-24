@@ -16,6 +16,7 @@ const {
   tauriSidebar,
   typescriptSidebar,
   vueSidebar,
+  vue3Sidebar,
   // 知识体系
   frontendEngineeringSidebar,
   microFrontendsSidebar,
@@ -91,6 +92,7 @@ module.exports = {
           { text: 'Tauri', link: '/tauri/'},
           { text: 'TypeScript', link: '/typescript/'},
           { text: 'Vue', link: '/vue/'},
+          { text: 'Vue3', link: '/vue3/'},
         ]
       },
       {
@@ -144,6 +146,7 @@ module.exports = {
       '/tauri/': tauriSidebar,
       '/typescript/': typescriptSidebar,
       '/vue/': vueSidebar,
+      '/vue3/': vue3Sidebar,
       // 知识体系
       '/frontend-engineering/': frontendEngineeringSidebar,
       '/micro-frontends/': microFrontendsSidebar,

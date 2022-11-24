@@ -5,5 +5,12 @@
     "path": "effective-typescript",
     "description": "如何提高 TypeScript 编译速度",
     "category": "性能"
+  },
+  {
+    "title": "全文搜索引擎",
+    "sideTitle": "全文搜索引擎",
+    "path": "effective-typescript",
+    "description": "全文搜索引擎",
+    "category": "应用"
   }
 ]

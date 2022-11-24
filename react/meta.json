@@ -1,9 +1,9 @@
 [
   {
-    "title": "第一天",
-    "sideTitle": "第一天",
-    "path": "day1",
-    "description": "第一天",
-    "category": "基础"
+    "title": "React 的重新渲染（译文）",
+    "sideTitle": "React 的重新渲染（译文）",
+    "path": "why-react-re-renders",
+    "description": "React 的重新渲染（译文）",
+    "category": "机制"
   }
 ]

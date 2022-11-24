@@ -53,5 +53,12 @@
     "sideTitle": "Network Panel",
     "path": "chrome-devtools-network-panel",
     "description": "Network Panel"
+  },
+  {
+    "title": "浏览器插件",
+    "sideTitle": "浏览器插件",
+    "path": "chrome-extension",
+    "description": "浏览器插件",
+    "category": "插件"
   }
 ]

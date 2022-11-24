@@ -21,7 +21,7 @@
   {
     "title": "优质博客",
     "sideTitle": "优质博客",
-    "path": "blogs",
+    "path": "blog",
     "description": "优质博客"
   },
   {
@@ -32,11 +32,10 @@
     "category": "视频类"
   },
   {
-    "title": "如何学习一门新语言",
-    "sideTitle": "如何学习一门新语言",
-    "path": "how-to-study-new-language",
-    "description": "如何学习一门新语言",
-    "category": "总结类"
+    "title": "写出清晰代码的六条规则（译文）",
+    "sideTitle": "写出清晰代码的六条规则（译文）",
+    "path": "avoid-spaghetti-code-with-scope-minimizatio",
+    "description": "写出清晰代码的六条规则（译文）"
   },
   {
     "title": "code review",
