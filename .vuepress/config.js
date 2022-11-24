@@ -97,6 +97,7 @@ module.exports = {
       },
       {
         text: '知识体系', items: [
+          { text: '架构', link: '/architecture/' },
           { text: '前端工程化', link: '/frontend-engineering/' },
           { text: '微前端', link: '/micro-frontends/'},
           { text: '浏览器', link: '/browser/'},
@@ -108,11 +109,6 @@ module.exports = {
           { text: '文摘', link: '/abstract/'},
           { text: '互联网概念', link: '/concept/'},
         ]
-      },
-      // 开源
-      // 最佳实践
-      {
-        text: '架构', link: '/architecture/'
       },
       {
         text: '资源', items: [
@@ -148,11 +144,10 @@ module.exports = {
       '/vue/': vueSidebar,
       '/vue3/': vue3Sidebar,
       // 知识体系
+      '/architecture/': architectureSidebar,
       '/frontend-engineering/': frontendEngineeringSidebar,
       '/micro-frontends/': microFrontendsSidebar,
       '/browser/': browserSidebar,
-      // 架构
-      '/architecture/': architectureSidebar,
       // 工具方法
       '/read/': readSidebar,
       '/nice-tools/': niceToolsSidebar,

@@ -1,5 +1,12 @@
 [
   {
+    "title": "前端工程化",
+    "sideTitle": "前端工程化",
+    "path": "frontend-engineer",
+    "description": "前端工程化",
+    "category": "前端篇"
+  },
+  {
     "title": "打算怎么做",
     "sideTitle": "打算怎么做",
     "path": "how",
@@ -16,7 +23,6 @@
     "title": "面对焦虑",
     "sideTitle": "面对焦虑",
     "path": "anxious",
-    "description": "面对焦虑",
-    "category": "人生篇"
+    "description": "面对焦虑"
   }
 ]
