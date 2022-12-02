@@ -14,10 +14,16 @@
     "category": "调试部分"
   },
   {
-    "title": "nodejs",
+    "title": "bun",
     "sideTitle": "bun",
     "path": "bun",
     "description": "bun",
     "category": "社区事"
+  },
+  {
+    "title": "常见问题",
+    "sideTitle": "常见问题",
+    "path": "faq",
+    "description": "常见问题"
   }
 ]

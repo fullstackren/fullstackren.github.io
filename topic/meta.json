@@ -4,7 +4,13 @@
     "sideTitle": "前端工程化",
     "path": "frontend-engineer",
     "description": "前端工程化",
-    "category": "前端篇"
+    "category": "技术篇"
+  },
+  {
+    "title": "跨端",
+    "sideTitle": "跨端",
+    "path": "cross-end",
+    "description": "跨端"
   },
   {
     "title": "打算怎么做",

@@ -1,41 +1,29 @@
 [
   {
-    "title": "优质论坛",
-    "sideTitle": "优质论坛",
-    "path": "forum",
-    "description": "优质论坛",
-    "category": "文档类"
+    "title": "博客论坛",
+    "sideTitle": "博客论坛",
+    "path": "blog-forum.md",
+    "description": "博客论坛",
+    "category": "站点类"
   },
   {
-    "title": "拉钩教育",
-    "sideTitle": "拉钩教育",
-    "path": "site-lagou",
-    "description": "拉钩教育"
+    "title": "项目篇",
+    "sideTitle": "项目篇",
+    "path": "project",
+    "description": "项目篇"
   },
   {
-    "title": "优质项目",
-    "sideTitle": "优质项目",
-    "path": "skills",
-    "description": "优质项目"
+    "title": "技术栈篇",
+    "sideTitle": "技术栈篇",
+    "path": "tech",
+    "description": "技术栈篇"
   },
   {
-    "title": "优质博客",
-    "sideTitle": "优质博客",
-    "path": "blog",
-    "description": "优质博客"
-  },
-  {
-    "title": "极客时间",
-    "sideTitle": "极客时间",
-    "path": "video-time-geekbang",
-    "description": "极客时间",
-    "category": "视频类"
-  },
-  {
-    "title": "写出清晰代码的六条规则（译文）",
-    "sideTitle": "写出清晰代码的六条规则（译文）",
-    "path": "avoid-spaghetti-code-with-scope-minimizatio",
-    "description": "写出清晰代码的六条规则（译文）"
+    "title": "代码篇",
+    "sideTitle": "代码篇",
+    "path": "code",
+    "description": "代码篇",
+    "category": "文章类"
   },
   {
     "title": "code review",
@@ -50,11 +38,17 @@
     "description": "提问的智慧"
   },
   {
+    "title": "应用篇",
+    "sideTitle": "应用篇",
+    "path": "tool-app",
+    "description": "应用篇",
+    "category": "工具类"
+  },
+  {
     "title": "memlab",
     "sideTitle": "memlab",
     "path": "memlab",
-    "description": "memlab",
-    "category": "工具集"
+    "description": "memlab"
   },
   {
     "title": "OSS Insight",

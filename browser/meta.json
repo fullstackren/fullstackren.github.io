@@ -60,5 +60,12 @@
     "path": "chrome-extension",
     "description": "浏览器插件",
     "category": "插件"
+  },
+  {
+    "title": "浏览器插件",
+    "sideTitle": "浏览器插件",
+    "path": "chrome-extension",
+    "description": "浏览器插件",
+    "category": "指标"
   }
 ]

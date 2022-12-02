@@ -4,13 +4,13 @@
     "sideTitle": "如何提高 TypeScript 编译速度",
     "path": "effective-typescript",
     "description": "如何提高 TypeScript 编译速度",
-    "category": "性能"
+    "category": "使用类"
   },
   {
-    "title": "全文搜索引擎",
-    "sideTitle": "全文搜索引擎",
-    "path": "lyra",
-    "description": "全文搜索引擎",
-    "category": "应用"
+    "title": "项目",
+    "sideTitle": "项目",
+    "path": "project",
+    "description": "项目",
+    "category": "推荐类"
   }
 ]

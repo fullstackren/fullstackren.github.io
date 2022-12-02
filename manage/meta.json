@@ -37,5 +37,12 @@
     "path": "upward-management",
     "description": "怎么做向上管理",
     "category": "向上管理"
+  },
+  {
+    "title": "面试",
+    "sideTitle": "面试",
+    "path": "interview",
+    "description": "面试",
+    "category": "其他"
   }
 ]

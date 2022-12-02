@@ -14,6 +14,7 @@
 - [你不知道的 Rust](https://zhuanlan.zhihu.com/p/552743024)
 - [Rust的前景怎么样？值不值的学—Rust对比、特色和理念](https://zhuanlan.zhihu.com/p/408250427)
 - [前端视角的 Rust 优秀设计学习](https://zhuanlan.zhihu.com/p/481771949)
+- [现在在前端领域基于 Rust 的工具链未来有前途吗？](https://www.zhihu.com/question/481072723/answer/2227015775)
 
 ## 教程
 
