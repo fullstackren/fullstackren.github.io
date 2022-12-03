@@ -38,22 +38,34 @@
     "description": "提问的智慧"
   },
   {
-    "title": "应用篇",
-    "sideTitle": "应用篇",
-    "path": "tool-app",
-    "description": "应用篇",
-    "category": "工具类"
+    "title": "解决方案篇",
+    "sideTitle": "解决方案篇",
+    "path": "soluton",
+    "description": "解决方案篇"
   },
   {
-    "title": "memlab",
-    "sideTitle": "memlab",
-    "path": "memlab",
-    "description": "memlab"
+    "title": "工具篇",
+    "sideTitle": "工具篇",
+    "path": "tool",
+    "description": "工具篇",
+    "category": "应用类"
   },
   {
-    "title": "OSS Insight",
-    "sideTitle": "OSS Insight",
-    "path": "oss-insight",
-    "description": "OSS Insight"
+    "title": "图片篇",
+    "sideTitle": "图片篇",
+    "path": "picture",
+    "description": "图片篇"
+  },
+  {
+    "title": "声音篇",
+    "sideTitle": "声音篇",
+    "path": "voice",
+    "description": "声音篇"
+  },
+  {
+    "title": "视频篇",
+    "sideTitle": "视频篇",
+    "path": "video",
+    "description": "视频篇"
   }
 ]

@@ -3,6 +3,7 @@
 ## 在线画图
 
 - [youidraw](https://www.youidraw.com/apps/painter/)
+
 ## AI 换背景
 
 > 官网：https://bgsub.cn/
@@ -53,3 +54,7 @@
 - [Emojimix](https://tikolu.net/emojimix/)
 - [Emoji Supply](https://emoji.supply/kitchen/)
 - [Emoji 壁纸工具](https://emoji.supply/wallpaper/?pattern=foam&order=random&emoji=%25F0%259F%258D%258C%25F0%259F%258D%2593%25F0%259F%258D%258A%25F0%259F%258D%2587&texture=gradient&color=%23ffe7bd&scale=1.0)，可以选择 Emoji 符号，生成壁纸。
+
+## 图片资源
+
+- [托尔金的插画](https://www.tolkienestate.com/painting/)，该网站首次公开了托尔金本人画的一些插图，让我们了解作者自己想象中的中土世界。

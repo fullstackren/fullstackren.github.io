@@ -4,7 +4,7 @@
     "sideTitle": "文档资料",
     "path": "docs",
     "description": "文档资料",
-    "category": "学习资源"
+    "category": "文档类"
   },
   {
     "title": "调试 Nodejs",
@@ -18,7 +18,13 @@
     "sideTitle": "bun",
     "path": "bun",
     "description": "bun",
-    "category": "社区事"
+    "category": "社区类"
+  },
+  {
+    "title": "应用篇",
+    "sideTitle": "应用篇",
+    "path": "app",
+    "description": "应用篇"
   },
   {
     "title": "常见问题",

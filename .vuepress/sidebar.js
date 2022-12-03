@@ -1,8 +1,10 @@
 // 话题
 const topicPosts = require('../topic/meta.json');
 // 技术栈
+const aiPosts = require('../ai/meta.json');
 const babelPosts = require('../babel/meta.json');
 const htmlPosts = require('../html/meta.json');
+const cPosts = require('../c/meta.json');
 const cssPosts = require('../css/meta.json');
 const javascriptPosts = require('../javascript/meta.json');
 const nodejsPosts = require('../nodejs/meta.json');
@@ -23,18 +25,17 @@ const browserPosts = require('../browser/meta.json');
 const architecturePosts = require('../architecture/meta.json');
 // 工具方法
 const readPosts = require('../read/meta.json');
-const niceToolsPosts = require('../nice-tools/meta.json');
 const uiPosts = require('../ui/meta.json');
 const umlPosts = require('../uml/meta.json');
 const gitPosts = require('../git/meta.json');
 const designPatternsPosts = require('../design-patterns/meta.json');
-const studyAssetsPosts = require('../study-assets/meta.json');
+const assetsPosts = require('../assets/meta.json');
 // 证券法律法规
 const securityLawRegulationPosts = require('../security-law-regulation/meta.json');
 const financialMarketBasicsPosts = require('../financial-market-basics/meta.json');
 const pmpPosts = require('../pmp/meta.json');
 const managePosts = require('../manage/meta.json');
-const abstractPosts = require('../abstract/meta.json');
+const articlePosts = require('../article/meta.json');
 const baseKnowledgePosts = require('../base-knowledge/meta.json');
 // 看世界
 const worldPosts = require('../world/meta.json');
@@ -68,8 +69,10 @@ module.exports = {
   // 话题
   topicSidebar: resolveSidebar(topicPosts),
   // 技术栈
+  aiSidebar: resolveSidebar(aiPosts),
   babelSidebar: resolveSidebar(babelPosts),
   htmlSidebar: resolveSidebar(htmlPosts),
+  cSidebar: resolveSidebar(cPosts),
   cssSidebar: resolveSidebar(cssPosts),
   javascriptSidebar: resolveSidebar(javascriptPosts),
   nodejsSidebar: resolveSidebar(nodejsPosts),
@@ -90,17 +93,16 @@ module.exports = {
   architectureSidebar: resolveSidebar(architecturePosts),
   // 工具方法
   readSidebar: resolveSidebar(readPosts),
-  niceToolsSidebar: resolveSidebar(niceToolsPosts),
   uiSidebar: resolveSidebar(uiPosts),
   umlSidebar: resolveSidebar(umlPosts),
   gitSidebar: resolveSidebar(gitPosts),
   designPatternsSidebar: resolveSidebar(designPatternsPosts),
-  studyAssetsSidebar: resolveSidebar(studyAssetsPosts),
+  assetsSidebar: resolveSidebar(assetsPosts),
   securityLawRegulationSidebar: resolveSidebar(securityLawRegulationPosts),
   financialMarketBasicsSidebar: resolveSidebar(financialMarketBasicsPosts),
   pmpSidebar: resolveSidebar(pmpPosts),
   manageSidebar: resolveSidebar(managePosts),
-  abstractSidebar: resolveSidebar(abstractPosts),
+  articleSidebar: resolveSidebar(articlePosts),
   baseKnowledgeSidebar: resolveSidebar(baseKnowledgePosts),
   // 看世界
   worldSidebar: resolveSidebar(worldPosts),

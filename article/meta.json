@@ -18,7 +18,12 @@
     "path": "professional-programming-the-first-10-years",
     "description": "成为专业程序员10周年的感悟"
   },
-
+  {
+    "title": "可观察性的三大支柱",
+    "sideTitle": "可观察性的三大支柱",
+    "path": "three-pillars-of-observability",
+    "description": "可观察性的三大支柱"
+  },
   {
     "title": "如何成功",
     "sideTitle": "如何成功",

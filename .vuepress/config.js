@@ -3,7 +3,9 @@ const {
   // 话题
   topicSidebar,
   // 技术栈
+  aiSidebar,
   babelSidebar,
+  cSidebar,
   cssSidebar,
   htmlSidebar,
   javascriptSidebar,
@@ -25,17 +27,16 @@ const {
   architectureSidebar,
   // 工具方法
   readSidebar,
-  niceToolsSidebar,
   uiSidebar,
   umlSidebar,
   gitSidebar,
   designPatternsSidebar,
-  studyAssetsSidebar,
+  assetsSidebar,
   securityLawRegulationSidebar,
   financialMarketBasicsSidebar,
   pmpSidebar,
   manageSidebar,
-  abstractSidebar,
+  articleSidebar,
   baseKnowledgeSidebar,
   // 看世界
   worldSidebar
@@ -79,7 +80,9 @@ module.exports = {
       { text: '话题', link: '/topic/' },
       {
         text: '技术栈', items: [
+          { text: 'AI', link: '/ai/'},
           { text: 'Babel', link: '/babel/'},
+          { text: 'C', link: '/c/'},
           { text: 'CSS', link: '/css/'},
           { text: 'HTML', link: '/html/'},
           { text: 'Javascript', link: '/javascript/'},
@@ -107,14 +110,13 @@ module.exports = {
           { text: 'Git 使用', link: '/git/'},
           { text: '设计模式', link: '/design-patterns/'},
           { text: '管理', link: '/manage/'},
-          { text: '文摘', link: '/abstract/'}
+          { text: '文章', link: '/article/'}
         ]
       },
       {
         text: '资源', items: [
           { text: '阅读', link: '/read/'},
-          { text: '好用工具', link: '/nice-tools/'},
-          { text: '学习资源', link: '/study-assets/'},
+          { text: '资源', link: '/assets/'},
           { text: '证券法律法规', link: '/security-law-regulation/'},
           { text: '金融市场基础', link: '/financial-market-basics/'},
           { text: 'PMP', link: '/pmp/'}
@@ -129,7 +131,9 @@ module.exports = {
       // 话题
       '/topic/': topicSidebar,
       // 技术栈
+      '/ai/': aiSidebar,
       '/babel/': babelSidebar,
+      '/c/': cSidebar,
       '/css/': cssSidebar,
       '/html/': htmlSidebar,
       '/javascript/': javascriptSidebar,
@@ -151,17 +155,16 @@ module.exports = {
       '/browser/': browserSidebar,
       // 工具方法
       '/read/': readSidebar,
-      '/nice-tools/': niceToolsSidebar,
       '/ui/': uiSidebar,
       '/uml/': umlSidebar,
       '/git/': gitSidebar,
       '/design-patterns/': designPatternsSidebar,
-      '/study-assets/': studyAssetsSidebar,
+      '/assets/': assetsSidebar,
       '/security-law-regulation/': securityLawRegulationSidebar,
       '/financial-market-basics/': financialMarketBasicsSidebar,
       '/pmp/': pmpSidebar,
       '/manage/': manageSidebar,
-      '/abstract/': abstractSidebar,
+      '/article/': articleSidebar,
       // 看世界
       '/world/': worldSidebar
     }
