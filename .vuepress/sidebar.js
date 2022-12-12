@@ -7,6 +7,7 @@ const htmlPosts = require('../html/meta.json');
 const cPosts = require('../c/meta.json');
 const cssPosts = require('../css/meta.json');
 const javascriptPosts = require('../javascript/meta.json');
+const jestPosts = require('../jest/meta.json');
 const nodejsPosts = require('../nodejs/meta.json');
 const npmPosts = require('../npm/meta.json');
 const lernaPosts = require('../lerna/meta.json');
@@ -76,6 +77,7 @@ module.exports = {
   cSidebar: resolveSidebar(cPosts),
   cssSidebar: resolveSidebar(cssPosts),
   javascriptSidebar: resolveSidebar(javascriptPosts),
+  jestSidebar: resolveSidebar(jestPosts),
   nodejsSidebar: resolveSidebar(nodejsPosts),
   npmSidebar: resolveSidebar(npmPosts),
   lernaSidebar: resolveSidebar(lernaPosts),
