@@ -12,6 +12,7 @@ const {
   linuxSidebar,
   npmSidebar,
   nodejsSidebar,
+  lernaSidebar,
   pythonSidebar,
   reactSidebar,
   rustSidebar,
@@ -80,15 +81,15 @@ module.exports = {
       { text: '话题', link: '/topic/' },
       {
         text: '技术栈', items: [
-          { text: 'AI', link: '/ai/'},
           { text: 'Babel', link: '/babel/'},
           { text: 'C', link: '/c/'},
           { text: 'CSS', link: '/css/'},
           { text: 'HTML', link: '/html/'},
           { text: 'Javascript', link: '/javascript/'},
-          { text: 'Linux', link: '/linux/' },
           { text: 'Nodejs', link: '/nodejs/'},
           { text: 'Npm', link: '/npm/'},
+          { text: 'Lerna', link: '/lerna/'},
+          { text: 'Linux', link: '/linux/' },
           { text: 'Python', link: '/python/' },
           { text: 'React', link: '/react/'},
           { text: 'Rust', link: '/rust/'},
@@ -100,26 +101,27 @@ module.exports = {
       },
       {
         text: '知识体系', items: [
+          { text: 'AI', link: '/ai/'},
           { text: '架构', link: '/architecture/' },
+          { text: '文章', link: '/article/'},
           { text: '基础知识', link: '/base-knowledge/'},
-          { text: '前端工程化', link: '/frontend-engineering/' },
-          { text: '微前端', link: '/micro-frontends/'},
           { text: '浏览器', link: '/browser/'},
-          { text: 'UI', link: '/ui/'},
-          { text: 'UML', link: '/uml/'},
-          { text: 'Git 使用', link: '/git/'},
           { text: '设计模式', link: '/design-patterns/'},
+          { text: 'Git', link: '/git/'},
+          { text: '前端工程化', link: '/frontend-engineering/' },
           { text: '管理', link: '/manage/'},
-          { text: '文章', link: '/article/'}
+          { text: '微前端', link: '/micro-frontends/'},
+          { text: 'UML', link: '/uml/'},
+          { text: 'UI', link: '/ui/'}
         ]
       },
       {
         text: '资源', items: [
-          { text: '阅读', link: '/read/'},
           { text: '资源', link: '/assets/'},
-          { text: '证券法律法规', link: '/security-law-regulation/'},
           { text: '金融市场基础', link: '/financial-market-basics/'},
-          { text: 'PMP', link: '/pmp/'}
+          { text: 'PMP', link: '/pmp/'},
+          { text: '阅读', link: '/read/'},
+          { text: '证券法律法规', link: '/security-law-regulation/'},
         ]
       },
       {
@@ -137,9 +139,10 @@ module.exports = {
       '/css/': cssSidebar,
       '/html/': htmlSidebar,
       '/javascript/': javascriptSidebar,
-      '/linux/': linuxSidebar,
       '/npm/': npmSidebar,
       '/nodejs/': nodejsSidebar,
+      '/lerna/': lernaSidebar,
+      '/linux/': linuxSidebar,
       '/python/': pythonSidebar,
       '/react/': reactSidebar,
       '/rust/': rustSidebar,

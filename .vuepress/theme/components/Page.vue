@@ -101,7 +101,33 @@ export default {
 .theme-default-content:not(.custom) div.content__default {
   margin-top: 0;
 }
-
+.content-card {
+  margin-top: 60px;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 0 24px;
+  h1, h2 {
+    border: 0 none;
+    margin: 0 0 0 -6px;
+    padding: 0 6px;
+    display: inline-block;
+    position: relative;
+    top: -18px;
+    background-color: white;
+  }
+  h3 {
+    padding: 0 6px;
+    margin-top: 36px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 6px;
+  }
+}
+.red {
+  color: red;
+}
+.green {
+  color: green;
+}
 .connect {
   border: 1px solid #ddd;
   background-color: #f8f8f8;

@@ -1,8 +1,10 @@
 # 跨端
 
-## [从头开发一个多平台应用，大家会考虑哪种技术栈？](https://cn.v2ex.com/t/859150)
+<div class="content-card">
 
-推荐 [flutter][1] + [rust][2] 方案：
+## 从头开发一个多平台应用，大家会考虑哪种技术栈？
+
+文字来自[v2ex](https://cn.v2ex.com/t/859150)，推荐 [flutter][1] + [rust][2] 方案：
 
 - [flutter][1] 只做 UI 层, 跨平台。
 - [rust][2] 做 core lib 层跨平台。
@@ -19,6 +21,8 @@
 1. 有条件就 [flutter][1] + [rust][2], 没条件用 [flutter][1]。
 2. 不过建议从项目结构设计早期, 就做好拆分。
 3. 区分 UI 层 和 core lib 层，方便后续改造。
+
+</div>
 
 [1]: https://flutter.dev/
 [2]: https://www.rust-lang.org/zh-CN/

@@ -9,6 +9,7 @@ const cssPosts = require('../css/meta.json');
 const javascriptPosts = require('../javascript/meta.json');
 const nodejsPosts = require('../nodejs/meta.json');
 const npmPosts = require('../npm/meta.json');
+const lernaPosts = require('../lerna/meta.json');
 const vuePosts = require('../vue/meta.json');
 const vue3Posts = require('../vue3/meta.json');
 const pythonPosts = require('../python/meta.json');
@@ -77,6 +78,7 @@ module.exports = {
   javascriptSidebar: resolveSidebar(javascriptPosts),
   nodejsSidebar: resolveSidebar(nodejsPosts),
   npmSidebar: resolveSidebar(npmPosts),
+  lernaSidebar: resolveSidebar(lernaPosts),
   vueSidebar: resolveSidebar(vuePosts),
   vue3Sidebar: resolveSidebar(vue3Posts),
   reactSidebar: resolveSidebar(reactPosts),

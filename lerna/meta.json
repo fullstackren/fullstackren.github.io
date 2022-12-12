@@ -1,0 +1,15 @@
+[
+  {
+    "title": "入门",
+    "sideTitle": "入门",
+    "path": "introduction",
+    "description": "入门",
+    "category": "教程篇"
+  },
+  {
+    "title": "命令",
+    "sideTitle": "命令",
+    "path": "command",
+    "description": "命令"
+  }
+]
