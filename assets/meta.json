@@ -38,12 +38,6 @@
     "description": "提问的智慧"
   },
   {
-    "title": "解决方案篇",
-    "sideTitle": "解决方案篇",
-    "path": "soluton",
-    "description": "解决方案篇"
-  },
-  {
     "title": "工具篇",
     "sideTitle": "工具篇",
     "path": "tool",
