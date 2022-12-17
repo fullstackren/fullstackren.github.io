@@ -3,15 +3,12 @@
     <img
       src="../assets/qrcode.jpg"
       alt="全栈孤勇者"
-      width="120"
-      height="120"
+      width="70"
+      height="70"
       loading="lazy"
     />
     <p class="we-intro">
-      如果你对前端和后端感兴趣的话，可以扫码关注我的公众号<span
-        class="highlight"
-        >全栈孤勇者</span
-      >。
+      若加我微信请备注<span class="highlight">全栈孤勇者</span>，一起加群「侃」大山
     </p>
   </div>
 </template>
@@ -24,14 +21,17 @@ export default {
 
 <style>
 .qr {
-  margin-top: 10px;
+  margin-left: -1.5rem;
   margin-bottom: -1rem;
   display: flex;
+  background-color: #f8f8f8;
+  padding: 8px
 }
 
 .qr .we-intro {
   color: #0006;
   font-size: 0.8em;
-  width: 54%;
+  margin-left: 10px;
+  width: 90%;
 }
 </style>

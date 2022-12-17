@@ -1,14 +1,6 @@
-# [全栈孤勇者](https://www.ruizhengyun.cn/)
+# [全栈孤勇者](https://www.fullstack.ren/)
 
-这里主要记录我的生活和工作中的一些**总结**和**体会**。**目的**一是为了帮助自己复盘能时查看，二是希望也能够帮到同行小伙伴。
-
-- **[话题](https://www.fullstack.ren/topic/)**，记录如何一些关注话题。
-- **[技术栈](https://www.fullstack.ren/html/)**，记录技术学习过程，包含前后端入门和进阶知识，使用 Github 管理。
-- **[知识体系](https://www.fullstack.ren/frontend-engineering/)**，记录针对所学技术形成体系化。
-- **[架构](https://www.fullstack.ren/architecture/)**，记录做前后端方案的典型架构设计。
-- **[资源](https://www.fullstack.ren/study-assets/)**，记录工作中用到的工具和方法的集合。
-- **[看世界](https://www.fullstack.ren/world)**，记录自己的一些兴趣爱好。
-
+这里记录一些总结和体会，主要是帮助平常查阅提高效率，也希望也能够帮到你。
 ## 关于我
 
 你好，我是**芮正云（江湖）**，一名前端工程师，目前在杭州某家互联网金融公司工作。个人未来 2 年规划：

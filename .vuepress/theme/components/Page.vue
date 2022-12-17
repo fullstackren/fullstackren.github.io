@@ -1,5 +1,7 @@
 <template>
-  <main class="page">
+  <main
+    class="page"
+    :class="$page.frontmatter.single ? 'page-single' : ''">
     <slot name="top" />
     <div :class="{ 'theme-default-content': true }">
       <Content />
@@ -16,8 +18,8 @@
         />
         <div>
           <p class="connect-intro">
-            加我微信请备注<span class="highlight">全栈孤勇者</span
-            >，一起「侃」大事。
+            若加我微信请备注<span class="highlight">全栈孤勇者</span
+            >，一起加群「侃」大山
           </p>
           <p class="connect-intro">
             <a

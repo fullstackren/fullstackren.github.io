@@ -70,12 +70,13 @@ module.exports = {
   shouldPrefetch: () => false,
   themeConfig: {
     logo: '/logo.png',
-    // repo: 'fullstackren/fullstackren.github.io.git',
+    repo: 'fullstackren/fullstackren.github.io.git',
     sidebarDepth: 1,
     smoothScroll: true,
     nav: [
       { text: '主页', link: '/' },
-      { text: '关于我', link: '/about/' },
+      { text: '关于', link: '/about/' },
+      { text: '友情链接', link: '/friendly-link/' },
     ],
     sidebar: {
       '/topic/': topicSidebar,
