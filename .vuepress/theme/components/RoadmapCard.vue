@@ -50,7 +50,7 @@ export default {
     font-size 18px
   &-card
     float left
-    width 25%
+    width 100%
     padding 6px
     &-inner
       display block
@@ -77,4 +77,24 @@ export default {
       height 60px
       padding 0 18px
       overflow hidden
+
+@media (min-width: 576px)
+  .roadmap
+    &-card
+      width 100%
+
+@media (min-width: 768px)
+  .roadmap
+    &-card
+      width 50%
+
+@media (min-width: 992px)
+  .roadmap
+    &-card
+      width 33.3%
+
+@media (min-width: 1200px)
+  .roadmap
+    &-card
+      width 25%
 </style>

@@ -1,22 +1,22 @@
 [
   {
+    "title": "方向路线",
+    "sideTitle": "方向路线",
+    "path": "roadmap.md",
+    "description": "方向路线",
+    "category": "站点类"
+  },
+  {
     "title": "博客论坛",
     "sideTitle": "博客论坛",
     "path": "blog-forum.md",
-    "description": "博客论坛",
-    "category": "站点类"
+    "description": "博客论坛"
   },
   {
     "title": "项目篇",
     "sideTitle": "项目篇",
     "path": "project",
     "description": "项目篇"
-  },
-  {
-    "title": "技术栈篇",
-    "sideTitle": "技术栈篇",
-    "path": "tech",
-    "description": "技术栈篇"
   },
   {
     "title": "代码篇",
@@ -38,11 +38,23 @@
     "description": "提问的智慧"
   },
   {
+    "title": "CDN",
+    "sideTitle": "CDN",
+    "path": "cdn",
+    "description": "CDN"
+  },
+  {
     "title": "工具篇",
     "sideTitle": "工具篇",
     "path": "tool",
     "description": "工具篇",
     "category": "应用类"
+  },
+  {
+    "title": "颜色篇",
+    "sideTitle": "颜色篇",
+    "path": "color",
+    "description": "颜色篇"
   },
   {
     "title": "图片篇",

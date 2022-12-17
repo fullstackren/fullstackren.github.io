@@ -1,5 +1,5 @@
 export const homeRoadmaps = {
-  title: '嘿，朋友，',
+  title: '嘿，朋友',
   description: '学习不同工具或技术的分步指南和路径',
   list: [
     {
@@ -38,6 +38,7 @@ export const homeRoadmaps = {
         { title: '文章', link: '/article/', bg: '#D7F6F7'},
         { title: '设计模式', link: '/design-patterns/', bg: '#F2E3B5'},
         { title: '管理', link: '/manage/', bg: '#93C6E3'},
+        { title: '资源', link: '/assets/'},
         { title: 'PMP', link: '/pmp/'},
         { title: '证券法律法规', link: '/security-law-regulation/'},
         { title: '金融市场基础', link: '/financial-market-basics/'},

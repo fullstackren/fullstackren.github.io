@@ -115,6 +115,8 @@ export default {
     position: relative;
     top: -18px;
     background-color: white;
+    height 34px
+    overflow hidden
   }
   h3 {
     padding: 0 6px;

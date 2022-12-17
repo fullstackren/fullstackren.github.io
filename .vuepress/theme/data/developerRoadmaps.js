@@ -21,29 +21,28 @@ export const frontendRoadmaps = {
           description: '',
           link: '/javascript'
         },
-        { title: 'Npm', link: '/npm/'},
         { title: 'React', link: '/react/'},
         { title: 'Tauri', link: '/tauri/'},
         { title: 'TypeScript', link: '/typescript/'},
         { title: 'Vue', link: '/vue/'},
         { title: 'Vue3', link: '/vue3/'},
-        { title: 'Babel', link: '/babel/'},
         { title: 'Jest', link: '/jest/'},
-        { title: 'Lerna', link: '/lerna/'},
+      ]
+    },
+    {
+      title: '工具 Tool',
+      list: [
+        { title: 'Webpack', link: '/webpack/', bg: '#DEF3B8'},
+        { title: 'Babel', link: '/babel/', bg: '#E3EC9D'},
+        { title: 'Npm', link: '/npm/'},
+        { title: 'Lerna', link: '/lerna/', bg: '#B8E6DC'}
       ]
     },
     {
       title: '解决方案 Solution',
       list: [
         { title: '前端工程化', link: '/frontend-engineering/' , bg: '#DEF3B8'},
-        { title: '微前端', link: '/micro-frontends/', bg: '#E3EC9D'},
-        { title: 'UI', link: '/ui/', bg: '#B8E6DC'}
-      ]
-    },
-    {
-      title: '资源',
-      list: [
-        { title: '资源', link: '/assets/'},
+        { title: '微前端', link: '/micro-frontends/', bg: '#E3EC9D'}
       ]
     }
   ]

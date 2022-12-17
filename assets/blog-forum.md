@@ -29,10 +29,6 @@
 - [阿里云开发者社区](https://developer.aliyun.com/)
 - [腾讯云开发者社区](https://cloud.tencent.com/developer)
 
-## 视频
-
-- [DevOpen.Club 坚持创作并分享原创高质量的软件开发视频教程](https://devopen.club/)
-
 ## 国外
 
 - [web.dev](https://web.dev/)
@@ -40,7 +36,6 @@
 - [HackerNews](https://news.ycombinator.com/)
 - [github](https://github.com/)
 - [谷歌开发者社区](https://developers.google.com/)
-- [技术雷达](https://www.thoughtworks.com/zh-cn/radar)
 - [codefol](https://codefol.io/)
 - [Hackenoon](https://hackernoon.com/)
 - [Hashnode](https://hashnode.com/)
@@ -48,4 +43,9 @@
 - [CodeProject](https://www.codeproject.com/)
 - [reddit](https://www.reddit.com/)
 - [pragmaticengineer](https://blog.pragmaticengineer.com/)
+
+## 教程
+
+- [DevOpen.Club 坚持创作并分享原创高质量的软件开发视频教程](https://devopen.club/)
+- [miguelgrinberg 教程](https://blog.miguelgrinberg.com/index)，免费阅读的英文电子书，帮助读者学习。
 

@@ -1,8 +1,6 @@
 const path = require('path');
 const {
-  // 话题
   topicSidebar,
-  // 技术栈
   aiSidebar,
   babelSidebar,
   cSidebar,
@@ -21,15 +19,11 @@ const {
   typescriptSidebar,
   vueSidebar,
   vue3Sidebar,
-  // 知识体系
   frontendEngineeringSidebar,
   microFrontendsSidebar,
   browserSidebar,
-  // 架构
   architectureSidebar,
-  // 工具方法
   readSidebar,
-  uiSidebar,
   umlSidebar,
   gitSidebar,
   designPatternsSidebar,
@@ -40,7 +34,8 @@ const {
   manageSidebar,
   articleSidebar,
   baseKnowledgeSidebar,
-  // 看世界
+  webpackSidebar,
+  webComponentSidebar,
   worldSidebar
 } = require('./sidebar');
 
@@ -108,7 +103,6 @@ module.exports = {
       '/micro-frontends/': microFrontendsSidebar,
       '/browser/': browserSidebar,
       '/read/': readSidebar,
-      '/ui/': uiSidebar,
       '/uml/': umlSidebar,
       '/git/': gitSidebar,
       '/design-patterns/': designPatternsSidebar,
@@ -118,6 +112,8 @@ module.exports = {
       '/pmp/': pmpSidebar,
       '/manage/': manageSidebar,
       '/article/': articleSidebar,
+      '/webpack/': webpackSidebar,
+      '/web-component/': webComponentSidebar,
       '/world/': worldSidebar
     }
   },
