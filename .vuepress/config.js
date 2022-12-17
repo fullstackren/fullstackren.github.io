@@ -80,62 +80,10 @@ module.exports = {
     smoothScroll: true,
     nav: [
       { text: '主页', link: '/' },
-      { text: '话题', link: '/topic/' },
-      {
-        text: '技术栈', items: [
-          { text: 'Babel', link: '/babel/'},
-          { text: 'C', link: '/c/'},
-          { text: 'CSS', link: '/css/'},
-          { text: 'HTML', link: '/html/'},
-          { text: 'Javascript', link: '/javascript/'},
-          { text: 'Jest', link: '/jest/'},
-          { text: 'Nodejs', link: '/nodejs/'},
-          { text: 'Npm', link: '/npm/'},
-          { text: 'Lerna', link: '/lerna/'},
-          { text: 'Linux', link: '/linux/' },
-          { text: 'Python', link: '/python/' },
-          { text: 'React', link: '/react/'},
-          { text: 'Rust', link: '/rust/'},
-          { text: 'Tauri', link: '/tauri/'},
-          { text: 'TypeScript', link: '/typescript/'},
-          { text: 'Vue', link: '/vue/'},
-          { text: 'Vue3', link: '/vue3/'},
-        ]
-      },
-      {
-        text: '知识体系', items: [
-          { text: 'AI', link: '/ai/'},
-          { text: '架构', link: '/architecture/' },
-          { text: '文章', link: '/article/'},
-          { text: '基础知识', link: '/base-knowledge/'},
-          { text: '浏览器', link: '/browser/'},
-          { text: '设计模式', link: '/design-patterns/'},
-          { text: 'Git', link: '/git/'},
-          { text: '前端工程化', link: '/frontend-engineering/' },
-          { text: '管理', link: '/manage/'},
-          { text: '微前端', link: '/micro-frontends/'},
-          { text: 'UML', link: '/uml/'},
-          { text: 'UI', link: '/ui/'}
-        ]
-      },
-      {
-        text: '资源', items: [
-          { text: '资源', link: '/assets/'},
-          { text: '金融市场基础', link: '/financial-market-basics/'},
-          { text: 'PMP', link: '/pmp/'},
-          { text: '阅读', link: '/read/'},
-          { text: '证券法律法规', link: '/security-law-regulation/'},
-        ]
-      },
-      {
-        text: '看世界', link: '/world/'
-      }
+      { text: '关于我', link: '/about/' },
     ],
-    // 侧边栏
     sidebar: {
-      // 话题
       '/topic/': topicSidebar,
-      // 技术栈
       '/ai/': aiSidebar,
       '/babel/': babelSidebar,
       '/c/': cSidebar,
@@ -154,13 +102,11 @@ module.exports = {
       '/typescript/': typescriptSidebar,
       '/vue/': vueSidebar,
       '/vue3/': vue3Sidebar,
-      // 知识体系
       '/architecture/': architectureSidebar,
       '/base-knowledge/': baseKnowledgeSidebar,
       '/frontend-engineering/': frontendEngineeringSidebar,
       '/micro-frontends/': microFrontendsSidebar,
       '/browser/': browserSidebar,
-      // 工具方法
       '/read/': readSidebar,
       '/ui/': uiSidebar,
       '/uml/': umlSidebar,
@@ -172,7 +118,6 @@ module.exports = {
       '/pmp/': pmpSidebar,
       '/manage/': manageSidebar,
       '/article/': articleSidebar,
-      // 看世界
       '/world/': worldSidebar
     }
   },

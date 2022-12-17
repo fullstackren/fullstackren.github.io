@@ -22,8 +22,7 @@
 
     <!-- 首页 -->
     <div class="container" v-if="$page.frontmatter.home">
-      <RoadmapCard :dataSource="developerRoadmaps" />
-      <RoadmapCard :dataSource="skillRoadmaps" />
+      <RoadmapCard :dataSource="homeRoadmaps" />
     </div>
 
     <!-- 前端 -->
@@ -31,11 +30,36 @@
       <RoadmapCard :dataSource="frontendRoadmaps" />
     </div>
 
+    <!-- 后端 -->
+    <div class="container" v-if="$page.frontmatter.backend">
+      <RoadmapCard :dataSource="backendRoadmaps" />
+    </div>
+
+    <!-- 计算机科学 -->
+    <div class="container" v-if="$page.frontmatter.computerScience">
+      <RoadmapCard :dataSource="computerScienceRoadmaps" />
+    </div>
+
+    <!-- 开发运维 -->
+    <div class="container" v-if="$page.frontmatter.devOps">
+      <RoadmapCard :dataSource="devOpsRoadmaps" />
+    </div>
+
+    <!-- 软技能 -->
+    <div class="container" v-if="$page.frontmatter.softSkills">
+      <RoadmapCard :dataSource="softSkillsRoadmaps" />
+    </div>
+
     <!-- <Archive v-if="$page.frontmatter.archive" /> -->
 
     <!-- 内容区域 -->
     <Page
-      v-if="!$page.frontmatter.home && !$page.frontmatter.frontend"
+      v-if="!$page.frontmatter.home
+        && !$page.frontmatter.frontend
+        && !$page.frontmatter.backend
+        && !$page.frontmatter.computerScience
+        && !$page.frontmatter.devOps
+        && !$page.frontmatter.softSkills"
       :sidebar-items="sidebarItems"
     >
       <template #top>
@@ -63,16 +87,22 @@ import Bar from "@theme/components/Bar.vue";
 import Archive from "@theme/components/Archive.vue";
 import RoadmapCard from "@theme/components/RoadmapCard.vue";
 import { resolveSidebarItems } from "../util";
-import { developerRoadmaps, frontendRoadmaps } from '../data/developerRoadmaps.js'
-import { skillRoadmaps } from '../data/skillRoadmaps.js'
+import { homeRoadmaps } from '../data/homeRoadmaps.js';
+import { frontendRoadmaps, backendRoadmaps, computerScienceRoadmaps, devOpsRoadmaps } from '../data/developerRoadmaps.js';
+import { softSkillsRoadmaps } from '../data/softSkillsRoadmaps.js';
 
 export default {
   components: { RoadmapCard, Page, Sidebar, Headerbar, QR, Bar, Archive },
 
   data() {
-    this.developerRoadmaps = developerRoadmaps;
-    this.skillRoadmaps = skillRoadmaps;
+    this.homeRoadmaps = homeRoadmaps;
     this.frontendRoadmaps = frontendRoadmaps;
+    this.backendRoadmaps = backendRoadmaps;
+    this.computerScienceRoadmaps = computerScienceRoadmaps;
+    this.devOpsRoadmaps = devOpsRoadmaps;
+
+    this.softSkillsRoadmaps = softSkillsRoadmaps;
+
     return {
       isSidebarOpen: false,
     };
