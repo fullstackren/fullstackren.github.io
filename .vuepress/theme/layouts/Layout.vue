@@ -5,25 +5,37 @@
     @touchstart="onTouchStart"
     @touchend="onTouchEnd"
   >
-    <Navbar v-if="shouldShowNavbar" @toggle-sidebar="toggleSidebar" />
+    <!-- 头部导航栏 -->
+    <Headerbar v-if="shouldShowNavbar" @toggle-sidebar="toggleSidebar" />
 
-    <div class="sidebar-mask" @click="toggleSidebar(false)"></div>
+    <!-- <div class="sidebar-mask" @click="toggleSidebar(false)"></div> -->
 
+    <!-- 侧边菜单栏 -->
     <Sidebar :items="sidebarItems" @toggle-sidebar="toggleSidebar">
       <template #top>
         <div :style="{ paddingLeft: '1.5rem' }">
           <QR />
         </div>
       </template>
-      <slot name="sidebar-bottom" #bottom />
+      <!-- <slot name="sidebar-bottom" #bottom /> -->
     </Sidebar>
 
-    <Home v-if="$page.frontmatter.home" />
+    <!-- 首页 -->
+    <div class="container" v-if="$page.frontmatter.home">
+      <RoadmapCard :dataSource="developerRoadmaps" />
+      <RoadmapCard :dataSource="skillRoadmaps" />
+    </div>
 
-    <Archive v-if="$page.frontmatter.archive" />
+    <!-- 前端 -->
+    <div class="container" v-if="$page.frontmatter.frontend">
+      <RoadmapCard :dataSource="frontendRoadmaps" />
+    </div>
 
+    <!-- <Archive v-if="$page.frontmatter.archive" /> -->
+
+    <!-- 内容区域 -->
     <Page
-      v-if="!$page.frontmatter.home && !$page.frontmatter.archive"
+      v-if="!$page.frontmatter.home && !$page.frontmatter.frontend"
       :sidebar-items="sidebarItems"
     >
       <template #top>
@@ -34,25 +46,33 @@
           <Bar />
         </div>
       </template>
-      <slot name="page-bottom" #bottom />
     </Page>
+
+    <!-- {{$page}} -->
+
+    <!-- <slot name="page-bottom" #bottom /> -->
   </div>
 </template>
 
 <script>
-import Navbar from "@theme/components/Navbar.vue";
+import Headerbar from "@theme/components/Headerbar.vue";
 import Page from "@theme/components/Page.vue";
 import Sidebar from "@theme/components/Sidebar.vue";
 import QR from "@theme/components/QR.vue";
 import Bar from "@theme/components/Bar.vue";
 import Archive from "@theme/components/Archive.vue";
-import Home from "@theme/components/Home.vue";
+import RoadmapCard from "@theme/components/RoadmapCard.vue";
 import { resolveSidebarItems } from "../util";
+import { developerRoadmaps, frontendRoadmaps } from '../data/developerRoadmaps.js'
+import { skillRoadmaps } from '../data/skillRoadmaps.js'
 
 export default {
-  components: { Home, Page, Sidebar, Navbar, QR, Bar, Archive },
+  components: { RoadmapCard, Page, Sidebar, Headerbar, QR, Bar, Archive },
 
   data() {
+    this.developerRoadmaps = developerRoadmaps;
+    this.skillRoadmaps = skillRoadmaps;
+    this.frontendRoadmaps = frontendRoadmaps;
     return {
       isSidebarOpen: false,
     };

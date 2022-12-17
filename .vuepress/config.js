@@ -77,6 +77,7 @@ module.exports = {
     logo: '/logo.png',
     // repo: 'fullstackren/fullstackren.github.io.git',
     sidebarDepth: 1,
+    smoothScroll: true,
     nav: [
       { text: '主页', link: '/' },
       { text: '话题', link: '/topic/' },

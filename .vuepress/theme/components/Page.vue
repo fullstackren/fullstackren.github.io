@@ -98,14 +98,15 @@ export default {
   display: block;
 }
 
-.theme-default-content:not(.custom) div.content__default {
+:not(.custom) div.content__default {
   margin-top: 0;
 }
 .content-card {
+  flex: 1
   margin-top: 60px;
   border: 1px solid #ddd;
   border-radius: 12px;
-  padding: 0 24px;
+  padding: 0 24px 24px;
   h1, h2 {
     border: 0 none;
     margin: 0 0 0 -6px;

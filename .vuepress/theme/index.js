@@ -1,4 +1,5 @@
-const path = require('path')
+/** 主题文件的入口文件 **/
+const path = require('path');
 
 // Theme API.
 module.exports = (options, ctx) => {

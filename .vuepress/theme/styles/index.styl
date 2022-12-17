@@ -18,8 +18,8 @@ body
   color $textColor
 
 .page
-  // padding-left $sidebarWidth
-  padding-right $sidebarWidth
+  padding-left $sidebarWidth
+  // padding-right $sidebarWidth
 
 .navbar
   position fixed
@@ -49,12 +49,12 @@ body
   z-index 10
   margin 0
   top $navbarHeight
-  // left 0
-  right 0
+  left 0
+  // right 0
   bottom 0
   box-sizing border-box
-  // border-right 1px solid $borderColor
-  border-left 1px solid $borderColor
+  border-right 1px solid $borderColor
+  // border-left 1px solid $borderColor
   overflow-y auto
 
 {$contentClass}:not(.custom)
@@ -183,6 +183,15 @@ tr
 th, td
   border 1px solid #dfe2e5
   padding .6em 1em
+.clearfix
+  zoom 1
+  &:after
+    visibility hidden
+    display block
+    font-size 0
+    content " "
+    clear both
+    height 0
 
 .theme-container
   &.sidebar-open

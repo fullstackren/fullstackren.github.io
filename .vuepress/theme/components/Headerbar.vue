@@ -47,6 +47,7 @@ import SidebarButton from "@theme/components/SidebarButton.vue";
 import NavLinks from "@theme/components/NavLinks.vue";
 
 export default {
+  name: 'Headerbar',
   components: {
     SidebarButton,
     NavLinks,
