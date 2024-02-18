@@ -1,0 +1,24 @@
+{
+  "name": "fullstackren",
+  "scripts": {
+    "start": "vuepress dev -p 2023",
+    "build": "vuepress build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fullstackren/fullstackren.github.io.git"
+  },
+  "author": "江湖",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fullstackren/fullstackren.github.io.git/issues"
+  },
+  "homepage": "https://github.com/fullstackren/fullstackren.github.io.git#readme",
+  "devDependencies": {
+    "@vuepress/plugin-google-analytics": "^1.9.10",
+    "dayjs": "^1.11.10",
+    "npm-check-updates": "^16.14.15",
+    "vuepress": "^1.9.10",
+    "vuepress-plugin-feed": "^0.1.9"
+  }
+}

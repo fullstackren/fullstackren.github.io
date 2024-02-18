@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+}
+.container, .full-container {
+  padding: 3rem 2rem 0.2rem;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.full-container {
+  width 100%
+}
+
+.main-page {
+  flex: 1;
+  padding-right: 3rem;
+}
+
+.aside-item {
+  margin: 10px 0;
+}
+
+.archive-post-date {
+  font-family: 'Ubuntu Mono', monospace;
+  font-weight: 500;
+  margin-right: 2rem;
+  display: none;
+}
+
+.archive-post {
+  line-height: 1.6; 
+}
+
+.aside-page {
+  flex-shrink: 1;
+}
+
+@media (min-width: 320px) {
+  .container {
+    max-width: 540px;
+  }
+
+  .archive-post-date {
+    display: inline;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+
+  .archive-post-date {
+    display: inline;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+
+  .archive-post-date {
+    display: inline;
+  }
+
+  .aside-page {
+    flex-basis: 360px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1200px;
+  }
+
+  .archive-post-date {
+    display: inline;
+  }
+
+  .aside-page {
+    flex-basis: 360px;
+  }
+}
