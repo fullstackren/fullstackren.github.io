@@ -15,6 +15,75 @@
 
 ## 实战
 
+### 项目指导
+- 项目分解
+- 项目目标
+- 技能目标
+- 项目导航
+  - 项目指导 -> 项目分析 -> 具体任务 -> 项目回顾
+
+
+第一个实战是做一套遵循原生态开发模式的 Web UI 组件库，采用自身轻量级模块化规范，易上手，可以更简单快速地构建网页界面，开源地址是：https://github.com/fullstackren/duolong-ui，主要参考 [layui](https://layui.dev/)。
+
+**应用描述**
+
+以表单组件为例，我希望我在页面中 JavaScript 模块是这么使用：
+
+```html
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>表单 - duolongui</title>
+        <!-- 应用正式环境中请使用 duolongui.production.min.css 所部署站点地址 -->
+        <link href="//unpkg.com/duolongui@1.0.0/umd/duolongui.production.min.css" rel="stylesheet">
+    </head>
+    <body>
+        <!-- 应用正式环境中请使用 duolongui.production.min.js 所部署站点地址 -->
+        <script src="//unpkg.com/duolongui@1.0.0/umd/duolongui.production.min.js"></script>
+        <script>
+            duolongui.use(['form', 'date'], function(form) {
+                const { form, messagebox } = duolongui;
+                const date = duolongui.date;
+                const { util } = duolong-kit;
+
+                // 定义验证规则
+                form.validate({
+                   // do something 
+                });
+
+                // 提交事件
+                form.on('事件名称', function(data) {
+                    // do something 
+                };
+            });
+        </script>
+    </body>
+<html>
+```
+
+**目录结构设计**
+
+```tree
+.
+├── CHANGELOG.md               // 更新日志
+├── LICENSE                    // 开源协议
+├── README.md                  // 项目介绍
+├── examples                   // 示例
+│   ├── form.html              // 表单示例
+│   └── message-box.html       // 消息框示例
+├── packages                   // 组件库
+│   ├── form                   // 表单组件
+│   └── message-box            // 消息框组件
+├── scripts                    // 脚本
+├── src                        // 源码
+│   ├── index.js               // 入口文件
+│   ├── instance               // 实例
+│   └── utils                  // 工具
+└── test                       // 测试
+```
+
+
 ## 文章
 
 ## 工具
@@ -42,6 +111,14 @@
 ## 影视
 
 ## 心得
+
+### 软件的理解
+
+- 软件是被设计和开发出来的，只是人脑的产物，所以她不具有物理特性；
+- 软件可以一直用一直用，除非被用户体验淘汰，所以她不会被磨损或老化；
+- 软件对计算机系统的依赖性很大，所以软件开发要考虑计算机系统的各种限制；
+
+所以：`软件 = 程序 + 文档 + 数据 + 服务`。
 
 ## 趣闻
 

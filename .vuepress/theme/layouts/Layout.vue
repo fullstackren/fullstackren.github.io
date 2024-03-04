@@ -35,13 +35,19 @@
       <RoadmapCard :dataSource="backendRoadmaps" />
     </div>
 
+    <!-- 计算机基础知识 -->
+    <div class="container" v-if="$page.frontmatter.computerKnowledge">
+      <RoadmapCard :dataSource="computerKnowledgeRoadmaps" />
+    </div>
+
     <!-- <Archive v-if="$page.frontmatter.archive" /> -->
 
     <!-- 内容区域 -->
     <Page
       v-if="!$page.frontmatter.home
         && !$page.frontmatter.frontend
-        && !$page.frontmatter.backend"
+        && !$page.frontmatter.backend
+        && !$page.frontmatter.computerKnowledge"
       :sidebar-items="sidebarItems"
     >
       <template #top>
@@ -59,7 +65,8 @@
     <!-- <slot name="page-bottom" #bottom /> -->
     <Footerbar v-if="$page.frontmatter.home
       || $page.frontmatter.frontend
-      || $page.frontmatter.backend"
+      || $page.frontmatter.backend
+      || $page.frontmatter.computerKnowledge"
      />
   </div>
 </template>
@@ -75,7 +82,7 @@ import Archive from "@theme/components/Archive.vue";
 import RoadmapCard from "@theme/components/RoadmapCard.vue";
 import { resolveSidebarItems } from "../util";
 import { homeRoadmaps } from '../../data/home-roadmaps.js';
-import { frontendRoadmaps, backendRoadmaps } from '../../data/developer-roadmaps.js';
+import { frontendRoadmaps, backendRoadmaps, computerKnowledgeRoadmaps } from '../../data/developer-roadmaps.js';
 
 export default {
   components: { RoadmapCard, Page, Sidebar, Headerbar, Footerbar, QR, Bar, Archive },
@@ -84,6 +91,7 @@ export default {
     this.homeRoadmaps = homeRoadmaps;
     this.frontendRoadmaps = frontendRoadmaps;
     this.backendRoadmaps = backendRoadmaps;
+    this.computerKnowledgeRoadmaps = computerKnowledgeRoadmaps;
 
     return {
       isSidebarOpen: false,

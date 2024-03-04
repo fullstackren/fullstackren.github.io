@@ -8,7 +8,8 @@ const frontendPackagesPosts = require('../frontend/packages/meta.json');
 /* 后端 */
 const backendRustPosts = require('../backend/rust/meta.json');
 /* 计算机知识 */
-const computerKnowledgePosts = require('../computer-knowledge/meta.json');
+const computerKnowledgeConceptPosts = require('../computer-knowledge/concept/meta.json');
+const computerKnowledgeGitPosts = require('../computer-knowledge/git/meta.json');
 /* 架构 */
 const architecturePosts = require('../architecture/meta.json');
 
@@ -21,7 +22,7 @@ const resolveSidebar = (posts) => {
       if(post.category) {
         category = [...category, {
           title: post.category,
-          collapsable: false,
+          collapsable: post.collapsable || false,
           children: [
             getPostInfo(post)
           ]
@@ -47,7 +48,8 @@ module.exports = {
   /* 后端 */
   backendRustSidebar: resolveSidebar(backendRustPosts),
   /* 计算机知识 */
-  computerKnowledgeSidebar: resolveSidebar(computerKnowledgePosts),
+  computerKnowledgeConceptSidebar: resolveSidebar(computerKnowledgeConceptPosts),
+  computerKnowledgeGitSidebar: resolveSidebar(computerKnowledgeGitPosts),
   /* 架构 */
   architectureSidebar: resolveSidebar(architecturePosts),
 }

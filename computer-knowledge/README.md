@@ -1,1 +1,3 @@
-# 计算机知识
+---
+computerKnowledge: true
+---

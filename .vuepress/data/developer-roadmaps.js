@@ -24,3 +24,17 @@ export const backendRoadmaps = {
     }
   ]
 }
+
+export const computerKnowledgeRoadmaps = {
+  title: '计算机知识',
+  description: '计算机知识',
+  list: [
+    {
+      title: '计算机知识',
+      list: [
+        { title: 'Concept', description: '', link: '/computer-knowledge/concept/', target: '_blank', bg: '#E1392B', color: '#fff' },
+        { title: 'Git', description: '', link: '/computer-knowledge/git/', target: '_blank', bg: '#ea2039', color: '#fff' },
+      ]
+    }
+  ]
+}

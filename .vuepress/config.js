@@ -10,7 +10,8 @@ const {
   /* 后端 */
   backendRustSidebar,
   /* 计算机知识 */
-  computerKnowledgeSidebar,
+  computerKnowledgeConceptSidebar,
+  computerKnowledgeGitSidebar,
   /* 架构 */
   architectureSidebar
 } = require('./sidebar');
@@ -64,7 +65,8 @@ module.exports = {
       /* 后端 */
       '/backend/rust/': backendRustSidebar,
       /* 计算机知识 */
-      '/computer-knowledge/': computerKnowledgeSidebar,
+      '/computer-knowledge/concept/': computerKnowledgeConceptSidebar,
+      '/computer-knowledge/git/': computerKnowledgeGitSidebar,
       /* 架构 */
       '/architecture/': architectureSidebar
     }
