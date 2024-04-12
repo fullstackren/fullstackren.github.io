@@ -17,6 +17,7 @@ export const homeRoadmaps = {
       list: [
         { title: '前端 Frontend', description: '现代前端开发人员的知识体系', link: '/frontend/', bg: '#E0C9F0' },
         { title: '后端 Backend', description: '现代后端开发人员的知识体系', link: '/backend/', bg: '#FFF2CC' },
+        { title: '人工智能 AI', description: 'AI的知识体系', link: '/ai/', bg: '#42C7D9' },
         { title: '架构 Architecture', description: '架构', link: '/architecture/', bg: '#F8CECC' },
         { title: '计算机知识 Computer Knowledge', description: '计算机知识', link: '/computer-knowledge/', bg: '#E1D5E7' },
       ]

@@ -7,6 +7,8 @@ export const frontendRoadmaps = {
       list: [
         { title: '浏览器', description: 'Web前端每天折腾的地方', link: '/frontend/browser/', target: '_blank', bg: '#E1392B', color: '#fff' },
         { title: '包管理', description: 'Web前端每天折腾的地方', link: '/frontend/packages/', target: '_blank', bg: '#ea2039', color: '#fff' },
+        { title: 'JavaScript', description: 'JavaScript知识体系', link: '/frontend/javascript/', target: '_blank', bg: '#F78D14', color: '#fff' },
+        { title: 'HTML', description: 'HTML知识体系', link: '/frontend/html/', target: '_blank', bg: '#DC4A25', color: '#fff' },
       ]
     }
   ]
@@ -32,7 +34,7 @@ export const computerKnowledgeRoadmaps = {
     {
       title: '计算机知识',
       list: [
-        { title: 'Concept', description: '', link: '/computer-knowledge/concept/', target: '_blank', bg: '#E1392B', color: '#fff' },
+        { title: '概念', description: '', link: '/computer-knowledge/concept/', target: '_blank', bg: '#E1392B', color: '#fff' },
         { title: 'Git', description: '', link: '/computer-knowledge/git/', target: '_blank', bg: '#F54D27', color: '#fff' },
       ]
     }

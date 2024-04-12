@@ -2,5 +2,7 @@
     { "title": "堡垒机", "sideTitle": "堡垒机", "path": "bastion-machine", "description": "堡垒机", "category": "基础知识" },
     { "title": "PoC", "sideTitle": "PoC", "path": "poc", "description": "PoC" },
     { "title": "开发者角色", "sideTitle": "开发者角色", "path": "developer-role", "description": "开发者角色" },
-    { "title": "JSX", "sideTitle": "JSX", "path": "jsx", "description": "JSX", "category": "语言", "collapsable": true }
+    { "title": "JSX", "sideTitle": "JSX", "path": "jsx", "description": "JSX", "category": "语言", "collapsable": true },
+    { "title": "需求规格说明书", "sideTitle": "需求规格说明书", "path": "requirement-specification", "description": "需求规格说明书", "category": "产品知识" },
+    { "title": "技术协议", "sideTitle": "技术协议", "path": "technical-agreement", "description": "技术协议", "category": "技术知识" }
 ]

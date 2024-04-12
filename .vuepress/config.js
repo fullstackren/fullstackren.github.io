@@ -7,6 +7,8 @@ const {
   /* 前端 */
   frontendBrowserSidebar,
   frontendPackagesSidebar,
+  frontendJavaScriptSidebar,
+  frontendHtmlSidebar,
   /* 后端 */
   backendRustSidebar,
   /* 计算机知识 */
@@ -62,6 +64,8 @@ module.exports = {
       /* 前端 */
       '/frontend/browser/': frontendBrowserSidebar,
       '/frontend/packages/': frontendPackagesSidebar,
+      '/frontend/javascript/': frontendJavaScriptSidebar,
+      '/frontend/html/': frontendHtmlSidebar,
       /* 后端 */
       '/backend/rust/': backendRustSidebar,
       /* 计算机知识 */

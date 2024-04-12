@@ -5,6 +5,8 @@ const interestDonePosts = require('../done/meta.json');
 /* 前端 */
 const frontendBrowserPosts = require('../frontend/browser/meta.json');
 const frontendPackagesPosts = require('../frontend/packages/meta.json');
+const frontendJavaScriptPosts = require('../frontend/javascript/meta.json');
+const frontendHtmlPosts = require('../frontend/html/meta.json');
 /* 后端 */
 const backendRustPosts = require('../backend/rust/meta.json');
 /* 计算机知识 */
@@ -45,6 +47,8 @@ module.exports = {
   /* 前端 */
   frontendBrowserSidebar: resolveSidebar(frontendBrowserPosts),
   frontendPackagesSidebar: resolveSidebar(frontendPackagesPosts),
+  frontendJavaScriptSidebar: resolveSidebar(frontendJavaScriptPosts),
+  frontendHtmlSidebar: resolveSidebar(frontendHtmlPosts),
   /* 后端 */
   backendRustSidebar: resolveSidebar(backendRustPosts),
   /* 计算机知识 */
