@@ -1,5 +1,8 @@
 [
-  { "title": "周刊/第 15 期：HarmonyOS NEXT 的开发方案", "sideTitle": "周刊/第 15 期：HarmonyOS NEXT 的开发方案", "path": "weekly-0015", "description": "周刊/第 15 期：HarmonyOS NEXT 的开发方案", "category": "周刊" },
+  { "title": "周刊/第 18 期：有趣的事", "sideTitle": "周刊/第 18 期：有趣的事", "path": "weekly-0018", "description": "周刊/第 15 期：有趣的事", "category": "周刊" },
+  { "title": "周刊/第 17 期：有趣的事", "sideTitle": "周刊/第 17 期：有趣的事", "path": "weekly-0017", "description": "周刊/第 15 期：有趣的事" },
+  { "title": "周刊/第 16 期：有趣的事", "sideTitle": "周刊/第 16 期：有趣的事", "path": "weekly-0016", "description": "周刊/第 15 期：有趣的事" },
+  { "title": "周刊/第 15 期：HarmonyOS NEXT 的开发方案", "sideTitle": "周刊/第 15 期：HarmonyOS NEXT 的开发方案", "path": "weekly-0015", "description": "周刊/第 15 期：HarmonyOS NEXT 的开发方案" },
   { "title": "周刊/第 14 期：有趣的事", "sideTitle": "周刊/第 14 期：有趣的事", "path": "weekly-0014", "description": "周刊/第 14 期：有趣的事" },
   { "title": "周刊/第 14 期：有趣的事", "sideTitle": "周刊/第 13 期：有趣的事", "path": "weekly-0013", "description": "周刊/第 13 期：有趣的事" },
   { "title": "周刊/第 12 期：有趣的事", "sideTitle": "周刊/第 12 期：有趣的事", "path": "weekly-0012", "description": "周刊/第 12 期：有趣的事" },

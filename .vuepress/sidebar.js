@@ -6,12 +6,16 @@ const interestDonePosts = require('../done/meta.json');
 const frontendBrowserPosts = require('../frontend/browser/meta.json');
 const frontendPackagesPosts = require('../frontend/packages/meta.json');
 const frontendJavaScriptPosts = require('../frontend/javascript/meta.json');
+const frontendTypeScriptPosts = require('../frontend/typescript/meta.json');
 const frontendHtmlPosts = require('../frontend/html/meta.json');
+const frontendWindowPosts = require('../frontend/window/meta.json');
+const frontendSolutionPosts = require('../frontend/solution/meta.json');
 /* 后端 */
 const backendRustPosts = require('../backend/rust/meta.json');
 /* 计算机知识 */
 const computerKnowledgeConceptPosts = require('../computer-knowledge/concept/meta.json');
 const computerKnowledgeGitPosts = require('../computer-knowledge/git/meta.json');
+const computerKnowledgeTreePosts = require('../computer-knowledge/tree/meta.json');
 /* 架构 */
 const architecturePosts = require('../architecture/meta.json');
 
@@ -48,12 +52,16 @@ module.exports = {
   frontendBrowserSidebar: resolveSidebar(frontendBrowserPosts),
   frontendPackagesSidebar: resolveSidebar(frontendPackagesPosts),
   frontendJavaScriptSidebar: resolveSidebar(frontendJavaScriptPosts),
+  frontendTypeScriptSidebar: resolveSidebar(frontendTypeScriptPosts),
   frontendHtmlSidebar: resolveSidebar(frontendHtmlPosts),
+  frontendWindowSidebar: resolveSidebar(frontendWindowPosts),
+  frontendSolutionSidebar: resolveSidebar(frontendSolutionPosts),
   /* 后端 */
   backendRustSidebar: resolveSidebar(backendRustPosts),
   /* 计算机知识 */
   computerKnowledgeConceptSidebar: resolveSidebar(computerKnowledgeConceptPosts),
   computerKnowledgeGitSidebar: resolveSidebar(computerKnowledgeGitPosts),
+  computerKnowledgeTreeSidebar: resolveSidebar(computerKnowledgeTreePosts),
   /* 架构 */
   architectureSidebar: resolveSidebar(architecturePosts),
 }

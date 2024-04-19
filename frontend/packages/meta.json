@@ -1,3 +1,4 @@
 [
-  { "title": "npm", "sideTitle": "npm", "path": "npm", "description": "npm", "category": "基础知识" }
+  { "title": "npm", "sideTitle": "npm", "path": "npm", "description": "npm", "category": "基础篇" },
+  { "title": "pnpm", "sideTitle": "pnpm", "path": "pnpm", "description": "pnpm" }
 ]

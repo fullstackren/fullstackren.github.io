@@ -8,12 +8,16 @@ const {
   frontendBrowserSidebar,
   frontendPackagesSidebar,
   frontendJavaScriptSidebar,
+  frontendTypeScriptSidebar,
   frontendHtmlSidebar,
+  frontendWindowSidebar,
+  frontendSolutionSidebar,
   /* 后端 */
   backendRustSidebar,
   /* 计算机知识 */
   computerKnowledgeConceptSidebar,
   computerKnowledgeGitSidebar,
+  computerKnowledgeTreeSidebar,
   /* 架构 */
   architectureSidebar
 } = require('./sidebar');
@@ -65,12 +69,16 @@ module.exports = {
       '/frontend/browser/': frontendBrowserSidebar,
       '/frontend/packages/': frontendPackagesSidebar,
       '/frontend/javascript/': frontendJavaScriptSidebar,
+      '/frontend/typescript/': frontendTypeScriptSidebar,
       '/frontend/html/': frontendHtmlSidebar,
+      '/frontend/window/': frontendWindowSidebar,
+      '/frontend/solution/': frontendSolutionSidebar,
       /* 后端 */
       '/backend/rust/': backendRustSidebar,
       /* 计算机知识 */
       '/computer-knowledge/concept/': computerKnowledgeConceptSidebar,
       '/computer-knowledge/git/': computerKnowledgeGitSidebar,
+      '/computer-knowledge/tree/': computerKnowledgeTreeSidebar,
       /* 架构 */
       '/architecture/': architectureSidebar
     }

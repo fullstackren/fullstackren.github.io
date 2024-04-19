@@ -25,6 +25,9 @@ $ grep -nri 编码 weekly | cat -n
 
 **2024年4月**
 
+- [周刊/第 18 期：HarmonyOS NEXT 的开发方案](./weekly-0018.md)
+- [周刊/第 17 期：HarmonyOS NEXT 的开发方案](./weekly-0017.md)
+- [周刊/第 16 期：HarmonyOS NEXT 的开发方案](./weekly-0016.md)
 - [周刊/第 15 期：HarmonyOS NEXT 的开发方案](./weekly-0015.md)
 - [周刊/第 14 期：解决方案](./weekly-0014.md)
   
