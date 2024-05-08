@@ -2,6 +2,7 @@
 const interestWeeklyPosts = require('../weekly/meta.json');
 const interestSurveyPosts = require('../survey/meta.json');
 const interestDonePosts = require('../done/meta.json');
+const interestFollowPosts = require('../follow/meta.json');
 /* 前端 */
 const frontendBrowserPosts = require('../frontend/browser/meta.json');
 const frontendPackagesPosts = require('../frontend/packages/meta.json');
@@ -9,7 +10,8 @@ const frontendJavaScriptPosts = require('../frontend/javascript/meta.json');
 const frontendTypeScriptPosts = require('../frontend/typescript/meta.json');
 const frontendHtmlPosts = require('../frontend/html/meta.json');
 const frontendWindowPosts = require('../frontend/window/meta.json');
-const frontendSolutionPosts = require('../frontend/solution/meta.json');
+const frontendBasicPosts = require('../frontend/basic/meta.json');
+const frontendVuePosts = require('../frontend/vue/meta.json');
 /* 后端 */
 const backendRustPosts = require('../backend/rust/meta.json');
 /* 计算机知识 */
@@ -48,6 +50,7 @@ module.exports = {
   interestWeeklySidebar: resolveSidebar(interestWeeklyPosts),
   interestSurveySidebar: resolveSidebar(interestSurveyPosts),
   interestDoneSidebar: resolveSidebar(interestDonePosts),
+  interestFollowSidebar: resolveSidebar(interestFollowPosts),
   /* 前端 */
   frontendBrowserSidebar: resolveSidebar(frontendBrowserPosts),
   frontendPackagesSidebar: resolveSidebar(frontendPackagesPosts),
@@ -55,7 +58,8 @@ module.exports = {
   frontendTypeScriptSidebar: resolveSidebar(frontendTypeScriptPosts),
   frontendHtmlSidebar: resolveSidebar(frontendHtmlPosts),
   frontendWindowSidebar: resolveSidebar(frontendWindowPosts),
-  frontendSolutionSidebar: resolveSidebar(frontendSolutionPosts),
+  frontendBasicSidebar: resolveSidebar(frontendBasicPosts),
+  frontendVueSidebar: resolveSidebar(frontendVuePosts),
   /* 后端 */
   backendRustSidebar: resolveSidebar(backendRustPosts),
   /* 计算机知识 */

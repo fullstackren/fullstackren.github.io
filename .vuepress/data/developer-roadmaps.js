@@ -5,13 +5,14 @@ export const frontendRoadmaps = {
     {
       title: '前端体系',
       list: [
+        { title: '基础知识', description: '基础知识', link: '/frontend/basic/', target: '_blank', bg: '#DC4A25', color: '#fff' },
         { title: '浏览器', description: 'Web前端每天折腾的地方', link: '/frontend/browser/', target: '_blank', bg: '#E1392B', color: '#fff' },
         { title: '包管理', description: 'Web前端每天折腾的地方', link: '/frontend/packages/', target: '_blank', bg: '#ea2039', color: '#fff' },
         { title: 'JavaScript', description: 'JavaScript知识体系', link: '/frontend/javascript/', target: '_blank', bg: '#F78D14', color: '#fff' },
         { title: 'TypeScript', description: 'TypeScript知识体系', link: '/frontend/typescript/', target: '_blank', bg: '#F78D14', color: '#fff' },
         { title: 'HTML', description: 'HTML知识体系', link: '/frontend/html/', target: '_blank', bg: '#DC4A25', color: '#fff' },
         { title: 'Window', description: 'Window知识体系', link: '/frontend/window/', target: '_blank', bg: '#DC4A25', color: '#fff' },
-        { title: '解决方案', description: '解决方案', link: '/frontend/solution/', target: '_blank', bg: '#DC4A25', color: '#fff' },
+        { title: 'vue', description: 'vue知识体系', link: '/frontend/vue/', target: '_blank', bg: '#DC4A25', color: '#fff' },
       ]
     }
   ]

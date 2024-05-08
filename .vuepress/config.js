@@ -4,14 +4,16 @@ const {
   interestWeeklySidebar,
   interestSurveySidebar,
   interestDoneSidebar,
+  interestFollowSidebar,
   /* 前端 */
   frontendBrowserSidebar,
   frontendPackagesSidebar,
   frontendJavaScriptSidebar,
   frontendTypeScriptSidebar,
   frontendHtmlSidebar,
+  frontendBasicSidebar,
   frontendWindowSidebar,
-  frontendSolutionSidebar,
+  frontendVueSidebar,
   /* 后端 */
   backendRustSidebar,
   /* 计算机知识 */
@@ -65,6 +67,7 @@ module.exports = {
       '/weekly/': interestWeeklySidebar,
       '/survey/': interestSurveySidebar,
       '/done/': interestDoneSidebar,
+      '/follow/': interestFollowSidebar,
       /* 前端 */
       '/frontend/browser/': frontendBrowserSidebar,
       '/frontend/packages/': frontendPackagesSidebar,
@@ -72,7 +75,8 @@ module.exports = {
       '/frontend/typescript/': frontendTypeScriptSidebar,
       '/frontend/html/': frontendHtmlSidebar,
       '/frontend/window/': frontendWindowSidebar,
-      '/frontend/solution/': frontendSolutionSidebar,
+      '/frontend/basic/': frontendBasicSidebar,
+      '/frontend/vue/': frontendVueSidebar,
       /* 后端 */
       '/backend/rust/': backendRustSidebar,
       /* 计算机知识 */

@@ -1,0 +1,5 @@
+[
+  { "title": "Vue视图", "sideTitle": "Vue视图", "path": "view", "description": "Vue视图", "category": "基础" },
+  { "title": "mixins的所有缺陷", "sideTitle": "mixins的所有缺陷", "path": "mixins-defects", "description": "mixins的所有缺陷", "category": "实践篇" },
+  { "title": "Vue3迁移指南", "sideTitle": "Vue3迁移指南", "path": "vue3-migration", "description": "Vue3迁移指南" }
+]
