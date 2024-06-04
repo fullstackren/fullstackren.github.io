@@ -1,4 +1,4 @@
-# 周刊（第 15 期）： HarmonyOS NEXT 的开发方案
+# 周刊（第 15 期）： HarmonyOS NEXT
 
 > 作者：[江湖](../about.md)
 > 
@@ -8,7 +8,7 @@
 >
 > 本周刊[开源](https://github.com/fullstackren/fullstackren.github.io/tree/main/weekly)，欢迎[投稿](https://github.com/fullstackren/fullstackren.github.io/issues)。合作请<a href="mailto:ruizhengyun@gmail.com" target="_blank">邮件联系</a>（ruizhengyun@gmail.com）。
 
-## HarmonyOS NEXT 的开发方案
+## HarmonyOS NEXT
 
 <img src="./weekly-0015/harmonyos-next.jpeg" class="article-image" width="70%" />
 

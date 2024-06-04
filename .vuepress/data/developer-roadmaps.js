@@ -25,6 +25,7 @@ export const backendRoadmaps = {
     {
       title: '后端体系',
       list: [
+        { title: '基础知识', description: '基础知识', link: '/backend/basic/', target: '_blank', bg: '#DC4A25', color: '#fff' },
         { title: 'Rust', description: '赋予可靠且高效软件能力的语言', link: '/backend/rust/', target: '_blank', bg: '#0D7261', color: '#fff' }
       ]
     }

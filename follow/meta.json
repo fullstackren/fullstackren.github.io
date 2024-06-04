@@ -1,3 +1,4 @@
 [
-  { "title": "关注的博客", "sideTitle": "关注的博客", "path": "follow-blog", "description": "关注的博客", "category": "圈子" }
+  { "title": "关注的博客", "sideTitle": "关注的博客", "path": "follow-blog", "description": "关注的博客", "category": "圈子" },
+  { "title": "Mac使用", "sideTitle": "Mac使用", "path": "mac", "description": "Mac使用", "category": "工具" }
 ]

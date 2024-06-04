@@ -1,4 +1,6 @@
 [
-  { "title": "SPA架构下路由模式", "sideTitle": "SPA架构下路由模式", "path": "spa-route", "description": "SPA架构下路由模式", "category": "基础篇" },
-  { "title": "UI组件库", "sideTitle": "UI组件库", "path": "ui-components", "description": "UI组件库", "category": "框架篇" }
+  { "type": "external", "title": "首页", "sideTitle": "首页", "path": "", "description": "首页", "category": "基础领域" },
+  { "collapsable": true, "title": "SPA架构下路由模式", "sideTitle": "SPA架构下路由模式", "path": "spa-route", "description": "SPA架构下路由模式" },
+  { "title": "UI组件库", "sideTitle": "UI组件库", "path": "ui-components", "description": "UI组件库" },
+  { "title": "事件和方法", "sideTitle": "事件和方法", "path": "event-method", "description": "事件和方法" }
 ]

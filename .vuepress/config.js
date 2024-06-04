@@ -5,17 +5,21 @@ const {
   interestSurveySidebar,
   interestDoneSidebar,
   interestFollowSidebar,
+
   /* 前端 */
+  frontendBasicSidebar,
   frontendBrowserSidebar,
   frontendPackagesSidebar,
   frontendJavaScriptSidebar,
   frontendTypeScriptSidebar,
   frontendHtmlSidebar,
-  frontendBasicSidebar,
   frontendWindowSidebar,
   frontendVueSidebar,
+
   /* 后端 */
+  backendBasicSidebar,
   backendRustSidebar,
+
   /* 计算机知识 */
   computerKnowledgeConceptSidebar,
   computerKnowledgeGitSidebar,
@@ -69,15 +73,16 @@ module.exports = {
       '/done/': interestDoneSidebar,
       '/follow/': interestFollowSidebar,
       /* 前端 */
+      '/frontend/basic/': frontendBasicSidebar,
       '/frontend/browser/': frontendBrowserSidebar,
       '/frontend/packages/': frontendPackagesSidebar,
       '/frontend/javascript/': frontendJavaScriptSidebar,
       '/frontend/typescript/': frontendTypeScriptSidebar,
       '/frontend/html/': frontendHtmlSidebar,
       '/frontend/window/': frontendWindowSidebar,
-      '/frontend/basic/': frontendBasicSidebar,
       '/frontend/vue/': frontendVueSidebar,
       /* 后端 */
+      '/backend/basic/': backendBasicSidebar,
       '/backend/rust/': backendRustSidebar,
       /* 计算机知识 */
       '/computer-knowledge/concept/': computerKnowledgeConceptSidebar,
