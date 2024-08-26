@@ -45,6 +45,7 @@ export const computerKnowledgeRoadmaps = {
         { title: '概念', description: '', link: '/computer-knowledge/concept/', target: '_blank', bg: '#E1392B', color: '#fff' },
         { title: 'Git', description: '', link: '/computer-knowledge/git/', target: '_blank', bg: '#F54D27', color: '#fff' },
         { title: 'Tree', description: '', link: '/computer-knowledge/tree/', target: '_blank', bg: '#F54D27', color: '#fff' },
+        { title: '加密和解密', description: '', link: '/computer-knowledge/encryption-decryption/', target: '_blank', bg: '#0958d9', color: '#fff' },
       ]
     }
   ]

@@ -27,6 +27,7 @@ const {
   computerKnowledgeConceptSidebar,
   computerKnowledgeGitSidebar,
   computerKnowledgeTreeSidebar,
+  computerKnowledgeEncryptionDecryptionSidebar,
   /* 架构 */
   architectureSidebar
 } = require('./sidebar');
@@ -94,6 +95,7 @@ module.exports = {
       '/computer-knowledge/concept/': computerKnowledgeConceptSidebar,
       '/computer-knowledge/git/': computerKnowledgeGitSidebar,
       '/computer-knowledge/tree/': computerKnowledgeTreeSidebar,
+      '/computer-knowledge/encryption-decryption/': computerKnowledgeEncryptionDecryptionSidebar,
       /* 架构 */
       '/architecture/': architectureSidebar
     }

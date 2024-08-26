@@ -104,6 +104,7 @@ dist
 # TernJS port file
 .tern-port
 .umi
+.vscode
 
 
 playground

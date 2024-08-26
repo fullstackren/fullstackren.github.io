@@ -25,6 +25,7 @@ const backendNodejsPosts = require('../backend/nodejs/meta.json');
 const computerKnowledgeConceptPosts = require('../computer-knowledge/concept/meta.json');
 const computerKnowledgeGitPosts = require('../computer-knowledge/git/meta.json');
 const computerKnowledgeTreePosts = require('../computer-knowledge/tree/meta.json');
+const computerKnowledgeEncryptionDecryptionPosts = require('../computer-knowledge/encryption-decryption/meta.json');
 
 /* 架构 */
 const architecturePosts = require('../architecture/meta.json');
@@ -81,6 +82,7 @@ module.exports = {
   computerKnowledgeConceptSidebar: resolveSidebar(computerKnowledgeConceptPosts),
   computerKnowledgeGitSidebar: resolveSidebar(computerKnowledgeGitPosts),
   computerKnowledgeTreeSidebar: resolveSidebar(computerKnowledgeTreePosts),
+  computerKnowledgeEncryptionDecryptionSidebar: resolveSidebar(computerKnowledgeEncryptionDecryptionPosts),
   
   /* 架构 */
   architectureSidebar: resolveSidebar(architecturePosts),

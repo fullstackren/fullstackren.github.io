@@ -7,7 +7,7 @@ export const homeRoadmaps = {
     {
       title: '兴趣点 Interest',
       list: [
-        { title: '周刊 Weekly', description: '记录感兴趣的内容，周一发布', link: '/weekly/', bg: '#3DAE7C', color:'#fff' },
+        { title: '周刊 Weekly', description: '记录感兴趣的内容，周一发布', link: '/weekly/', bg: '#f5f5d5' },
         { title: '调查 Survey', description: '记录调查数据，不定期发布', link: '/survey/', bg: '#FF85BF', color:'#fff' },
         { title: '做事 Done', description: '不忘初心，成事心态', link: '/done/', bg: '#1777FF', color:'#fff' },
         { title: '关注 Follow', description: '关注感兴趣的内容', link: '/follow/', bg: '#34A853', color:'#fff' }
