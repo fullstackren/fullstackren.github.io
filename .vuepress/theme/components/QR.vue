@@ -1,14 +1,14 @@
 <template>
   <div class="qr">
     <img
-      src="../assets/qrcode.jpg"
-      alt="全栈人月"
+      src="../assets/fullstack-ren-wechat.png"
+      alt="全栈孤勇者"
       width="70"
       height="70"
       loading="lazy"
     />
     <p class="we-intro">
-      公众号：全栈人月。</br>若加我微信（fullstack_ren）请备注<span class="highlight">全栈人月</span>，然后加群「侃」大山。
+      公众号：全栈孤勇者。</br>若加我微信（fullstack-ren）请备注<span class="highlight">全栈孤勇者</span>，然后加群「侃」大山。
     </p>
   </div>
 </template>

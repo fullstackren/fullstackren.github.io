@@ -1,5 +1,11 @@
 [
-  { "title": "Vue视图", "sideTitle": "Vue视图", "path": "view", "description": "Vue视图", "category": "基础" },
-  { "title": "mixins的所有缺陷", "sideTitle": "mixins的所有缺陷", "path": "mixins-defects", "description": "mixins的所有缺陷", "category": "实践篇" },
-  { "title": "Vue3迁移指南", "sideTitle": "Vue3迁移指南", "path": "vue3-migration", "description": "Vue3迁移指南" }
+  { "title": "Vue介绍", "sideTitle": "Vue介绍", "path": "/frontend/vue/", "description": "Vue介绍", "category": "基础" },
+  { "title": "Vue.js视图层渲染", "sideTitle": "Vue.js视图层渲染", "path": "vue-view", "description": "Vue.js视图层渲染"},
+  { "title": "Vue.js组件机制", "sideTitle": "Vue.js组件机制", "path": "vue-component", "description": "Vue.js组件机制"},
+  { "title": "Vue.js路由机制", "sideTitle": "Vue.js路由机制", "path": "vue-router", "description": "Vue.js路由机制"},
+  { "title": "Vue.js状态管理", "sideTitle": "Vue.js状态管理", "path": "vue-state", "description": "Vue.js状态管理"},
+  { "title": "Vue.js构建工具", "sideTitle": "Vue.js构建工具", "path": "vue-tool", "description": "Vue.js构建工具"},
+  { "title": "mixins的所有缺陷", "sideTitle": "mixins的所有缺陷", "path": "mixins-defects", "description": "mixins的所有缺陷", "category": "实践" },
+  { "title": "Vue3迁移指南", "sideTitle": "Vue3迁移指南", "path": "vue3-migration", "description": "Vue3迁移指南" },
+  { "title": "Vue.js版本发布", "sideTitle": "Vue.js版本发布", "path": "vue-versions", "description": "Vue.js版本发布", "category": "附录" }
 ]

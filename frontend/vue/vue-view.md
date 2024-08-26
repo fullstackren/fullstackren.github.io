@@ -1,4 +1,4 @@
-# Vue视图
+# Vue.js 视图层渲染
 
 在 Vue 中，可以使用两种方式来定义组件的视图：`render 函数`和`模板（template）`。
 

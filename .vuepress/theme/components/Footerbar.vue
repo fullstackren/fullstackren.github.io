@@ -1,14 +1,14 @@
 <template>
   <div class="container footer-wrap">
     <!-- <img
-      src="../assets/wechat-run-kit.jpeg"
-      alt="全栈人月"
+      src="../assets/fullstack-ren-wechat.png"
+      alt="全栈孤勇者"
       width="90"
       height="90"
       loading="lazy"
       class="connect-wechat"
     /> -->
-    <div class="footer-connect">©全栈人月 2011-2023</div>
+    <div class="footer-connect">©全栈孤勇者 2011-2023</div>
   </div>
 </template>
 
