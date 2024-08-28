@@ -1,35 +1,24 @@
-# 周刊（第 6 期）：解决方案
+# 周刊（第 6 期）：TODO
 
 > 作者：[江湖](../about.md)
-> 
+>
 > 日期：2024年2月5日
 >
 > 这里记录每周值得分享的兴趣内容，周一发布。
 >
 > 本周刊[开源](https://github.com/fullstackren/fullstackren.github.io/tree/main/weekly)，欢迎[投稿](https://github.com/fullstackren/fullstackren.github.io/issues)。合作请<a href="mailto:ruizhengyun@gmail.com" target="_blank">邮件联系</a>（ruizhengyun@gmail.com）。
 
+## TODO
 
-## 解决方案
+<!-- <img src="./weekly-0025/" class="article-image" width="70%" /> -->
 
-## 源码解读
-
-## 实战
-
-## 文章
+## 开源
 
 ## 工具
 
 ## 资源
 
-## 热点话题
-
-## 旅游
-
-## 影视
-
-## 心得
-
-## 趣闻
+## 言论
 
 （完，祝好！）
 

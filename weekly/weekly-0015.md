@@ -1,7 +1,7 @@
-# 周刊（第 15 期）： HarmonyOS NEXT
+# 周刊（第 15 期）：HarmonyOS NEXT
 
 > 作者：[江湖](../about.md)
-> 
+>
 > 日期：2024年4月8日
 >
 > 这里记录每周值得分享的兴趣内容，周一发布。
@@ -44,12 +44,7 @@
 
 总之，对于现有的微信小程序来说，FinClip 提供了一个非常简单的鸿蒙 NEXT 适配方案。
 
-
-## 源码解读
-
-## 实战
-
-## 文章
+## 开源
 
 ## 工具
 
@@ -102,17 +97,11 @@ Copilot for Obsidian 是 Obsidian 内部的免费开源 ChatGPT 界面。它具�
 
 4、[lamucal](https://lamucal.ai/)
 
-<img src="./weekly-0015/lamucal.png" class="article-image" width="70%" />
+<img src="./weekly-0015/lamucal.png" alt="lamucal" class="article-image" width="70%" />
 
 任何歌曲，现在都有 AI 标签 获取任何歌曲的和弦、节拍、歌词和标签。
 
-## 热点话题
-
-## 旅游
-
-## 影视
-
-## 心得
+## 言论
 
 1、[7种肯定会陷入困境的方法（反之亦然）](https://www.ggnotes.com/7-sure-ways-to-get-stuck-do-the-opposite/)
 
@@ -125,8 +114,6 @@ Copilot for Obsidian 是 Obsidian 内部的免费开源 ChatGPT 界面。它具�
 7. 永远不要寻求帮助；
 
 好处：沉迷于别人（表面上）的成功，寻求摆脱困境。如果您采取与本文所述相反的做法，您将避免陷入困境。
-
-## 趣闻
 
 （完，祝好！）
 

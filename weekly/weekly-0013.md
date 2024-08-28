@@ -1,22 +1,18 @@
-# 周刊（第 13 期）：解决方案
+# 周刊（第 13 期）：TODO
 
 > 作者：[江湖](../about.md)
-> 
+>
 > 日期：2024年3月25日
 >
 > 这里记录每周值得分享的兴趣内容，周一发布。
 >
 > 本周刊[开源](https://github.com/fullstackren/fullstackren.github.io/tree/main/weekly)，欢迎[投稿](https://github.com/fullstackren/fullstackren.github.io/issues)。合作请<a href="mailto:ruizhengyun@gmail.com" target="_blank">邮件联系</a>（ruizhengyun@gmail.com）。
 
-## 解决方案
+## TODO
 
-## 源码解读
+<!-- <img src="./weekly-0025/" class="article-image" width="70%" /> -->
 
-## 实战
-
-## 文章
-
-## 工具
+## 开源
 
 1、Visual Studio Code 中的垂直选项卡
 
@@ -68,15 +64,7 @@
 
 <img src="./weekly-0013/linux.png" class="article-image" width="70%" />
 
-
-
-## 热点话题
-
-## 旅游
-
-## 影视
-
-## 心得
+## 言论
 
 今天说说人物 Nat Friedman 纳特·弗里德曼，曾经是 GitHub 的 CEO，这是[他的主页](https://nat.org/)。下面是他相信的事情，部分截取（我喜欢的部分）：
 
@@ -101,7 +89,6 @@
   - 通过改进你的想法而不是通过验证它们来获得多巴胺更好 Better to get your dopamine from improving your ideas than from having them validated
   - 可以从“让事情发生”中得到你的 It's ok to get yours from "making things happen"
 
-## 趣闻
 
 （完，祝好！）
 
