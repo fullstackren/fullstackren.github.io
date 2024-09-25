@@ -1,3 +1,4 @@
 [
-  { "title": "Nodejs入门", "sideTitle": "Nodejs入门", "path": "getting-started", "description": "Nodejs入门", "category": "基础" }
+  { "title": "Nodejs", "sideTitle": "Nodejs", "path": "/backend/nodejs/", "description": "Nodejs", "category": "基础" },
+  { "title": "Nodejs入门", "sideTitle": "Nodejs入门", "path": "getting-started", "description": "Nodejs入门" }
 ]

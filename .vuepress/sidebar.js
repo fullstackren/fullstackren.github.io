@@ -1,4 +1,5 @@
 /* 兴趣 */
+const interestDaylyPosts = require('../dayly/meta.json');
 const interestWeeklyPosts = require('../weekly/meta.json');
 const interestSurveyPosts = require('../survey/meta.json');
 const interestDonePosts = require('../done/meta.json');
@@ -26,9 +27,10 @@ const computerKnowledgeConceptPosts = require('../computer-knowledge/concept/met
 const computerKnowledgeGitPosts = require('../computer-knowledge/git/meta.json');
 const computerKnowledgeTreePosts = require('../computer-knowledge/tree/meta.json');
 const computerKnowledgeEncryptionDecryptionPosts = require('../computer-knowledge/encryption-decryption/meta.json');
+const computerKnowledgeHttpPosts = require('../computer-knowledge/http/meta.json'); // HTTP
+const architecturePosts = require('../architecture/meta.json'); // 架构
+const securityPosts = require('../security/meta.json'); // 安全
 
-/* 架构 */
-const architecturePosts = require('../architecture/meta.json');
 
 const getPostInfo = p => [p.path, p.sideTitle || p.title];
 
@@ -56,6 +58,7 @@ const resolveSidebar = (posts) => {
 
 module.exports = {
   /* 兴趣 */
+  interestDaylySidebar: resolveSidebar(interestDaylyPosts),
   interestWeeklySidebar: resolveSidebar(interestWeeklyPosts),
   interestSurveySidebar: resolveSidebar(interestSurveyPosts),
   interestDoneSidebar: resolveSidebar(interestDonePosts),
@@ -83,7 +86,7 @@ module.exports = {
   computerKnowledgeGitSidebar: resolveSidebar(computerKnowledgeGitPosts),
   computerKnowledgeTreeSidebar: resolveSidebar(computerKnowledgeTreePosts),
   computerKnowledgeEncryptionDecryptionSidebar: resolveSidebar(computerKnowledgeEncryptionDecryptionPosts),
-  
-  /* 架构 */
-  architectureSidebar: resolveSidebar(architecturePosts),
+  computerKnowledgeHttpSidebar: resolveSidebar(computerKnowledgeHttpPosts),
+  architectureSidebar: resolveSidebar(architecturePosts), // 架构
+  securitySidebar: resolveSidebar(securityPosts), // 安全
 }

@@ -1,11 +1,11 @@
 const path = require('path');
 const {
   /* 兴趣 */
+  interestDaylySidebar,
   interestWeeklySidebar,
   interestSurveySidebar,
   interestDoneSidebar,
   interestFollowSidebar,
-
   /* 前端 */
   frontendBasicSidebar,
   frontendBrowserSidebar,
@@ -17,19 +17,18 @@ const {
   frontendWindowSidebar,
   frontendReactSidebar,
   frontendVueSidebar,
-
   /* 后端 */
   backendBasicSidebar,
   backendRustSidebar,
   backendNodejsSidebar,
-
   /* 计算机知识 */
   computerKnowledgeConceptSidebar,
   computerKnowledgeGitSidebar,
   computerKnowledgeTreeSidebar,
   computerKnowledgeEncryptionDecryptionSidebar,
-  /* 架构 */
-  architectureSidebar
+  computerKnowledgeHttpSidebar, // HTTP
+  architectureSidebar, // 架构
+  securitySidebar // 安全
 } = require('./sidebar');
 
 module.exports = {
@@ -72,6 +71,7 @@ module.exports = {
     ],
     sidebar: {
       /* 兴趣 */
+      '/dayly/': interestDaylySidebar,
       '/weekly/': interestWeeklySidebar,
       '/survey/': interestSurveySidebar,
       '/done/': interestDoneSidebar,
@@ -96,8 +96,9 @@ module.exports = {
       '/computer-knowledge/git/': computerKnowledgeGitSidebar,
       '/computer-knowledge/tree/': computerKnowledgeTreeSidebar,
       '/computer-knowledge/encryption-decryption/': computerKnowledgeEncryptionDecryptionSidebar,
-      /* 架构 */
-      '/architecture/': architectureSidebar
+      '/computer-knowledge/http/': computerKnowledgeHttpSidebar, // HTTP
+      '/architecture/': architectureSidebar, // 架构
+      '/security/': securitySidebar  // 安全
     }
   }
 }

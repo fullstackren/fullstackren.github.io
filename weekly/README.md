@@ -25,6 +25,9 @@ $ grep -nri 编码 weekly | cat -n
 
 ### 2024年9月
 
+- [周刊/第 39 期：TODO](./weekly-0039.md)
+- [周刊/第 38 期：TODO](./weekly-0038.md)
+- [周刊/第 37 期：TODO](./weekly-0037.md)
 - [周刊/第 36 期：TODO](./weekly-0036.md)
 
 ### 2024年8月

@@ -8,7 +8,7 @@
       loading="lazy"
     />
     <p class="we-intro">
-      公众号：全栈孤勇者。</br>若加我微信（fullstack-ren）请备注<span class="highlight">全栈孤勇者</span>，然后加群「侃」大山。
+      订阅号：全栈孤勇者。</br>若加我微信（fullstack-ren）请备注<span class="highlight">全栈孤勇者</span>，然后加群「侃」大山。
     </p>
   </div>
 </template>

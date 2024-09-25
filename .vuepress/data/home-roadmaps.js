@@ -7,6 +7,7 @@ export const homeRoadmaps = {
     {
       title: '兴趣点 Interest',
       list: [
+        { title: '日刊 Dayly', description: '记录感兴趣的内容，每天发布', link: '/dayly/', bg: '#7eabd0' },
         { title: '周刊 Weekly', description: '记录感兴趣的内容，周一发布', link: '/weekly/', bg: '#f5f5d5' },
         { title: '调查 Survey', description: '记录调查数据，不定期发布', link: '/survey/', bg: '#FF85BF', color:'#fff' },
         { title: '做事 Done', description: '不忘初心，成事心态', link: '/done/', bg: '#1777FF', color:'#fff' },
@@ -18,6 +19,7 @@ export const homeRoadmaps = {
       list: [
         { title: '前端 Frontend', description: '现代前端开发人员的知识体系', link: '/frontend/', bg: '#E0C9F0' },
         { title: '后端 Backend', description: '现代后端开发人员的知识体系', link: '/backend/', bg: '#FFF2CC' },
+        { title: '安全 Security', description: '安全 Security', link: '/security/', bg: '#FFF2CC' },
         { title: '人工智能 AI', description: 'AI的知识体系', link: '/ai/', bg: '#42C7D9' },
         { title: '架构 Architecture', description: '架构', link: '/architecture/', bg: '#F8CECC' },
         { title: '计算机知识 Computer Knowledge', description: '计算机知识', link: '/computer-knowledge/', bg: '#E1D5E7' },

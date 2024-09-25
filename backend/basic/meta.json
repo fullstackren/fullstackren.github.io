@@ -1,4 +1,3 @@
 [
-  { "title": "编程语言", "sideTitle": "编程语言", "path": "language", "description": "编程语言", "category": "基础篇" },
-  { "title": "cas 单点登录", "sideTitle": "cas 单点登录", "path": "cas", "description": "cas 单点登录" }
+  { "title": "编程语言", "sideTitle": "编程语言", "path": "language", "description": "编程语言", "category": "基础篇" }
 ]

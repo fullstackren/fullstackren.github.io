@@ -1,6 +1,6 @@
 # 周刊（第 15 期）：HarmonyOS NEXT
 
-> 作者：[江湖](../about.md)
+> 作者：[西湖前端正正日上](../about.md)
 >
 > 日期：2024年4月8日
 >
@@ -48,26 +48,26 @@
 
 ## 工具
 
-1、[Copilot for Obsidian](https://github.com/logancyang/obsidian-copilot)
+### 1、[Copilot for Obsidian](https://github.com/logancyang/obsidian-copilot)
 
 <img src="./weekly-0015/obsidian-copilot.png" class="article-image" width="70%" />
 
 Copilot for Obsidian 是 Obsidian 内部的免费开源 ChatGPT 界面。它具有简约的设计并且易于使用。给你的 Obsidian 插上 AI 大模型引擎，参见[这篇文章](https://mp.weixin.qq.com/s/at7K_8lEfVzQJq5qnpzvUg)。
 
 
-2、[LunarLink](https://github.com/tahitimoon/LunarLink)
+### 2、[LunarLink](https://github.com/tahitimoon/LunarLink)
 
 <img src="./weekly-0015/lunar-link.png" class="article-image" width="70%" />
 
 一个基于 HttpRunner + Django + Vue + Element UI 的接口自动化测试平台，生产可用。
 
-3、[text2video](https://github.com/bravekingzhang/text2video)
+### 3、[text2video](https://github.com/bravekingzhang/text2video)
 
 <img src="./weekly-0015/text2video.jpg" class="article-image" width="70%" />
 
 这个工具可以将一段文本转换为视频，并保存到指定的本地，初衷是想实现小说的可视化阅读功能。
 
-4、[Magic Wormhole](https://github.com/magic-wormhole/magic-wormhole)
+### 4、[Magic Wormhole](https://github.com/magic-wormhole/magic-wormhole)
 
 <img src="./weekly-0015/magic-wormhole.png" class="article-image" width="70%" />
 
@@ -93,7 +93,7 @@ Copilot for Obsidian 是 Obsidian 内部的免费开源 ChatGPT 界面。它具�
 
 <img src="./weekly-0015/z2h.png" class="article-image" width="70%" />
 
-介绍了一款超级好用的字帖生成工具，展示了生成的“江湖和他的朋友们”字帖样本，同时提供了工具的各种设置选项，如显示首字、插入空行、方格类型等。
+介绍了一款超级好用的字帖生成工具，展示了生成的“西湖前端正正日上和他的朋友们”字帖样本，同时提供了工具的各种设置选项，如显示首字、插入空行、方格类型等。
 
 4、[lamucal](https://lamucal.ai/)
 
