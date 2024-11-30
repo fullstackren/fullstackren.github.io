@@ -1,3 +1,0 @@
----
-computerKnowledge: true
----

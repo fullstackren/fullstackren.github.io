@@ -1,9 +1,0 @@
-[
-  { "title": "介绍", "sideTitle": "介绍", "path": "introduce", "description": "介绍", "category": "入门篇" },
-  { "title": "Rust入门基础", "sideTitle": "Rust入门基础", "path": "base", "description": "Rust入门基础" },
-  { "title": "Rust核心概念", "sideTitle": "Rust核心概念", "path": "core-concepts", "description": "Rust核心概念" },
-  { "title": "Rust异步编程", "sideTitle": "Rust异步编程", "path": "asynchronous-programming", "description": "Rust异步编程" },
-  { "title": "构建 Web 框架", "sideTitle": "构建 Web 框架", "path": "build-web-framework", "description": "构建 Web 框架" },
-  { "title": "为异步框架扩展功能", "sideTitle": "为异步框架扩展功能", "path": "asynchronous-framework-extension-functionality", "description": "为异步框架扩展功能" },
-  { "title": "异步框架开发 Todolist", "sideTitle": "异步框架开发 Todolist", "path": "asynchronous-framework-development-todolist", "description": "异步框架开发 Todolist" }
-]

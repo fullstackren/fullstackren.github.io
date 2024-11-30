@@ -1,6 +1,0 @@
-[
-  { "title": "解读一副架构图", "sideTitle": "解读一副架构图", "path": "architecture-diagram-interpretation", "description": "解读一副架构图", "category": "基础篇" },
-  { "title": "如何画一副好的架构图", "sideTitle": "如何画一副好的架构图", "path": "how-to-draw-a-good-architecture-diagrams", "description": "如何画一副好的架构图"},
-  { "title": "后端架构演进", "sideTitle": "后端架构演进", "path": "backend-architecture", "description": "后端架构演进", "category": "经典架构" },
-  { "title": "babel架构", "sideTitle": "babel架构", "path": "babel-architecture", "description": "babel架构", "category": "案例篇"  }
-]

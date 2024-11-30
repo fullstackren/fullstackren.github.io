@@ -1,24 +1,26 @@
 {
-  "name": "fullstackren",
+  "name": "fullstackren.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "start": "vuepress dev -p 2023",
-    "build": "vuepress build"
+    "dev": "cross-env NODE_ENV=development  vitepress dev docs --port=2024",
+    "build": "vitepress build docs"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/fullstackren/fullstackren.github.io.git"
   },
-  "author": "西湖前端正正日上",
+  "keywords": [],
+  "author": "全栈孤勇者",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/fullstackren/fullstackren.github.io.git/issues"
+    "url": "https://github.com/fullstackren/fullstackren.github.io/issues"
   },
-  "homepage": "https://github.com/fullstackren/fullstackren.github.io.git#readme",
+  "homepage": "https://github.com/fullstackren/fullstackren.github.io#readme",
   "devDependencies": {
-    "@vuepress/plugin-google-analytics": "^1.9.10",
-    "dayjs": "^1.11.10",
-    "npm-check-updates": "^16.14.15",
-    "vuepress": "^1.9.10",
-    "vuepress-plugin-feed": "^0.1.9"
+    "cross-env": "^7.0.3",
+    "vitepress": "^1.0.1",
+    "vue": "^3.4.21"
   }
 }
