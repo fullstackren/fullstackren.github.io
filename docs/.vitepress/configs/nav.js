@@ -24,4 +24,18 @@ export const nav = [
       }
     ]
   },
+  { text: '后端',
+    items: [
+      { text: '语言',
+        items: [
+          { text: 'Nestjs', link: '/backend-develop/language/nestjs/' },
+        ]
+      },
+      { text: '数据库',
+        items: [
+          { text: 'MySQL', link: '/databases/mysql/' },
+        ]
+      }
+    ]
+  },
 ]

@@ -23,6 +23,7 @@ export const sidebar = {
           items: [
             { text: 'Vue', link: '/web-develop/web-framework/vue' },
             { text: 'Vue2 APIs', link: '/web-develop/web-framework/vue2-apis' },
+            { text: 'Vue3 APIs', link: '/web-develop/web-framework/vue3-apis' },
           ]
         },
       ]
@@ -31,5 +32,15 @@ export const sidebar = {
   '/frontend-engineering/': [
     { text: '前端工程化', link: '/frontend-engineering' },
     { text: 'NVM', link: '/frontend-engineering/nvm' }
+  ],
+  '/backend-develop/': [
+    { text: '语言',
+      items: [
+        { text: 'Nestjs', link: '/backend-develop/language/nestjs' },
+      ]
+    }
+  ],
+  '/databases/': [
+    { text: 'MySQL', link: '/databases/mysql' },
   ]
 }

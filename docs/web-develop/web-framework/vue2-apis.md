@@ -44,4 +44,4 @@ Vue.nextTick(function () {
 
 ## 参考资料
 
-- [API 参考](https://cn.vuejs.org/api/)
+- [Vue2 APIs 参考](https://v2.cn.vuejs.org/v2/api/)
