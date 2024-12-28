@@ -1,5 +1,7 @@
 import { defineConfig } from 'vitepress'
-import { head } from './configs'
+import { head, nav } from './configs'
+
+console.log('nav', nav)
 
 export default defineConfig({
   title: '江湖聊IT',
@@ -7,12 +9,7 @@ export default defineConfig({
   /* 主题定制 */ 
   themeConfig: {
     logo: '/logo.jpg',
-    nav: [
-      { text: '开发者路线', link: '/' },
-      { text: 'Web 开发', link: '/fe/web/' },
-      { text: '源码解读', link: '/source-code/' },
-      { text: '工具提效', link: '/tool/' },
-    ],
+    nav,
   },
   head
 })
