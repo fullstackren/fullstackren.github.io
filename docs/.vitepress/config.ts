@@ -1,4 +1,5 @@
 import { defineConfig } from 'vitepress'
+import { head } from './configs'
 
 export default defineConfig({
   title: '江湖聊IT',
@@ -13,4 +14,5 @@ export default defineConfig({
       { text: '工具提效', link: '/tool/' },
     ],
   },
+  head
 })
