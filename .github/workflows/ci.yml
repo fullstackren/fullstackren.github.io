@@ -36,28 +36,25 @@ jobs:
           fetch-depth: 0
 
       # 安装 pnpm
-      - name: Install pnpm
+      - name: 安装 pnpm
         uses: pnpm/action-setup@v4
 
       # 设置 node 版本
-      - name: Use Node.js ${{ matrix.node-version }}
+      - name: 安装 NodeJS
         uses: actions/setup-node@v4
         with:
           node-version: ${{ matrix.node-version }}
           cache: 'pnpm'
 
-      - name: Copy files
+      - name: 拷贝文件
         run: cp README.md ./dist/
 
       # 部署
-      - name: Deploy
+      - name: 部署站点
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          token: ${{ secrets.ACCESS_TOKEN }}
-          commit-message: Deploying to gh-pages from @ ${{ github.sha }} 🚀
-          # 指定仓库
-          repository-name: fullstackren/fullstack-ren.github.io
-          # GitHub Pages 读取的分支
-          branch: gh-pages
-          # 静态文件所在目录
-          folder: dist
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ACCESS_TOKEN: ${{ secrets.DEVELOP_DOC }}
+          BRANCH: gh-pages
+          FOLDER: .vuepress/dist
+          COMMIT_MESSAGE: update from blog
