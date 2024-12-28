@@ -1,33 +1,63 @@
-name: blog CI
+name: GitHub Actions Build and Deploy
+
+# 触发条件: push 到 master 分支后
 on:
+  workflow_dispatch:
+  repository_dispatch:
+    types: [build-and-deploy]
   push:
     branches:
       - main
+    # 只在下列路径变更时触发
+    paths:
+      - 'docs/**'
+      - 'package.json'
 
+# 设置权限
+permissions: write-all
+
+# 设置上海时区
+env:
+  TZ: Asia/Shanghai
+
+# 任务
 jobs:
-  page-generator:
-    name: 生产页面
-    # 服务器环境：最新版 Ubuntu
+  build-and-deploy:
+    # 服务器环境：最新版 ubuntu
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [20]
     steps:
       # 拉取代码
-      - name: 检查
-        uses: actions/checkout@v2
+      - name: Checkout
+        uses: actions/checkout@v4
         with:
-          persist-credentials: false
-      - name: 安装 NodeJS
-        uses: actions/setup-node@main
+          fetch-depth: 0
+
+      # 安装 pnpm
+      - name: Install pnpm
+        uses: pnpm/action-setup@v4
+
+      # 设置 node 版本
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v4
         with:
-          node-version: "18.16.0"
-      - name: 安装依赖
-        run: npm install
-      - name: 构建页面
-        run: npm run build
-      - name: 部署站点
-        uses: JamesIves/github-pages-deploy-action@4.1.0
+          node-version: ${{ matrix.node-version }}
+          cache: 'pnpm'
+
+      - name: Copy files
+        run: cp README.md ./dist/
+
+      # 部署
+      - name: Deploy
+        uses: JamesIves/github-pages-deploy-action@v4
         with:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          ACCESS_TOKEN: ${{ secrets.DEVELOP_DOC }}
-          BRANCH: gh-pages
-          FOLDER: .vuepress/dist
-          COMMIT_MESSAGE: update from blog
+          token: ${{ secrets.ACCESS_TOKEN }}
+          commit-message: Deploying to gh-pages from @ ${{ github.sha }} 🚀
+          # 指定仓库
+          repository-name: fullstackren/fullstack-ren.github.io
+          # GitHub Pages 读取的分支
+          branch: gh-pages
+          # 静态文件所在目录
+          folder: dist
