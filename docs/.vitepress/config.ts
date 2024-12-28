@@ -12,9 +12,9 @@ export default defineConfig({
     algolia,
     comment: {
       repo: 'fullstackren/fullstackren.github.io',
-      repoId: 'MDEwOlJlcG9zaXRvcnkxNTc0ODc5Mjg=',
+      repoId: '',
       category: 'Announcements',
-      categoryId: 'DIC_kwDOCWMTOM4CZ2rf',
+      categoryId: '',
     },
     /* 右侧大纲配置 */
     outline: {
