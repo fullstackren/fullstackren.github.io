@@ -7,7 +7,7 @@ import Giscus from '@giscus/vue'
 import { usePageId } from '../composables'
 
 import DfNavVisitor from './DfNavVisitor.vue'
-import DfDocFooter from './DfDocFooter.vue'
+// import DfDocFooter from './DfDocFooter.vue'
 import DfAsideSponsors from './DfAsideSponsors.vue'
 
 const { Layout } = DefaultTheme
@@ -92,9 +92,9 @@ provide('toggle-appearance', async ({ clientX: x, clientY: y }: MouseEvent) => {
       </div>
     </template>
 
-    <template #doc-after>
+    <!-- <template #doc-after>
       <DfDocFooter />
-    </template>
+    </template> -->
 
     <template #aside-bottom>
       <DfAsideSponsors />
