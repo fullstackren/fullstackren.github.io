@@ -1,4 +1,4 @@
-/Users/ruizhengyun/Downloads/mm-notes-master/.github /Users/ruizhengyun/Downloads/mm-notes-master/.github/workflows /Users/ruizhengyun/Downloads/mm-notes-master/.github/workflows/deploy.ymlname: GitHub Actions Build and Deploy
+name: Github Actions Build and Deploy
 
 # 触发条件: push 到 master 分支后
 on:
@@ -7,7 +7,7 @@ on:
     types: [build-and-deploy]
   push:
     branches:
-      - master
+      - main
     # 只在下列路径变更时触发
     paths:
       - 'docs/**'
