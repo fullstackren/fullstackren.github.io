@@ -10,6 +10,12 @@ export default defineConfig({
     nav,
     sidebar,
     algolia,
+    comment: {
+      repo: 'fullstackren/fullstackren.github.io',
+      repoId: 'MDEwOlJlcG9zaXRvcnkxNTc0ODc5Mjg=',
+      category: 'Announcements',
+      categoryId: 'DIC_kwDOCWMTOM4CZ2rf',
+    },
     /* 右侧大纲配置 */
     outline: {
       level: 'deep',
