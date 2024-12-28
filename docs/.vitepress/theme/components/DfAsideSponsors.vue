@@ -25,7 +25,7 @@ const data = [
 <template>
   <p class="df-sponsor-title">
     鼓励作者：欢迎
-    <VPLink href="https://github.com/maomao1996/mdf-notes" no-icon>star</VPLink>
+    <VPLink href="https://github.com/fullstackren/fullstackren.github.io" no-icon>star</VPLink>
     或打赏犒劳
   </p>
   <VPDocAsideSponsors :data="data" />

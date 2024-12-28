@@ -1,7 +1,5 @@
 import { defineConfig } from 'vitepress'
-import { head, nav } from './configs'
-
-console.log('nav', nav)
+import { head, nav, sidebar } from './configs'
 
 export default defineConfig({
   title: '江湖聊IT',
@@ -10,6 +8,7 @@ export default defineConfig({
   themeConfig: {
     logo: '/logo.jpg',
     nav,
+    sidebar,
   },
   head
 })

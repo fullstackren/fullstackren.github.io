@@ -42,11 +42,11 @@ features:
 ---
 
 <script setup>
-import DfFriends from './home/DfFriends.vue'
+import DfFriends from './components/df-friends/DfFriends.vue'
 </script>
 
 <ClientOnly>
-  <DfFriends/>
+  <DfFriends />
 </ClientOnly>
 
 ::: details 申请友链
