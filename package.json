@@ -1,26 +1,47 @@
 {
   "name": "fullstackren.github.io",
+  "type": "module",
+  "private": true,
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "dev": "cross-env NODE_ENV=development  vitepress dev docs --port=2024",
-    "build": "vitepress build docs"
-  },
+  "dsescription": "给时光以效率，给岁月以成长，欢迎来到【江湖聊IT】。在这个信息爆炸、时间紧迫的时代，尽管每日忙碌，却难成有意义之事。作为效率探索者，我创建了此平台，分享节省时间、提升效率的工具与方法，助你腾出更多时间专注于成长和快乐。",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fullstackren/fullstackren.github.io.git"
+    "url": "https://github.com/fullstackren/fullstackren.github.io.git"
   },
-  "keywords": [],
-  "author": "全栈孤勇者",
-  "license": "MIT",
   "bugs": {
     "url": "https://github.com/fullstackren/fullstackren.github.io/issues"
   },
-  "homepage": "https://github.com/fullstackren/fullstackren.github.io#readme",
+  "license": "MIT",
+  "homepage": "https://fullstack.ren/",
+  "author": "江湖",
+  "scripts": {
+    "docs:dev": "cross-env NODE_ENV=development vitepress dev docs --port 2024",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs",
+    "lint": "prettier --write .",
+    "prepare": "husky install"
+  },
   "devDependencies": {
-    "cross-env": "^7.0.3",
+    "@femm/prettier": "^1.1.0",
+    "@giscus/vue": "^2.4.0",
+    "@mdit-vue/shared": "^0.12.1",
+    "autoprefixer": "^10.4.18",
+    "cross-env": "7.0.3",
+    "dayjs": "^1.11.10",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.0.3",
+    "medium-zoom": "^1.1.0",
+    "postcss": "^8.4.36",
+    "prettier": "2.8.8",
+    "sass": "^1.83.0",
+    "vite-plugin-markdown-preview": "^1.1.1",
     "vitepress": "^1.0.1",
     "vue": "^3.4.21"
-  }
+  },
+  "lint-staged": {
+    "*.{js,ts,css,md,json}": [
+      "prettier --write"
+    ]
+  },
+  "prettier": "@femm/prettier"
 }
