@@ -29,5 +29,5 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           ACCESS_TOKEN: ${{ secrets.DEVELOP_DOC }}
           BRANCH: gh-pages
-          FOLDER: docs/.vuepress/dist
+          FOLDER: /docs/.vuepress/dist
           COMMIT_MESSAGE: update from blog
