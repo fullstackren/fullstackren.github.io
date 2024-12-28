@@ -1,5 +1,5 @@
 import { defineConfig } from 'vitepress'
-import { head, nav, sidebar } from './configs'
+import { head, nav, sidebar, algolia } from './configs'
 
 export default defineConfig({
   title: '江湖聊IT',
@@ -9,6 +9,26 @@ export default defineConfig({
     logo: '/logo.jpg',
     nav,
     sidebar,
+    algolia,
+    /* 右侧大纲配置 */
+    outline: {
+      level: 'deep',
+      label: '目录',
+    },
+    docFooter: {
+      prev: '上一篇',
+      next: '下一篇',
+    },
+    returnToTopLabel: '回到顶部',
+    sidebarMenuLabel: '菜单',
+    darkModeSwitchLabel: '主题',
+    lightModeSwitchTitle: '切换到浅色模式',
+    darkModeSwitchTitle: '切换到深色模式',
+    footer: {
+      message: '如有转载或 CV 的请标注本站原文地址',
+      copyright: 'Copyright © 2011-present 江湖聊IT',
+    },
+    socialLinks: [{ icon: 'github', link: 'https://github.com/fullstackren' }],
   },
   head
 })
