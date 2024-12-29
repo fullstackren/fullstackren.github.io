@@ -5,10 +5,10 @@ export const ROADMAP_DATA: NavData[] = [
     title: 'Web 开发',
     items: [
       {
-        icon: 'https://www.fullstack.ren/icons/html5.png',
+        icon: 'https://www.fullstack.ren/icons/html.png',
         title: 'HTML',
         desc: '超文本标记语言（HyperText Markup Language），定义了网页内容的含义和结构。',
-        link: 'https://caniuse.com'
+        link: 'https://www.fullstack.ren/fe/web/html/'
       },
     ]
   },

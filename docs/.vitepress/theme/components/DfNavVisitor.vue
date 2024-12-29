@@ -11,7 +11,7 @@ const { visitor } = theme.value
   <img
     v-if="!DEV"
     class="visitor"
-    :src="`https://visitor-badge.laobi.icu/badge`"
+    :src="`https://visitor-badge.laobi.icu/badge?page_id=${visitor.badgeId}`"
     onerror="this.style.display='none'"
   />
 </template>
