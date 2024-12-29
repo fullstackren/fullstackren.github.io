@@ -10,16 +10,16 @@ export default defineConfig({
     nav,
     sidebar,
     algolia,
-    comment: {
-      repo: 'fullstackren/fullstackren.github.io',
-      repoId: '',
-      category: 'Announcements',
-      categoryId: '',
-    },
     /* 右侧大纲配置 */
     outline: {
       level: 'deep',
       label: '目录',
+    },
+    comment: {
+      repo: 'fullstackren/fullstackren.github.io',
+      repoId: 'R_kgDOLUQ83Q',
+      category: 'Announcements',
+      categoryId: 'DIC_kwDOLUQ83c4Clk1a',
     },
     docFooter: {
       prev: '上一篇',
