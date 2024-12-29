@@ -8,30 +8,38 @@ const data = [
   {
     items: [
       {
-        img: withBase('/sponsor/wechat-color.webp')
+        img: withBase('/jianghu-talk-it.jpg')
       }
     ]
   },
-  {
-    items: [
-      {
-        img: withBase('/sponsor/alipay-color.webp')
-      }
-    ]
-  }
+  // {
+  //   tier: '打赏',
+  //   items: [
+  //     {
+  //       img: withBase('/sponsor/wechat-color.webp')
+  //     }
+  //   ]
+  // },
 ]
 </script>
 
 <template>
-  <p class="df-sponsor-title">
-    鼓励作者：欢迎
-    <VPLink href="https://github.com/fullstackren/fullstackren.github.io" no-icon>star</VPLink>
-    或打赏犒劳
-  </p>
-  <VPDocAsideSponsors :data="data" />
+  <div class="df-sponsor-container">
+    <p class="df-sponsor-title">
+      鼓励作者：
+      <VPLink href="https://github.com/fullstackren/fullstackren.github.io" no-icon>star</VPLink>
+      、加微信或打赏
+    </p>
+    <VPDocAsideSponsors :data="data" />
+  </div>
 </template>
 
 <style lang="scss">
+.df-sponsor-container {
+  background-color: #EFF0F3;
+  border-radius: 4px;
+  padding-bottom: 12px;
+}
 .df-sponsor-title {
   margin-top: 10px;
   margin-bottom: 6px;
@@ -48,14 +56,21 @@ const data = [
     }
   }
 }
-
+.vp-sponsor{
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+.vp-sponsor-section + .vp-sponsor-section {
+  margin-top: 0;
+}
 .vp-sponsor-grid.vp-sponsor-grid {
   .vp-sponsor-grid-link {
-    height: 144px;
+    height: 80px;
   }
   .vp-sponsor-grid-image {
     max-width: none;
-    max-height: 128px;
+    max-height: 80px;
     filter: grayscale(0.8);
   }
 }
