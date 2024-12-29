@@ -42,7 +42,12 @@ export const ROADMAP_DATA: NavData[] = [
         link: 'https://xiaolincoding.com/',
         icon: 'https://xiaolincoding.com/logo.webp',
       },
-      
+      {
+        title: '峰华前端工程师',
+        desc: '致力于帮助你以最直观、最快速的方式学会前端开发，并希望我的个人经历对你有所启发。。',
+        link: 'https://zxuqian.cn/videos',
+        icon: 'https://zxuqian.cn/img/logo.webp',
+      },
       {
         title: 'antfu.me',
         desc: 'Vue, Vite, Nuxt 核心团队成员 | VueUse, Slidev, Vitest, UnoCSS 作者。',

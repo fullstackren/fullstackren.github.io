@@ -10,35 +10,37 @@ hero:
     src: /logo.jpg
     alt: 江湖聊IT
   actions:
-    - text: Web开发
-      link: /fe/web/
     - text: 开发者路线
       link: /roadmap
+    - text: 工具提效
+      link: /efficiency
       theme: alt
+    - text: Web开发
+      link: /fe/web/
     # - text: 我的音频
     #   link: https://music.fullstack.ren
     #   theme: alt
 features:
-  - icon: 📖
-    title: Web 开发
-    details: 整理 Web 开发常用知识点<br />学习各种前端框架
-    link: /fe/web/
-    linkText: 查看更多
-  - icon: 📘
-    title: 源码解读
-    details: 了解各种库的实现原理<br />学习其中的小技巧和冷知识
-    link: /source-code/
-    linkText: 查看更多
-  - icon: 🧰
-    title: 工具提效
-    details: 工欲善其事，必先利其器<br />记录日常使用的软件、插件、扩展等
-    link: /tools/
-    linkText: 查看更多
-  - icon: 🐞
-    title: 踩坑记录
-    details: 那些年踩过的坑<br />总有一些让你意想不到的问题
-    link: /pit/
-    linkText: 查看更多
+  # - icon: 📖
+  #   title: Web 开发
+  #   details: 整理 Web 开发常用知识点<br />学习各种前端框架
+  #   link: /fe/web/
+  #   linkText: 查看更多
+  # - icon: 📘
+  #   title: 源码解读
+  #   details: 了解各种库的实现原理<br />学习其中的小技巧和冷知识
+  #   link: /source-code/
+  #   linkText: 查看更多
+  # - icon: 🧰
+  #   title: 工具提效
+  #   details: 工欲善其事，必先利其器<br />记录日常使用的软件、插件、扩展等
+  #   link: /tools/
+  #   linkText: 查看更多
+  # - icon: 🐞
+  #   title: 踩坑记录
+  #   details: 那些年踩过的坑<br />总有一些让你意想不到的问题
+  #   link: /pit/
+  #   linkText: 查看更多
 ---
 
 <script setup>

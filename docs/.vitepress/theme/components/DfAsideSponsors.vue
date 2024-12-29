@@ -25,10 +25,7 @@ const data = [
 
 <template>
   <div class="df-sponsor-container">
-    <p class="df-sponsor-title">
-      鼓励作者：
-      <VPLink href="https://github.com/fullstackren/fullstackren.github.io" no-icon>star</VPLink>
-      、加微信或打赏
+    <p class="df-sponsor-title">鼓励作者：<VPLink href="https://github.com/fullstackren/fullstackren.github.io" no-icon>star</VPLink>、关注、打赏
     </p>
     <VPDocAsideSponsors :data="data" />
   </div>

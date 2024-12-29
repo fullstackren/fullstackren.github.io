@@ -56,6 +56,17 @@
     }
   }
 }
+@media (min-width: 768px) {
+  .df-home-layout, .df-nav-layout {
+    .VPHome {
+      margin-bottom: 12px;
+    }
+    .VPFooter {
+      padding-top: 12px;
+      padding-bottom: 12px;
+    }
+  }
+}
 
 /* 首页样式修改 */
 .VPHero {
