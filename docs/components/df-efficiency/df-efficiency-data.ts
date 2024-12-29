@@ -2,6 +2,49 @@ import type { NavData } from '../../.vitepress/theme/types'
 
 export const EFFICIENCY_DATA: NavData[] = [
   {
+    title: "问答",
+    items: [
+      {
+        title: 'ChatGPT',
+        link: 'https://chatgpt.com/chat',
+        icon: '/icons/chatgpt.png',
+        badge: 'AI',
+      },
+      {
+        title: '通义千问',
+        link: 'https://tongyi.aliyun.com/qianwen/',
+        icon: '/icons/tongyi.png',
+        badge: 'AI',
+      },
+      {
+        title: '豆包',
+        link: 'https://www.doubao.com/chat/',
+        icon: '/icons/doubao.png',
+        badge: 'AI',
+      },
+      {
+        title: '文心一言',
+        link: 'https://www.doubao.com/chat/',
+        icon: '/icons/yiyan.png',
+        badge: 'AI',
+      },
+      {
+        title: 'Kimi.ai',
+        link: 'https://kimi.moonshot.cn/',
+        desc: '超长文本对话。',
+        icon: 'icons/kimi.ico',
+        badge: 'AI',
+      },
+      {
+        title: '智谱清言',
+        link: 'https://chatglm.cn/?lang=zh',
+        desc: '超长文本对话。',
+        icon: '/icons/chatglm.png',
+        badge: 'AI',
+      }
+    ]
+  },
+  {
     title: '图形图像',
     items: [
       {
@@ -29,11 +72,27 @@ export const EFFICIENCY_DATA: NavData[] = [
         icon: '/icons/shields.png',
       },
       {
+        title: 'Midjourney',
+        link: 'https://www.midjourney.com/',
+        icon: '/icons/midjourney.png',
+        badge: 'AI',
+      },
+      {
         title: 'Excalidraw',
         desc: '手绘风格流程图',
         link: 'https://excalidraw.com',
         icon: '/icons/excalidraw.ico',
       }
+    ]
+  },
+  {
+    title: "笔记",
+    items: [
+      {
+        title: 'Notion AI',
+        link: 'https://www.notion.so/',
+        icon: '/icons/notion.png'
+      },
     ]
   },
   {
