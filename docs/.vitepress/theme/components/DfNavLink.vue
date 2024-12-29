@@ -80,6 +80,7 @@ const handleClick = () => emits('nav-click', props)
 
   display: block;
   border: 1px solid var(--vp-c-bg-soft);
+  box-shadow: rgba(163, 177, 191, 0.35) 0px 8px 24px;
   border-radius: 8px;
   height: 100%;
   text-decoration: inherit;
@@ -90,6 +91,7 @@ const handleClick = () => emits('nav-click', props)
     border-color: var(--vp-c-brand);
     text-decoration: initial;
     background-color: var(--vp-c-bg);
+    transform: scale(1.1);
   }
 
   .box {
@@ -117,7 +119,7 @@ const handleClick = () => emits('nav-click', props)
     width: var(--df-nav-icon-box-size);
     height: var(--df-nav-icon-box-size);
     font-size: var(--df-nav-icon-size);
-    background-color: var(--vp-c-default-soft);
+    // background-color: var(--vp-c-default-soft);
     transition: background-color 0.25s;
     :deep(svg) {
       width: var(--df-nav-icon-size);
@@ -125,7 +127,9 @@ const handleClick = () => emits('nav-click', props)
     }
     :deep(img) {
       border-radius: 4px;
-      width: var(--df-nav-icon-size);
+      height: 100%;
+      width: 100%
+      // width: var(--df-nav-icon-size);
     }
   }
 
