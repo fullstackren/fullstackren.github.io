@@ -36,14 +36,14 @@ const formatTitle = computed(() => {
 
 <style lang="scss" scoped>
 .df-nav-links {
-  --m-nav-gap: 10px;
+  --df-nav-gap: 10px;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
-  grid-row-gap: var(--m-nav-gap);
-  grid-column-gap: var(--m-nav-gap);
+  grid-row-gap: var(--df-nav-gap);
+  grid-column-gap: var(--df-nav-gap);
   grid-auto-flow: row dense;
   justify-content: center;
-  margin-top: var(--m-nav-gap);
+  margin-top: var(--df-nav-gap);
 }
 
 @each $media, $size in (500px: 140px, 640px: 155px, 768px: 175px, 960px: 200px, 1440px: 240px) {
@@ -56,7 +56,7 @@ const formatTitle = computed(() => {
 
 @media (min-width: 960px) {
   .df-nav-links {
-    --m-nav-gap: 20px;
+    --df-nav-gap: 20px;
   }
 }
 </style>
