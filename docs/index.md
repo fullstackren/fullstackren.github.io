@@ -8,7 +8,7 @@ hero:
   tagline: 助你腾出更多时间专注于成长和快乐
   image:
     src: /logo.jpg
-    alt: 茂茂物语
+    alt: 江湖聊IT
   actions:
     - text: Web开发
       link: /fe/web/

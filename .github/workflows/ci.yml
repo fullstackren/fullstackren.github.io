@@ -28,6 +28,8 @@ jobs:
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           ACCESS_TOKEN: ${{ secrets.DEVELOP_DOC }}
+          ACCESS_TOKEN: ${{ secrets.DEVELOP_DOC }}
+          ACCESS_TOKEN: ${{ secrets.DEVELOP_DOC }}
           BRANCH: gh-pages
           FOLDER: docs/.vitepress/dist
           COMMIT_MESSAGE: update from blog

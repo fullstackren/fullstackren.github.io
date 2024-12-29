@@ -35,6 +35,9 @@ export default defineConfig({
       prev: '上一篇',
       next: '下一篇',
     },
+    visitor: {
+      badgeId: "fullstackren.fullstackren.github.io"
+    },
     returnToTopLabel: '回到顶部',
     sidebarMenuLabel: '菜单',
     darkModeSwitchLabel: '主题',
