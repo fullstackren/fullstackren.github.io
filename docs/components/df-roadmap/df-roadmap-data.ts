@@ -2,13 +2,30 @@ import type { NavData } from '../../.vitepress/theme/types'
 
 export const ROADMAP_DATA: NavData[] = [
   {
+    title: '计算机基础',
+    items: [
+      
+    ]
+  },
+  {
+    title: '高质量博客',
+    items: [
+      {
+        title: '科技爱好者周刊',
+        desc: '阮一峰的科技爱好者周刊。',
+        link: 'https://www.fullstack.ren/fe/web/html/',
+        icon: '/icons/html.png',
+      },
+    ]
+  },
+  {
     title: 'Web 开发',
     items: [
       {
-        icon: 'https://www.fullstack.ren/icons/html.png',
         title: 'HTML',
         desc: '超文本标记语言（HyperText Markup Language），定义了网页内容的含义和结构。',
-        link: 'https://www.fullstack.ren/fe/web/html/'
+        link: 'https://www.fullstack.ren/fe/web/html/',
+        icon: '/icons/html.png',
       },
     ]
   },
