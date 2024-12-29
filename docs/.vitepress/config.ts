@@ -1,10 +1,20 @@
 import { defineConfig } from 'vitepress'
+import MarkdownPreview from 'vite-plugin-markdown-preview'
 import { head, nav, sidebar, algolia } from './configs'
 
 export default defineConfig({
   title: '江湖聊IT',
   description: '给时光以效率，给岁月以成长，欢迎来到【江湖聊IT】。在这个信息爆炸、时间紧迫的时代，尽管每日忙碌，却难成有意义之事。作为效率探索者，我创建了此平台，分享节省时间、提升效率的工具与方法，助你腾出更多时间专注于成长和快乐。',
   /* 主题定制 */ 
+  cleanUrls: true,
+  lang: 'zh-CN',
+  /* markdown 配置 */
+  markdown: {
+    lineNumbers: true,
+    image: {
+      lazyLoading: true,
+    },
+  },
   themeConfig: {
     logo: '/logo.jpg',
     nav,
@@ -35,6 +45,9 @@ export default defineConfig({
       copyright: 'Copyright © 2011-present 江湖聊IT',
     },
     socialLinks: [{ icon: 'github', link: 'https://github.com/fullstackren' }],
+    vite: {
+      plugins: [MarkdownPreview()],
+    },
   },
   head
 })
