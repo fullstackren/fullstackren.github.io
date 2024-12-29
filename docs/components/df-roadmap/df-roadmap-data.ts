@@ -49,6 +49,12 @@ export const ROADMAP_DATA: NavData[] = [
         icon: 'https://zxuqian.cn/img/logo.webp',
       },
       {
+        title: '茂茂物语',
+        desc: '知识是进步的阶梯，争取每天都有知识点更新。',
+        link: 'https://notes.fe-mm.com/',
+        icon: 'https://notes.fe-mm.com/logo.png',
+      },
+      {
         title: 'antfu.me',
         desc: 'Vue, Vite, Nuxt 核心团队成员 | VueUse, Slidev, Vitest, UnoCSS 作者。',
         link: 'https://antfu.me/posts',
@@ -69,7 +75,7 @@ export const ROADMAP_DATA: NavData[] = [
     ]
   },
   {
-    title: 'Web 开发',
+    title: '语言文档和规范',
     items: [
       {
         title: 'HTML',
@@ -77,7 +83,48 @@ export const ROADMAP_DATA: NavData[] = [
         link: 'https://www.fullstack.ren/fe/web/html/',
         icon: '/icons/html.png',
       },
-      
+      {
+        title: 'CSS',
+        desc: 'CSS 规范说明。',
+        link: 'https://www.w3.org/Style/CSS/specs.en.html',
+        icon: '/icons/w3c.svg'
+      },
+      {
+        title: 'ECMAScript',
+        desc: '提供 Web 技术文档，学习 Web 开发的最佳实践。',
+        link: 'https://tc39.es/ecma262/',
+        icon: '/icons/ecma.svg'
+      },
+      {
+        title: 'MDN',
+        desc: 'ECMAScript 标准',
+        link: 'https://developer.mozilla.org/zh-CN/docs/Web',
+        icon: '/icons/mdn.jpg'
+      },
+      {
+        title: 'TypeScript',
+        desc: 'TypeScript 是带有类型语法的 JavaScript。',
+        link: 'https://www.typescriptlang.org/',
+        icon: '/icons/typescript.png'
+      },
+      {
+        title: 'JSON Schema',
+        desc: 'JSON Schema 是一个词汇表，可以验证、注释和操作 JSON 文档。',
+        link: 'https://json-schema.org/',
+        icon: '/icons/json-schema.svg'
+      },
+      {
+        title: 'Go',
+        desc: 'Build simple, secure, scalable systems with Go。',
+        link: 'https://go.dev/',
+        icon: '/icons/go.png'
+      },
+      {
+        title: 'Rust',
+        desc: '一门帮助每个人构建可靠且高效软件能力的语言。',
+        link: 'https://www.rust-lang.org/',
+        icon: '/icons/rust.svg'
+      },
     ]
   },
   {
@@ -155,6 +202,12 @@ export const ROADMAP_DATA: NavData[] = [
         link: 'https://umijs.org/',
         icon: '/icons/umi.png',
       },
+      {
+        title: 'Ant Design',
+        desc: '基于 Ant Design 设计体系的 React UI 组件库，主要用于研发企业级中后台产品',
+        link: 'https://ant-design.antgroup.com/index-cn',
+        icon: '/icons/antd.svg'
+      }
     ]
   },
   {
@@ -171,6 +224,30 @@ export const ROADMAP_DATA: NavData[] = [
         desc: '渐进式 JavaScript 框架。',
         link: 'https://v2.cn.vuejs.org/',
         icon: '/icons/vue.svg',
+      },
+      {
+        title: 'vue-cli',
+        desc: 'Vue.js 官方指定的脚手架工具。',
+        link: 'https://cli.vuejs.org/',
+        icon: '/icons/vue.svg',
+      },
+      {
+        title: 'Vue Router V4.x',
+        desc: 'Vue 3 官方路由。',
+        link: 'https://router.vuejs.org/',
+        icon: '/icons/vue.svg',
+      },
+      {
+        title: 'Vuex',
+        desc: 'Vue 官方状态管理工具。',
+        link: 'https://vuex.vuejs.org/',
+        icon: '/icons/vue.svg',
+      },
+      {
+        title: 'Nuxt.js',
+        desc: '基于 Vue.js 的一站式解决方案。',
+        link: 'https://nuxt.com/',
+        icon: '/icons/nuxt.svg',
       },
     ]
   },
@@ -280,7 +357,7 @@ export const ROADMAP_DATA: NavData[] = [
     ]
   },
   {
-    title: 'Node.js & Deno',
+    title: 'Node.js & Deno 生态',
     items: [
       {
         title: 'Node.js',
@@ -295,37 +372,55 @@ export const ROADMAP_DATA: NavData[] = [
         icon: '/icons/deno.svg',
       },
       {
+        title: 'bun',
+        desc: 'JavaScript新一代一站式运行时',
+        link: 'https://bun.sh/',
+        icon: 'https://bun.sh/logo.svg',
+      },
+      {
         title: 'Koa',
-        desc: '',
+        desc: '新一代的 Web 后台框架',
         link: 'https://koajs.com/',
         icon: '/icons/koa.svg',
       },
       {
-        title: '',
-        desc: '',
-        link: '',
-        icon: '',
+        title: 'Express',
+        desc: '快速极简的 Web 框架',
+        link: 'https://expressjs.com/zh-cn/',
+        icon: '/icons/express.png',
       },
       {
-        title: '',
-        desc: '',
-        link: '',
-        icon: '',
+        title: 'Nest.js',
+        desc: '渐进式 Node.js 框架，构建高效、可靠和可扩展的 server 应用程序',
+        link: 'https://nestjs.com/',
+        icon: '/icons/nest.png',
       },
       {
-        title: '',
-        desc: '',
-        link: '',
-        icon: '',
+        title: 'ThinkJS',
+        desc: '能够使用完整 ES6/7 特性进行开发的 Node.js 应用程序',
+        link: 'https://thinkjs.org/',
+        icon: '/icons/think.png',
+      },
+      {
+        title: 'npm',
+        desc: 'npm 是 JavaScript package 管理工具，在这里可以找到可复用代码，并以强大的全新方式进行聚合',
+        link: 'https://docs.npmjs.com/',
+        icon: '/icons/npm.png',
+      },
+      {
+        title: 'yarn',
+        desc: '快速、可靠和安全的依赖管理',
+        link: 'https://classic.yarnpkg.com/zh-Hans/',
+        icon: '/icons/yarn.png',
       },
     ]
   },
-  {
-    title: '计算机基础',
-    items: [
+  // {
+  //   title: '计算机基础',
+  //   items: [
       
-    ]
-  },
+  //   ]
+  // },
   {
     title: '代码检查',
     items: [
@@ -349,7 +444,41 @@ export const ROADMAP_DATA: NavData[] = [
       },
     ]
   },
-  
+  {
+    title: '测试工具',
+    items: [
+      {
+        title: 'Jest',
+        desc: 'Facebook 开发的零配置测试平台，让代码库更加稳定和健壮。',
+        link: 'https://jestjs.io/',
+        icon: '/icons/jest.png',
+      },
+      {
+        title: 'Mocha',
+        desc: 'Mocha 是运行在 Node.js 和浏览器上的功能丰富的 JavaScript 测试框架，使异步测试变得简单而有趣。Mocha 串行运行测试，提供灵活精准的报告，同时将未捕获的异常映射到正确的测试用例。',
+        link: 'https://mochajs.org/',
+        icon: '/icons/mocha.svg',
+      },
+      {
+        title: 'Chai',
+        desc: 'Chai 是一个用于 Node.js 和浏览器的 BDD/TDD 断言库，可以与任何 JavaScript 测试框架便捷配对。',
+        link: 'https://www.chaijs.com/',
+        icon: '/icons/chai.png',
+      },
+      {
+        title: 'Mock.js',
+        desc: '生成随机数据，拦截 Ajax 请求。',
+        link: 'http://mockjs.com/',
+        icon: '/icons/mockjs.svg',
+      },
+      {
+        title: 'Puppeteer',
+        desc: 'Puppeteer 可以通过 DevTools 协议控制 headless Chrome 或 Chromium。',
+        link: 'https://pptr.dev/',
+        icon: '/icons/puppeteer.png',
+      },
+    ]
+  }
   
   // {
   //   title: '桌面开发',
