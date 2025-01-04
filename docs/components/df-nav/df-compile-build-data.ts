@@ -1,5 +1,6 @@
 import type { NavData } from '../../.vitepress/theme/types'
 
+// 编译构建
 export const COMPILE_BUILD_DATA: NavData[] = [
   {
     title: '',

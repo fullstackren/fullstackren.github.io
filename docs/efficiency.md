@@ -10,6 +10,7 @@ import DfNavEfficiency from './components/df-nav/DfNavEfficiency.vue'
 
 import { QUESTION_ANSWER_DATA } from './components/df-nav/df-question-answer-data.ts'
 import { GRAPHIC_IMAGE_DATA } from './components/df-nav/df-graphic-image-data.ts'
+import { VERSION_CONTROL_DATA } from './components/df-nav/df-version-control-data.ts'
 import { NOTE_DATA } from './components/df-nav/df-note-data.ts'
 import { ONLINE_DEBUGGIN_DATA } from './components/df-nav/df-online-debugging-data.ts'
 import { SITE_CONSTRUCTION_DATA } from './components/df-nav/df-site-construction-data.ts'
@@ -33,6 +34,10 @@ import { UTILS_DATA } from './components/df-nav/df-utils-data.ts'
 ## 笔记
 
 <DfNavEfficiency v-bind:data="NOTE_DATA" />
+
+## 版本控制
+
+<DfNavEfficiency v-bind:data="VERSION_CONTROL_DATA" />
 
 ## 在线调试
 

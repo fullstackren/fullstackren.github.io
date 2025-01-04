@@ -45,7 +45,7 @@ const handleClick = () => emits('nav-click', props)
     v-if="link"
     class="df-nav-link"
     :href="link"
-    target="_blank"
+    :target="link.includes('http') ? '_blank' : ''"
     rel="noreferrer"
     @click="handleClick"
   >
