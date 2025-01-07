@@ -40,6 +40,12 @@ export const GRAPHIC_IMAGE_DATA: NavData[] = [
         desc: '手绘风格流程图',
         link: 'https://excalidraw.com',
         icon: '/icons/excalidraw.ico',
+      },
+      {
+        title: 'Bitbug',
+        desc: '在线制作 ico 图标。',
+        link: 'https://www.bitbug.net/',
+        icon: 'https://www.bitbug.net/favicon.ico',
       }
     ]
   }
