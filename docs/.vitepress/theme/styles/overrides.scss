@@ -43,6 +43,9 @@
       font-size: 44px;
     }
   }
+  .content {
+    padding-bottom: 0;
+  }
 }
 @media (max-width: 800px) {
   .VPNav {
@@ -59,11 +62,11 @@
 @media (min-width: 768px) {
   .df-home-layout, .df-nav-layout {
     .VPHome {
-      margin-bottom: 12px;
+      margin-bottom: 14px;
     }
     .VPFooter {
-      padding-top: 12px;
-      padding-bottom: 12px;
+      padding-top: 14px;
+      padding-bottom: 14px;
     }
   }
 }

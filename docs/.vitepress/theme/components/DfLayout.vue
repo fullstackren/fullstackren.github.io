@@ -8,7 +8,7 @@ import { usePageId } from '../composables'
 
 import DfNavVisitor from './DfNavVisitor.vue'
 import DfDocFooter from './DfDocFooter.vue'
-import DfAsideSponsors from './DfAsideSponsors.vue'
+// import DfAsideSponsors from './DfAsideSponsors.vue'
 
 const { Layout } = DefaultTheme
 const { isDark, theme, frontmatter } = useData()
@@ -96,9 +96,9 @@ provide('toggle-appearance', async ({ clientX: x, clientY: y }: MouseEvent) => {
       <DfDocFooter />
     </template>
 
-    <template #aside-bottom>
+    <!-- <template #aside-bottom>
       <DfAsideSponsors />
-    </template>
+    </template> -->
   </Layout>
 </template>
 

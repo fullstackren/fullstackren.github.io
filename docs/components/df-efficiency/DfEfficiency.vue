@@ -1,0 +1,45 @@
+<script setup lang="ts">
+import { ref } from 'vue'
+import { inBrowser } from 'vitepress'
+
+import type { NavLink } from '../../.vitepress/theme/types'
+
+const FULLSTACKREN_EFFICIENCY_LINKS_KEY = 'fullstackren-efficiency-links'
+
+const getItems = () => {
+  if (!inBrowser) {
+    return []
+  }
+  const value = localStorage.getItem(FULLSTACKREN_EFFICIENCY_LINKS_KEY)
+  if (value) {
+    try {
+      return JSON.parse(value)
+    } catch (e) {
+      return []
+    }
+  }
+  return []
+}
+
+const props = defineProps<{
+  data?: []
+}>()
+
+const items = ref<NavLink[]>(getItems())
+
+const handleClick = (data: NavLink) => {
+  let newData = items.value.filter((item) => item.link !== data.link)
+  newData.unshift(data)
+  if (newData.length > 4) {
+    newData = newData.slice(0, 4)
+  }
+  localStorage.setItem(FULLSTACKREN_EFFICIENCY_LINKS_KEY, JSON.stringify(newData))
+  items.value = newData
+}
+</script>
+
+<template>
+  <DfNavLinks v-for="item in props.data" v-bind="item" @nav-click="handleClick" />
+</template>
+
+<style src="../df-common/index.scss"></style>

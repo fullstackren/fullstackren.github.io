@@ -96,7 +96,7 @@ export default defineConfig({
       message: '如有转载或 CV 的请标注本站原文地址',
       copyright: 'Copyright © 2011-present 江湖聊IT',
     },
-    socialLinks: [{ icon: 'github', link: 'https://github.com/fullstackren' }],
+    // socialLinks: [{ icon: 'github', link: 'https://github.com/fullstackren' }],
     vite: {
       plugins: [MarkdownPreview()],
     },

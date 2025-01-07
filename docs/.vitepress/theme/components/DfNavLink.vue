@@ -76,7 +76,7 @@ const handleClick = () => emits('nav-click', props)
 .df-nav-link {
   --df-nav-icon-box-size: 40px;
   --df-nav-icon-size: 24px;
-  --df-nav-box-gap: 12px;
+  --df-nav-box-gap: 14px;
 
   display: block;
   border: 1px solid var(--vp-c-bg-soft);
@@ -161,7 +161,7 @@ const handleClick = () => emits('nav-click', props)
     flex-grow: 1;
     margin: calc(var(--df-nav-box-gap) - 2px) 0 0;
     line-height: 1.5;
-    font-size: 12px;
+    font-size: 14px;
     color: var(--vp-c-text-2);
   }
 }

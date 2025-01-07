@@ -35,7 +35,7 @@ const data = [
 .df-sponsor-container {
   background-color: #EFF0F3;
   border-radius: 4px;
-  padding-bottom: 12px;
+  padding-bottom: 14px;
 }
 .df-sponsor-title {
   margin-top: 10px;

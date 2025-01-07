@@ -2,19 +2,22 @@ import type { DefaultTheme } from 'vitepress'
 
 export const nav: DefaultTheme.Config['nav'] = [
   { text: '开发者路线', link: '/roadmap', activeMatch: '^/roadmap' },
-  { text: 'Web 开发',
+  { text: '技术文章',
     items: [
-      { text: 'HTML', link: '/fe/web/html' },
-      { text: 'CSS', link: '/fe/web/css' },
-      { text: 'JavaScript', link: '/fe/web/javascript' },
-      { text: 'ES6', link: '/fe/web/es6' },
-      { text: 'Web API', link: '/fe/web/web-api' },
-      { text: 'TypeScript', link: '/fe/web/typescript' },
-      { text: 'Vue2', link: '/fe/web/framework/vue2' },
+      { text: '前端框架', link: '/web/framework' },
+      { text: 'ES6', link: '/web/es6' },
+      { text: 'JavaScript', link: '/web/javascript' },
+      { text: 'HTML', link: '/web/html' },
+      { text: 'CSS', link: '/web/css' },
+      { text: 'Web API', link: '/web/web-api' },
+      { text: 'TypeScript', link: '/web/typescript' },
+      { text: '工程化', link: '/engineering' },
     ]
   },
-  { text: '后端开发', link: '/be/' },
-  { text: '计算机基础', link: '/computer-science/' },
+  // { text: '付费课程', link: '/course/' },
+  // { text: '个人成长', link: '/grow/' },
+  { text: '文档手册', link: '/docs-manual/' },
   { text: '工具提效', link: '/efficiency' },
-  { text: '关于', link: '/about' },
+  { text: '交个朋友', link: '/make-a-friend' },
+  // { text: '打赏赞助', link: '/sponsors' },
 ]
