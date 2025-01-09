@@ -18,6 +18,12 @@ export const GRAPHIC_IMAGE_DATA: NavData[] = [
         icon: 'https://tinypng.com/images/apple-touch-icon.png',
       },
       {
+        title: 'Removebg',
+        desc: '去除图片背景工具。',
+        link: 'https://www.remove.bg/zh',
+        icon: 'https://tinypng.com/images/apple-touch-icon.png',
+      },
+      {
         title: 'Squoosh',
         desc: '基于浏览器的本地图片压缩工具（支持自定义参数和格式转换）。',
         link: 'https://squoosh.app/',
