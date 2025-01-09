@@ -15,7 +15,7 @@
   "homepage": "https://fullstack.ren/",
   "author": "江湖",
   "scripts": {
-    "dev": "cross-env NODE_ENV=development vitepress dev docs --port=8732",
+    "dev": "cross-env NODE_ENV=development vitepress dev docs --port=2025",
     "build": "vitepress build docs",
     "build:docs": "vitepress build docs",
     "docs:preview": "vitepress preview docs",
