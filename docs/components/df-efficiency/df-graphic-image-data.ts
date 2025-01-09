@@ -21,7 +21,7 @@ export const GRAPHIC_IMAGE_DATA: NavData[] = [
         title: 'Removebg',
         desc: '去除图片背景工具。',
         link: 'https://www.remove.bg/zh',
-        icon: 'https://tinypng.com/images/apple-touch-icon.png',
+        icon: '/icons/removebg.png',
       },
       {
         title: 'Squoosh',
