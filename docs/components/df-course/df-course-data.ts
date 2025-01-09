@@ -1,6 +1,16 @@
 import type { CourseData } from './types'
 
-// 文档手册-语言专栏
+// 专栏专讲-AI专栏
+export const AI_DATA: CourseData[] = [
+  {
+    title: 'AI中文',
+    desc: '探索智能边界，塑造未来无限可能。',
+    link: 'http://ai.fullstack.ren/',
+    image: '/course/ai.jpeg',
+  },
+]
+
+// 专栏专讲-语言专栏
 export const LANGUAGE_DATA: CourseData[] = [
   {
     title: 'Rust中文',
@@ -10,7 +20,7 @@ export const LANGUAGE_DATA: CourseData[] = [
   },
 ]
 
-// 文档手册-开发环境专栏
+// 专栏专讲-开发环境专栏
 export const ENGINEERING_DATA: CourseData[] = [
   {
     title: 'Chrome中文',
@@ -25,3 +35,4 @@ export const ENGINEERING_DATA: CourseData[] = [
     image: '/icons/babel.png',
   },
 ]
+

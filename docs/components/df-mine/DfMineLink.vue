@@ -83,7 +83,6 @@ const props = defineProps<{
   &:hover {
     border-color: var(--vp-c-brand);
     text-decoration: initial;
-    background-color: var(--vp-c-bg);
     transform: scale(1.01);
   }
   &-content {
@@ -117,6 +116,7 @@ const props = defineProps<{
     font-size: 16px;
     font-weight: 600;
     margin-bottom: 5px;
+    color: #333;
     &:not(.no-icon) {
       line-height: var(--df-nav-icon-box-size);
     }
