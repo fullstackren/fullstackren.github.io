@@ -1,4 +1,6 @@
-# 工作也有模式？一起看看
+# 工作也有模式？能提高效率？一起看看
+
+![工作模式](./images/working-mode.png)
 
 > 原文 => Mastering Programming/<https://tidyfirst.substack.com/p/mastering-programming>.
 
