@@ -18,6 +18,12 @@ export const GRAPHIC_IMAGE_DATA: NavData[] = [
         icon: 'https://tinypng.com/images/apple-touch-icon.png',
       },
       {
+        title: 'FreePngZone',
+        desc: '免费的 PNG 图片搜索。',
+        link: 'https://freepngzone.com/index.html',
+        icon: '/icons/jianghu.jpg',
+      },
+      {
         title: 'Removebg',
         desc: '去除图片背景工具。',
         link: 'https://www.remove.bg/zh',
