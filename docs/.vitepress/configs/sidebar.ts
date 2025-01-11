@@ -48,7 +48,7 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
       ]
     },
   ],
-  'engineering': [
+  '/engineering/': [
     { text: '工程化', collapsed: false,
       items: [
         { text: '总览', link: '/engineering' },
@@ -63,4 +63,7 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
       ]
     }
   ],
+  '/thinking/': [
+    { text: '工作模式', link: '/thinking/working-mode'}
+  ]
 }
