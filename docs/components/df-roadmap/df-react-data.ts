@@ -8,7 +8,7 @@ export const REACT_DATA: NavData[] = [
       {
         title: 'React',
         desc: '构建用户界面的 JavaScript 库。',
-        link: '/web/framework/react',
+        link: 'https://web.fullstack.ren/fe/react/',
         icon: '/icons/react.svg',
       },
       {

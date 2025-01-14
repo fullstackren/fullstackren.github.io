@@ -8,13 +8,13 @@ export const VUE_DATA: NavData[] = [
       {
         title: 'Vue3',
         desc: '渐进式 JavaScript 框架。',
-        link: 'https://cn.vuejs.org/',
+        link: 'https://web.fullstack.ren/fe/vue3/',
         icon: '/icons/vue.svg',
       },
       {
         title: 'Vue2',
         desc: '渐进式 JavaScript 框架。',
-        link: 'https://v2.cn.vuejs.org/',
+        link: 'https://web.fullstack.ren/fe/vue2/',
         icon: '/icons/vue.svg',
       },
       {

@@ -51,15 +51,7 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
   '/engineering/': [
     { text: '工程化', collapsed: false,
       items: [
-        { text: '总览', link: '/engineering' },
-        { text: 'npm', link: '/engineering/npm' },
-        { text: 'yarn', link: '/engineering/yarn' },
-        { text: 'pnpm', link: '/engineering/pnpm' },
-        { text: 'lerna', link: '/engineering/lerna' },
-        { text: 'rollup', link: '/engineering/rollup' },
-        { text: 'webpack', link: '/engineering/webpack' },
-        { text: 'vite', link: '/engineering/vite' },
-        { text: 'rspack', link: '/engineering/rspack' },
+        
       ]
     }
   ],

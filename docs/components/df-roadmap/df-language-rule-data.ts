@@ -8,20 +8,26 @@ export const LANGUAGE_RULE_DATA: NavData[] = [
       {
         title: 'HTML',
         desc: '超文本标记语言（HyperText Markup Language），定义了网页内容的含义和结构。',
-        link: 'https://www.fullstack.ren/fe/web/html/',
+        link: 'http://web.fullstack.ren/fe/html/',
         icon: '/icons/html.png',
       },
       {
         title: 'CSS',
         desc: 'CSS 规范说明。',
-        link: 'https://www.w3.org/Style/CSS/specs.en.html',
+        link: 'http://web.fullstack.ren/web/css/',
         icon: '/icons/w3c.svg'
       },
       {
         title: 'ECMAScript',
         desc: '提供 Web 技术文档，学习 Web 开发的最佳实践。',
-        link: 'https://tc39.es/ecma262/',
+        link: 'http://web.fullstack.ren/fe/es6/',
         icon: '/icons/ecma.svg'
+      },
+      {
+        title: 'JavaScript',
+        desc: 'JavaScript 技术文档。',
+        link: 'http://web.fullstack.ren/fe/javascript/',
+        icon: '/icons/javascript.png'
       },
       {
         title: 'MDN',
@@ -32,7 +38,7 @@ export const LANGUAGE_RULE_DATA: NavData[] = [
       {
         title: 'TypeScript',
         desc: 'TypeScript 是带有类型语法的 JavaScript。',
-        link: 'https://www.typescriptlang.org/',
+        link: 'http://web.fullstack.ren/fe/typescript/',
         icon: '/icons/typescript.png'
       },
       {

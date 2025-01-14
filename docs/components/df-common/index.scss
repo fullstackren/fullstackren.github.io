@@ -13,12 +13,12 @@
   }
 
   /* aside 样式 */
-  .aside {
-    padding-left: 0;
-    max-width: 224px;
-    width: 0;
-    display: none;
-  }
+  // .aside {
+  //   padding-left: 0;
+  //   max-width: 224px;
+  //   width: 0;
+  //   display: none;
+  // }
 
   /* custom-block */
   .custom-block {
@@ -38,8 +38,8 @@
   }
 }
 
-@media (min-width: 1280px) {
-  .df-single-page-layout .VPDoc .aside {
-    display: none;
-  }
-}
+// @media (min-width: 1280px) {
+//   .df-single-page-layout .VPDoc .aside {
+//     display: none;
+//   }
+// }
