@@ -56,6 +56,7 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
     }
   ],
   '/thinking/': [
-    { text: '工作模式', link: '/thinking/working-mode'}
+    { text: '工作模式', link: '/thinking/working-mode'},
+    { text: '博客打造品牌影响力', link: '/thinking/blog-influence'},
   ]
 }

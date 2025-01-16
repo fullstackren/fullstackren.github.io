@@ -1,5 +1,6 @@
 import type { CourseData } from './types'
 
+
 // 专栏专讲-AI专栏
 export const AI_DATA: CourseData[] = [
   {
